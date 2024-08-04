@@ -4408,7 +4408,7 @@
     (effects (font (size 3 3)) (justify left bottom))
     (uuid 24ca8674-d3db-4433-af0c-43b0d724bcd4)
   )
-  (text "Flight Controller" (at 15.24 30.48 0)
+  (text "FAFO Flight Controller" (at 15.24 30.48 0)
     (effects (font (size 10 10) italic) (justify left bottom))
     (uuid 25faa880-a393-4bf0-8a50-83736fd86794)
   )

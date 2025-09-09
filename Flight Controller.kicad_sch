@@ -1409,6 +1409,361 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic_MountingPin:Conn_01x08_MountingPin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x08_MountingPin"
+				(at 1.27 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x08_MountingPin_1_1"
+				(rectangle
+					(start -1.27 8.89)
+					(end 1.27 -11.43)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -12.192) (xy 1.016 -12.192)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 -11.811 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -8676,7 +9031,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 58.42) (xy 168.91 58.42)
+			(xy 167.64 52.07) (xy 168.91 52.07)
 		)
 		(stroke
 			(width 0)
@@ -8696,7 +9051,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 52.07) (xy 168.91 50.8)
+			(xy 144.78 68.58) (xy 144.78 67.31)
 		)
 		(stroke
 			(width 0)
@@ -8716,7 +9071,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 69.85) (xy 144.78 69.85)
+			(xy 143.51 60.96) (xy 144.78 60.96)
 		)
 		(stroke
 			(width 0)
@@ -8946,7 +9301,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 58.42) (xy 168.91 57.15)
+			(xy 168.91 52.07) (xy 168.91 50.8)
 		)
 		(stroke
 			(width 0)
@@ -8973,6 +9328,16 @@
 			(type default)
 		)
 		(uuid "23390eb4-36ba-4292-b0cd-0eead7b1e2a0")
+	)
+	(wire
+		(pts
+			(xy 167.64 67.31) (xy 168.91 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2476ff0f-5527-4349-8aa1-675dd2a076cb")
 	)
 	(wire
 		(pts
@@ -9046,7 +9411,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 67.31) (xy 168.91 66.04)
+			(xy 168.91 58.42) (xy 168.91 57.15)
 		)
 		(stroke
 			(width 0)
@@ -9416,7 +9781,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 69.85) (xy 168.91 68.58)
+			(xy 168.91 60.96) (xy 168.91 59.69)
 		)
 		(stroke
 			(width 0)
@@ -9806,7 +10171,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 67.31) (xy 144.78 66.04)
+			(xy 144.78 58.42) (xy 144.78 57.15)
 		)
 		(stroke
 			(width 0)
@@ -10206,6 +10571,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 64.77) (xy 168.91 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65e1bf84-76f4-46ae-a495-5633e209f293")
+	)
+	(wire
+		(pts
 			(xy 241.3 64.77) (xy 243.84 64.77)
 		)
 		(stroke
@@ -10286,7 +10661,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 60.96) (xy 144.78 59.69)
+			(xy 144.78 54.61) (xy 144.78 53.34)
 		)
 		(stroke
 			(width 0)
@@ -10356,7 +10731,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 69.85) (xy 144.78 68.58)
+			(xy 144.78 60.96) (xy 144.78 59.69)
 		)
 		(stroke
 			(width 0)
@@ -10366,7 +10741,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 58.42) (xy 144.78 58.42)
+			(xy 143.51 52.07) (xy 144.78 52.07)
 		)
 		(stroke
 			(width 0)
@@ -10406,7 +10781,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 69.85) (xy 168.91 69.85)
+			(xy 167.64 60.96) (xy 168.91 60.96)
 		)
 		(stroke
 			(width 0)
@@ -10696,7 +11071,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 60.96) (xy 144.78 60.96)
+			(xy 143.51 54.61) (xy 144.78 54.61)
 		)
 		(stroke
 			(width 0)
@@ -10886,7 +11261,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 67.31) (xy 144.78 67.31)
+			(xy 143.51 58.42) (xy 144.78 58.42)
 		)
 		(stroke
 			(width 0)
@@ -11166,6 +11541,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 64.77) (xy 168.91 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99e46334-59b4-402d-b231-2be2c7e67ab0")
+	)
+	(wire
+		(pts
 			(xy 72.39 55.88) (xy 71.12 55.88)
 		)
 		(stroke
@@ -11346,7 +11731,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 67.31) (xy 168.91 67.31)
+			(xy 167.64 58.42) (xy 168.91 58.42)
 		)
 		(stroke
 			(width 0)
@@ -11666,7 +12051,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 49.53) (xy 168.91 48.26)
+			(xy 144.78 66.04) (xy 144.78 64.77)
 		)
 		(stroke
 			(width 0)
@@ -11766,7 +12151,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 52.07) (xy 168.91 52.07)
+			(xy 143.51 68.58) (xy 144.78 68.58)
 		)
 		(stroke
 			(width 0)
@@ -11993,6 +12378,16 @@
 			(type default)
 		)
 		(uuid "c236f5d7-6481-4874-af78-4cd3676702e2")
+	)
+	(wire
+		(pts
+			(xy 168.91 67.31) (xy 168.91 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c23af5c1-9be6-4284-9ffd-1efa6d526c71")
 	)
 	(wire
 		(pts
@@ -12446,7 +12841,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 60.96) (xy 168.91 60.96)
+			(xy 167.64 54.61) (xy 168.91 54.61)
 		)
 		(stroke
 			(width 0)
@@ -12796,7 +13191,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 60.96) (xy 168.91 59.69)
+			(xy 168.91 54.61) (xy 168.91 53.34)
 		)
 		(stroke
 			(width 0)
@@ -12846,7 +13241,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 58.42) (xy 144.78 57.15)
+			(xy 144.78 52.07) (xy 144.78 50.8)
 		)
 		(stroke
 			(width 0)
@@ -13126,7 +13521,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 49.53) (xy 168.91 49.53)
+			(xy 143.51 66.04) (xy 144.78 66.04)
 		)
 		(stroke
 			(width 0)
@@ -13505,7 +13900,7 @@
 		(uuid "150fa681-bd1b-42c5-871e-070a39eed610")
 	)
 	(label "SBUS"
-		(at 143.51 58.42 180)
+		(at 143.51 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13523,6 +13918,16 @@
 			(justify right bottom)
 		)
 		(uuid "1d8bb664-5318-4af1-a87f-ce051de9275a")
+	)
+	(label "UART6_RX"
+		(at 167.64 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1ecd4e64-abfb-4d07-b221-42a542d7aab0")
 	)
 	(label "5V_OUT"
 		(at 274.32 208.28 0)
@@ -13615,7 +14020,7 @@
 		(uuid "2f1745e1-f5c0-491d-86f4-247e88cc9400")
 	)
 	(label "UART1_RX"
-		(at 143.51 60.96 180)
+		(at 143.51 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13625,7 +14030,7 @@
 		(uuid "32401758-6eb4-4e15-95a9-85a978111f4b")
 	)
 	(label "UART3_TX"
-		(at 167.64 49.53 180)
+		(at 143.51 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13745,7 +14150,7 @@
 		(uuid "562ac349-f746-44b3-92a5-88c49072fcf8")
 	)
 	(label "UART4_RX"
-		(at 167.64 60.96 180)
+		(at 167.64 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13785,7 +14190,7 @@
 		(uuid "62c6547a-8ca7-4659-8f6c-dcc94e5fdeb1")
 	)
 	(label "UART2_RX"
-		(at 143.51 69.85 180)
+		(at 143.51 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13835,7 +14240,7 @@
 		(uuid "731c8369-123b-409c-af84-144958ee738a")
 	)
 	(label "UART5_TX"
-		(at 167.64 67.31 180)
+		(at 167.64 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13854,8 +14259,18 @@
 		)
 		(uuid "759ca446-2671-4c19-a1ac-d2cea5417d30")
 	)
+	(label "UART6_TX"
+		(at 167.64 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "783ef63c-324b-4012-b13e-4921468bb4f1")
+	)
 	(label "UART3_RX"
-		(at 167.64 52.07 180)
+		(at 143.51 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14035,7 +14450,7 @@
 		(uuid "a0d97ca5-0778-4060-8c75-5018f822411e")
 	)
 	(label "UART4_TX"
-		(at 167.64 58.42 180)
+		(at 167.64 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14165,7 +14580,7 @@
 		(uuid "c2ee59ef-264a-4b40-90f9-c7fefad9ea7a")
 	)
 	(label "UART2_TX"
-		(at 143.51 67.31 180)
+		(at 143.51 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14325,7 +14740,7 @@
 		(uuid "e4b21630-3d90-4bb1-8b66-f374f663c543")
 	)
 	(label "UART5_RX"
-		(at 167.64 69.85 180)
+		(at 167.64 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15361,7 +15776,7 @@
 		(dnp no)
 		(uuid "19dd14fb-f613-4086-b295-c1b0023e7fa5")
 		(property "Reference" "TP_Rssi1"
-			(at 71.12 106.68 90)
+			(at 72.39 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15821,7 +16236,7 @@
 		(dnp no)
 		(uuid "21c76961-1df9-40f6-8c5c-c7e21fad72df")
 		(property "Reference" "TP_LED1"
-			(at 43.18 87.63 90)
+			(at 43.942 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16555,7 +16970,7 @@
 		(dnp no)
 		(uuid "2d45835b-29e7-41e3-b629-9fcd0b45e4cf")
 		(property "Reference" "TP_VBAT1"
-			(at 71.12 111.76 90)
+			(at 72.39 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16745,7 +17160,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 168.91 48.26 270)
+		(at 144.78 64.77 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16753,7 +17168,7 @@
 		(dnp no)
 		(uuid "2f5075ff-80ce-4569-9e5f-b70f3afafc6a")
 		(property "Reference" "TP_TX3"
-			(at 176.53 48.26 90)
+			(at 152.4 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16761,7 +17176,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 172.212 50.8 90)
+			(at 148.082 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16770,7 +17185,7 @@
 			)
 		)
 		(property "Footprint" "Connector:Soldier_Pad"
-			(at 168.91 53.34 0)
+			(at 144.78 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16779,7 +17194,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 53.34 0)
+			(at 144.78 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16788,7 +17203,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 48.26 0)
+			(at 144.78 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17136,6 +17551,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x08_MountingPin")
+		(at 196.85 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "329940ff-75f6-4517-b775-ee781660f29f")
+		(property "Reference" "J1"
+			(at 199.39 165.4555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x08_MountingPin"
+			(at 199.39 167.9955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 196.85 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "54e4b842-7d07-4073-bad9-9670662ecbc8")
+		)
+		(pin "MP"
+			(uuid "ab3ef042-d352-46cb-bd7d-93d5696302e1")
+		)
+		(pin "8"
+			(uuid "8c7c7762-1466-4ff2-8e62-8b2201009170")
+		)
+		(pin "1"
+			(uuid "f69f7963-ac38-47f8-a68c-8b41acd04ef4")
+		)
+		(pin "2"
+			(uuid "e805c20a-b3e1-4d4b-b2e5-e351b6eccf78")
+		)
+		(pin "4"
+			(uuid "94ac99bb-fd45-46e8-9352-bbd23d9e7b29")
+		)
+		(pin "3"
+			(uuid "f27678cf-52c3-4a43-a20f-cdc12bd4b93e")
+		)
+		(pin "5"
+			(uuid "1888a7d9-6d90-4572-9c5a-71df4463ae87")
+		)
+		(pin "7"
+			(uuid "ca61aee0-27f1-47f9-b326-cc86c4a78eb0")
+		)
+		(instances
+			(project ""
+				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 143.51 262.89 0)
 		(unit 1)
@@ -17394,6 +17900,70 @@
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
 					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 168.91 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "365aee05-8b6c-441c-85c8-029c0fbb29cf")
+		(property "Reference" "TP_TX6"
+			(at 176.53 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 172.212 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector:Soldier_Pad"
+			(at 168.91 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf8731a6-8f56-4765-a51c-7b5c96b43f15")
+		)
+		(instances
+			(project "Flight Controller"
+				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
+					(reference "TP_TX6")
 					(unit 1)
 				)
 			)
@@ -18398,7 +18968,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 144.78 59.69 270)
+		(at 144.78 53.34 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18406,7 +18976,7 @@
 		(dnp no)
 		(uuid "48936515-d753-4962-b32f-0726965d090e")
 		(property "Reference" "TP_SBUS1"
-			(at 153.67 59.69 90)
+			(at 153.67 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18414,7 +18984,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 148.082 62.23 90)
+			(at 148.082 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18423,7 +18993,7 @@
 			)
 		)
 		(property "Footprint" "Connector:Soldier_Pad"
-			(at 144.78 64.77 0)
+			(at 144.78 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18432,7 +19002,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 64.77 0)
+			(at 144.78 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18441,7 +19011,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 59.69 0)
+			(at 144.78 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19356,7 +19926,7 @@
 		(dnp no)
 		(uuid "50956450-c53b-4dab-80a0-4c23c60fce63")
 		(property "Reference" "TP_Curr1"
-			(at 71.12 109.22 90)
+			(at 72.39 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20203,7 +20773,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 144.78 57.15 270)
+		(at 144.78 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20211,7 +20781,7 @@
 		(dnp no)
 		(uuid "5ab17c04-a1cf-4a2a-965c-e0bdb09655e6")
 		(property "Reference" "TP_TX1"
-			(at 152.4 57.15 90)
+			(at 152.4 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20219,7 +20789,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 148.082 59.69 90)
+			(at 148.082 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20228,7 +20798,7 @@
 			)
 		)
 		(property "Footprint" "Connector:Soldier_Pad"
-			(at 144.78 62.23 0)
+			(at 144.78 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20237,7 +20807,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 62.23 0)
+			(at 144.78 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20246,7 +20816,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 57.15 0)
+			(at 144.78 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22714,7 +23284,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 168.91 59.69 270)
+		(at 168.91 53.34 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22722,7 +23292,7 @@
 		(dnp no)
 		(uuid "86dba1e6-42e1-4a00-b6d3-7603df483ba8")
 		(property "Reference" "TP_RX4"
-			(at 176.53 59.69 90)
+			(at 176.53 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22730,7 +23300,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 172.212 62.23 90)
+			(at 172.212 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22739,7 +23309,7 @@
 			)
 		)
 		(property "Footprint" "Connector:Soldier_Pad"
-			(at 168.91 64.77 0)
+			(at 168.91 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22748,7 +23318,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 64.77 0)
+			(at 168.91 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22757,7 +23327,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 59.69 0)
+			(at 168.91 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23042,6 +23612,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 168.91 66.04 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8cc582f1-26af-403d-b902-478f177a3191")
+		(property "Reference" "TP_RX6"
+			(at 176.53 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 172.212 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector:Soldier_Pad"
+			(at 168.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c9f92113-0bcf-4641-b762-8b9abd8a330f")
+		)
+		(instances
+			(project "Flight Controller"
+				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
+					(reference "TP_RX6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 387.35 82.55 0)
 		(unit 1)
@@ -23173,7 +23807,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 168.91 66.04 270)
+		(at 168.91 57.15 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23181,7 +23815,7 @@
 		(dnp no)
 		(uuid "8e8c729d-5ba5-44c4-85c7-c8bcc635ec8c")
 		(property "Reference" "TP_TX5"
-			(at 176.53 66.04 90)
+			(at 176.53 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23189,7 +23823,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 172.212 68.58 90)
+			(at 172.212 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23198,7 +23832,7 @@
 			)
 		)
 		(property "Footprint" "Connector:Soldier_Pad"
-			(at 168.91 71.12 0)
+			(at 168.91 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23207,7 +23841,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 71.12 0)
+			(at 168.91 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23216,7 +23850,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 66.04 0)
+			(at 168.91 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23827,7 +24461,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 168.91 57.15 270)
+		(at 168.91 50.8 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23835,7 +24469,7 @@
 		(dnp no)
 		(uuid "96bb9453-969a-447b-b702-35573ec054b4")
 		(property "Reference" "TP_TX4"
-			(at 176.53 57.15 90)
+			(at 176.53 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23843,7 +24477,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 172.212 59.69 90)
+			(at 172.212 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23852,7 +24486,7 @@
 			)
 		)
 		(property "Footprint" "Connector:Soldier_Pad"
-			(at 168.91 62.23 0)
+			(at 168.91 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23861,7 +24495,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 62.23 0)
+			(at 168.91 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23870,7 +24504,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 57.15 0)
+			(at 168.91 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24160,7 +24794,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 144.78 66.04 270)
+		(at 144.78 57.15 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24168,7 +24802,7 @@
 		(dnp no)
 		(uuid "9c52e65a-96d6-4fcd-9676-d05bd40344b3")
 		(property "Reference" "TP_TX2"
-			(at 152.4 66.04 90)
+			(at 152.4 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24176,7 +24810,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 148.082 68.58 90)
+			(at 148.082 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24185,7 +24819,7 @@
 			)
 		)
 		(property "Footprint" "Connector:Soldier_Pad"
-			(at 144.78 71.12 0)
+			(at 144.78 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24194,7 +24828,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 71.12 0)
+			(at 144.78 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24203,7 +24837,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 66.04 0)
+			(at 144.78 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26752,7 +27386,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 144.78 68.58 270)
+		(at 144.78 59.69 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26760,7 +27394,7 @@
 		(dnp no)
 		(uuid "c395f9a7-b5d0-4da4-a5ed-ddf34efb4029")
 		(property "Reference" "TP_RX2"
-			(at 152.4 68.58 90)
+			(at 152.4 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26768,7 +27402,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 148.082 71.12 90)
+			(at 148.082 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26777,7 +27411,7 @@
 			)
 		)
 		(property "Footprint" "Connector:Soldier_Pad"
-			(at 144.78 73.66 0)
+			(at 144.78 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26786,7 +27420,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 73.66 0)
+			(at 144.78 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26795,7 +27429,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 68.58 0)
+			(at 144.78 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27871,7 +28505,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 168.91 68.58 270)
+		(at 168.91 59.69 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27879,7 +28513,7 @@
 		(dnp no)
 		(uuid "daa885f8-20a4-4b16-b5e8-621442700325")
 		(property "Reference" "TP_RX5"
-			(at 176.53 68.58 90)
+			(at 176.53 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27887,7 +28521,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 172.212 71.12 90)
+			(at 172.212 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27896,7 +28530,7 @@
 			)
 		)
 		(property "Footprint" "Connector:Soldier_Pad"
-			(at 168.91 73.66 0)
+			(at 168.91 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27905,7 +28539,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 73.66 0)
+			(at 168.91 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27914,7 +28548,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 68.58 0)
+			(at 168.91 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29501,7 +30135,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 168.91 50.8 270)
+		(at 144.78 67.31 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29509,7 +30143,7 @@
 		(dnp no)
 		(uuid "f3d20df4-0b12-431c-b41f-b70b6c1d4db6")
 		(property "Reference" "TP_RX3"
-			(at 176.53 50.8 90)
+			(at 152.4 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29517,7 +30151,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 172.212 53.34 90)
+			(at 148.082 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29526,7 +30160,7 @@
 			)
 		)
 		(property "Footprint" "Connector:Soldier_Pad"
-			(at 168.91 55.88 0)
+			(at 144.78 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29535,7 +30169,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 168.91 55.88 0)
+			(at 144.78 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29544,7 +30178,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 50.8 0)
+			(at 144.78 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)

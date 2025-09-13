@@ -9374,7 +9374,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 86.36) (xy 138.43 86.36)
+			(xy 137.16 83.82) (xy 138.43 83.82)
 		)
 		(stroke
 			(width 0)
@@ -10234,7 +10234,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 90.17) (xy 138.43 90.17)
+			(xy 137.16 87.63) (xy 138.43 87.63)
 		)
 		(stroke
 			(width 0)
@@ -12524,7 +12524,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 87.63) (xy 138.43 87.63)
+			(xy 137.16 85.09) (xy 138.43 85.09)
 		)
 		(stroke
 			(width 0)
@@ -13844,7 +13844,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 86.36) (xy 138.43 85.09)
+			(xy 138.43 83.82) (xy 138.43 82.55)
 		)
 		(stroke
 			(width 0)
@@ -15851,7 +15851,7 @@
 		(uuid "ee21fdd3-1d92-42a8-81bf-f02806666093")
 	)
 	(label "VOUT"
-		(at 137.16 86.36 180)
+		(at 137.16 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16056,7 +16056,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 138.43 87.63 270)
+		(at 138.43 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16064,7 +16064,7 @@
 		(dnp no)
 		(uuid "01849c70-ac74-42d7-9b9c-9a7743395e29")
 		(property "Reference" "TP_5V6"
-			(at 146.05 87.63 90)
+			(at 146.05 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16072,7 +16072,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 141.732 90.17 90)
+			(at 141.732 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16081,7 +16081,7 @@
 			)
 		)
 		(property "Footprint" "Connector:Soldier_Pad"
-			(at 138.43 92.71 0)
+			(at 138.43 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16090,7 +16090,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 92.71 0)
+			(at 138.43 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16099,7 +16099,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 87.63 0)
+			(at 138.43 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20793,7 +20793,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 138.43 90.17 270)
+		(at 138.43 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20801,7 +20801,7 @@
 		(dnp no)
 		(uuid "4edeb109-cb07-400b-a615-fe6ae2cd2916")
 		(property "Reference" "TP_GND7"
-			(at 147.32 90.17 90)
+			(at 147.32 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20809,7 +20809,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 141.732 92.71 90)
+			(at 141.732 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20818,7 +20818,7 @@
 			)
 		)
 		(property "Footprint" "Connector:Soldier_Pad"
-			(at 138.43 95.25 0)
+			(at 138.43 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20827,7 +20827,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 95.25 0)
+			(at 138.43 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20836,7 +20836,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 90.17 0)
+			(at 138.43 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26128,7 +26128,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 137.16 87.63 90)
+		(at 137.16 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26137,7 +26137,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1fb17f6-056c-4f50-ae30-8931d4e5cf6e")
 		(property "Reference" "#PWR057"
-			(at 140.97 87.63 0)
+			(at 140.97 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26146,7 +26146,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 133.35 87.63 90)
+			(at 133.35 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26155,7 +26155,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 87.63 0)
+			(at 137.16 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26164,7 +26164,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 87.63 0)
+			(at 137.16 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26173,7 +26173,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 87.63 0)
+			(at 137.16 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28917,7 +28917,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 138.43 85.09 270)
+		(at 138.43 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28925,7 +28925,7 @@
 		(dnp no)
 		(uuid "cdeab01f-bab4-42d3-ad17-65f46e2a3683")
 		(property "Reference" "TP_VTX1"
-			(at 147.32 85.09 90)
+			(at 147.32 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28933,7 +28933,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 141.732 87.63 90)
+			(at 141.732 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28942,7 +28942,7 @@
 			)
 		)
 		(property "Footprint" "Connector:Soldier_Pad"
-			(at 138.43 90.17 0)
+			(at 138.43 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28951,7 +28951,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 90.17 0)
+			(at 138.43 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28960,7 +28960,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 85.09 0)
+			(at 138.43 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29446,7 +29446,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 137.16 90.17 270)
+		(at 137.16 87.63 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29455,7 +29455,7 @@
 		(fields_autoplaced yes)
 		(uuid "da9a534e-8097-49a2-a98b-4a498c33b462")
 		(property "Reference" "#PWR058"
-			(at 130.81 90.17 0)
+			(at 130.81 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29464,7 +29464,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 90.17 90)
+			(at 133.35 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29473,7 +29473,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 90.17 0)
+			(at 137.16 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29482,7 +29482,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 90.17 0)
+			(at 137.16 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29491,7 +29491,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 90.17 0)
+			(at 137.16 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)

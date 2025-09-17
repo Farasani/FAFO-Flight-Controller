@@ -1,5 +1,10 @@
 # FAFO
-<img src="https://github.com/user-attachments/assets/7207a567-d22e-4d7d-ae47-a2dd3a3d40cd" width=60% height=60%>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" width=60% height=60% srcset="https://github.com/user-attachments/assets/f2668aae-5746-43aa-aec3-286b064c4626">
+  <source media="(prefers-color-scheme: light)" width=60% height=60% srcset="https://github.com/user-attachments/assets/a5b0ae70-b65e-41dd-a281-93c37e5f3b0a">
+  <img alt="Shows a black logo in light color mode and a white one in dark color mode." src="https://github.com/user-attachments/assets/f2668aae-5746-43aa-aec3-286b064c4626">
+</picture>
 
 F4 Flight Controller for quadcopter, hecxacopter and fixed wings drones.
 

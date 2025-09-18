@@ -6590,7 +6590,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 40.64 -7.62 0)
 					(length 7.62)
 					(name "GND"
@@ -7925,7 +7925,7 @@
 	)
 	(text "Microcontroller"
 		(exclude_from_sim no)
-		(at 186.436 22.098 0)
+		(at 185.42 22.352 0)
 		(effects
 			(font
 				(size 5 5)
@@ -11514,16 +11514,6 @@
 			(type default)
 		)
 		(uuid "8256b9ec-c29f-4fb5-b158-c4f7a9c837fb")
-	)
-	(wire
-		(pts
-			(xy 97.79 242.57) (xy 97.79 245.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "828032fc-9e67-4f04-a980-a8ed52d05a75")
 	)
 	(wire
 		(pts
@@ -20461,71 +20451,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 97.79 242.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3fae5155-2efa-4d9f-bead-29af9a6f5ead")
-		(property "Reference" "#FLG02"
-			(at 97.79 240.665 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 97.79 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 97.79 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d4bb0dca-20f0-4901-8d8b-05eff331a52b")
-		)
-		(instances
-			(project "Flight Controller"
-				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 83.82 175.26 270)
 		(unit 1)
@@ -22529,72 +22454,6 @@
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
 					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 97.79 245.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "57be2990-c685-4bf9-bb19-9ae456b77c89")
-		(property "Reference" "#PWR031"
-			(at 97.79 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 97.79 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 97.79 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9b2c57bb-3d0a-4734-ba08-992de90a6251")
-		)
-		(instances
-			(project "Flight Controller"
-				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -26117,6 +25976,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""

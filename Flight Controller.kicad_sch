@@ -8162,12 +8162,6 @@
 		(uuid "09eb480d-5a4c-4a89-b726-b348259a183d")
 	)
 	(junction
-		(at 396.24 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0d860544-3fc7-4e66-9837-2ba2b62fb2b7")
-	)
-	(junction
 		(at 384.81 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8228,22 +8222,16 @@
 		(uuid "29418249-80fe-4864-aa8d-aca08f03830e")
 	)
 	(junction
-		(at 391.16 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2e01a3ed-4fc9-49be-8525-5c0e261e6d53")
-	)
-	(junction
 		(at 25.4 255.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2ee79edf-4755-49ba-a962-faab9e54b3d5")
 	)
 	(junction
-		(at 393.7 76.2)
+		(at 391.16 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2f67a372-2355-4418-bb03-7412be084d19")
+		(uuid "30304e3d-d40a-49de-96a3-9230d60fd37f")
 	)
 	(junction
 		(at 149.86 255.27)
@@ -8286,6 +8274,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49a7ba8b-518b-4224-8bae-7a674dbf5895")
+	)
+	(junction
+		(at 384.81 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a354e84-61b5-4d06-9a91-baa3ddd6f32e")
 	)
 	(junction
 		(at 38.1 278.13)
@@ -8358,12 +8352,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "669c019b-8fe8-44fb-9cb0-9f4d1f70b7bc")
-	)
-	(junction
-		(at 384.81 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6b4d4517-5339-4e3a-9da4-6d38e6c0e043")
 	)
 	(junction
 		(at 90.17 278.13)
@@ -8456,6 +8444,12 @@
 		(uuid "9031848b-d773-4367-bd76-2d2d8d77a091")
 	)
 	(junction
+		(at 393.7 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91cb826e-1864-4553-8657-93069329683a")
+	)
+	(junction
 		(at 307.34 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8496,6 +8490,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a65d02df-43cd-4cdf-8e09-11f8eb08f64b")
+	)
+	(junction
+		(at 392.43 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6d02e2c-ed67-4df6-b42b-02832124abe0")
 	)
 	(junction
 		(at 31.75 255.27)
@@ -8628,12 +8628,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd91c287-10c1-450f-b1f3-1e08ffe65aa9")
-	)
-	(junction
-		(at 384.81 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ded05f7b-b4b9-4562-a41a-4fbba475b5c4")
 	)
 	(junction
 		(at 193.04 265.43)
@@ -8847,16 +8841,6 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 88.9) (xy 384.81 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "015b6a12-b917-4f4f-a2d9-7e347a020135")
-	)
-	(wire
-		(pts
 			(xy 217.17 228.6) (xy 217.17 229.87)
 		)
 		(stroke
@@ -8904,6 +8888,16 @@
 			(type default)
 		)
 		(uuid "039cffc7-4571-4bb6-b5f0-9e936c9050bc")
+	)
+	(wire
+		(pts
+			(xy 388.62 68.58) (xy 392.43 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03d0c4fa-d279-4d09-bf73-d37bc6407a48")
 	)
 	(wire
 		(pts
@@ -9477,16 +9471,6 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 87.63) (xy 384.81 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c260842-e0d4-4f87-8a39-0a1ba4a197f1")
-	)
-	(wire
-		(pts
 			(xy 67.31 148.59) (xy 67.31 146.05)
 		)
 		(stroke
@@ -9737,7 +9721,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 144.78) (xy 60.96 144.78)
+			(xy 67.31 146.05) (xy 63.5 146.05)
 		)
 		(stroke
 			(width 0)
@@ -10047,6 +10031,16 @@
 	)
 	(wire
 		(pts
+			(xy 393.7 68.58) (xy 400.05 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3800a716-eddb-4e1c-b2e3-188d7f461b4a")
+	)
+	(wire
+		(pts
 			(xy 113.03 154.94) (xy 114.3 154.94)
 		)
 		(stroke
@@ -10224,6 +10218,16 @@
 			(type default)
 		)
 		(uuid "3fcf25b0-c6a2-42ee-824a-ccf7f76d26a5")
+	)
+	(wire
+		(pts
+			(xy 391.16 78.74) (xy 393.7 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fd9d140-77f4-4277-8359-e614e6e0c3b9")
 	)
 	(wire
 		(pts
@@ -10447,7 +10451,7 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 66.04) (xy 391.16 68.58)
+			(xy 388.62 68.58) (xy 388.62 69.85)
 		)
 		(stroke
 			(width 0)
@@ -10544,6 +10548,16 @@
 			(type default)
 		)
 		(uuid "4d6023e7-9fba-48aa-b237-6876eec6edd8")
+	)
+	(wire
+		(pts
+			(xy 392.43 68.58) (xy 393.7 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4df469a7-098a-4122-867e-8a6819172837")
 	)
 	(wire
 		(pts
@@ -10857,16 +10871,6 @@
 	)
 	(wire
 		(pts
-			(xy 384.81 87.63) (xy 393.7 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6042b114-0317-4d6a-9f06-e645ca80ac34")
-	)
-	(wire
-		(pts
 			(xy 114.3 152.4) (xy 114.3 151.13)
 		)
 		(stroke
@@ -10997,16 +11001,6 @@
 	)
 	(wire
 		(pts
-			(xy 393.7 76.2) (xy 393.7 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "656593cc-53a7-46cb-a838-76da6eb88ecd")
-	)
-	(wire
-		(pts
 			(xy 246.38 96.52) (xy 247.65 96.52)
 		)
 		(stroke
@@ -11034,16 +11028,6 @@
 			(type default)
 		)
 		(uuid "66c64b94-9b4e-4e96-bdb2-3db086bad173")
-	)
-	(wire
-		(pts
-			(xy 393.7 76.2) (xy 396.24 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6727ebcd-7b24-4216-a834-4d8abe0ec455")
 	)
 	(wire
 		(pts
@@ -11297,16 +11281,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 144.78) (xy 53.34 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76449ae3-68a9-4f9f-982a-6219b1c9616c")
-	)
-	(wire
-		(pts
 			(xy 199.39 224.79) (xy 199.39 229.87)
 		)
 		(stroke
@@ -11387,7 +11361,7 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 66.04) (xy 391.16 59.69)
+			(xy 392.43 68.58) (xy 392.43 59.69)
 		)
 		(stroke
 			(width 0)
@@ -11464,6 +11438,16 @@
 			(type default)
 		)
 		(uuid "7d81e6a2-d483-4947-ba2d-63d1b301856f")
+	)
+	(wire
+		(pts
+			(xy 391.16 87.63) (xy 384.81 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e165bec-23ff-49c7-897e-255d5c7f9ce1")
 	)
 	(wire
 		(pts
@@ -12317,16 +12301,6 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 66.04) (xy 396.24 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6124310-5d5c-4519-9b77-63ca53227d90")
-	)
-	(wire
-		(pts
 			(xy 199.39 229.87) (xy 217.17 229.87)
 		)
 		(stroke
@@ -12597,6 +12571,16 @@
 	)
 	(wire
 		(pts
+			(xy 392.43 59.69) (xy 391.16 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b14bc04d-0208-4555-bd5d-a1ad1ede071c")
+	)
+	(wire
+		(pts
 			(xy 193.04 278.13) (xy 199.39 278.13)
 		)
 		(stroke
@@ -12797,6 +12781,16 @@
 	)
 	(wire
 		(pts
+			(xy 388.62 78.74) (xy 388.62 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc588085-b3c5-4ab5-986f-1addc28d1cd0")
+	)
+	(wire
+		(pts
 			(xy 158.75 111.76) (xy 158.75 110.49)
 		)
 		(stroke
@@ -12837,13 +12831,23 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 68.58) (xy 396.24 66.04)
+			(xy 393.7 69.85) (xy 393.7 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bdb8cbcb-f27f-46be-87ea-2a0985b2a7d3")
+	)
+	(wire
+		(pts
+			(xy 393.7 78.74) (xy 393.7 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be13fb17-328d-4aaa-89f7-5f6b8ae69de9")
 	)
 	(wire
 		(pts
@@ -13377,6 +13381,16 @@
 	)
 	(wire
 		(pts
+			(xy 384.81 87.63) (xy 384.81 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6e0f110-c730-4490-8cd2-48eaa1f5112d")
+	)
+	(wire
+		(pts
 			(xy 30.48 220.98) (xy 41.91 220.98)
 		)
 		(stroke
@@ -13537,6 +13551,16 @@
 	)
 	(wire
 		(pts
+			(xy 391.16 78.74) (xy 391.16 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deb43a33-dfc9-4034-9c75-1f9131c9ab1f")
+	)
+	(wire
+		(pts
 			(xy 356.87 129.54) (xy 372.11 129.54)
 		)
 		(stroke
@@ -13567,7 +13591,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 146.05) (xy 48.26 146.05)
+			(xy 48.26 146.05) (xy 55.88 146.05)
 		)
 		(stroke
 			(width 0)
@@ -13614,16 +13638,6 @@
 			(type default)
 		)
 		(uuid "e1ee0328-1445-4e96-b33c-8f14ff0d7660")
-	)
-	(wire
-		(pts
-			(xy 396.24 66.04) (xy 400.05 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e24ce91a-834f-4ba6-a65a-31d0b3c568a9")
 	)
 	(wire
 		(pts
@@ -13887,16 +13901,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 146.05) (xy 67.31 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb2e8d46-0451-4b6f-9454-29f16912d25f")
-	)
-	(wire
-		(pts
 			(xy 147.32 278.13) (xy 161.29 278.13)
 		)
 		(stroke
@@ -14047,7 +14051,7 @@
 	)
 	(wire
 		(pts
-			(xy 391.16 76.2) (xy 393.7 76.2)
+			(xy 388.62 78.74) (xy 391.16 78.74)
 		)
 		(stroke
 			(width 0)
@@ -14214,16 +14218,6 @@
 			(type default)
 		)
 		(uuid "fb3296c8-6e48-4008-9b23-8fc051a73807")
-	)
-	(wire
-		(pts
-			(xy 50.8 144.78) (xy 50.8 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbc87194-35e2-42da-93aa-143455718aec")
 	)
 	(wire
 		(pts
@@ -16612,7 +16606,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00b0b686-9aa8-4a72-86e2-322ee8b2c7df")
-		(property "Reference" "C6_Dec1"
+		(property "Reference" "C_DEC6"
 			(at 77.47 223.52 0)
 			(effects
 				(font
@@ -16665,7 +16659,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "C6_Dec1")
+					(reference "C_DEC6")
 					(unit 1)
 				)
 			)
@@ -16680,7 +16674,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00d75e8f-92ef-4fc3-b3fb-78c6e6186614")
-		(property "Reference" "C3"
+		(property "Reference" "C_BARO1"
 			(at 320.04 49.53 90)
 			(effects
 				(font
@@ -16731,7 +16725,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "C3")
+					(reference "C_BARO1")
 					(unit 1)
 				)
 			)
@@ -16943,7 +16937,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03fefa8b-ae4c-40f1-996f-c732e3aae066")
-		(property "Reference" "VBAT_R1"
+		(property "Reference" "R_VBAT1"
 			(at 266.7 44.704 90)
 			(effects
 				(font
@@ -16995,7 +16989,7 @@
 		(instances
 			(project ""
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "VBAT_R1")
+					(reference "R_VBAT1")
 					(unit 1)
 				)
 			)
@@ -17010,7 +17004,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "073a9a97-7849-47f3-a17d-8372297a815f")
-		(property "Reference" "C1out_5R2"
+		(property "Reference" "COUT_10V1"
 			(at 200.66 265.43 90)
 			(effects
 				(font
@@ -17063,7 +17057,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "C1out_5R2")
+					(reference "COUT_10V1")
 					(unit 1)
 				)
 			)
@@ -17095,7 +17089,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LGA14_2P5X3X0P91_TDK"
+		(property "Footprint" "Package_LGA:Bosch_LGA-14_3x2.5mm_P0.5mm"
 			(at 351.282 45.974 0)
 			(effects
 				(font
@@ -17265,7 +17259,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0f371780-903b-43d8-ba39-da9677c92604")
-		(property "Reference" "C1_3R2"
+		(property "Reference" "C_3VG1"
 			(at 175.26 222.25 0)
 			(effects
 				(font
@@ -17283,7 +17277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 185.1152 228.6 0)
 			(effects
 				(font
@@ -17318,7 +17312,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "C1_3R2")
+					(reference "C_3VG1")
 					(unit 1)
 				)
 			)
@@ -17397,7 +17391,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11874ef1-5a03-4eba-8648-08d7987aca86")
-		(property "Reference" "FLASH_R1"
+		(property "Reference" "R_FLASH1"
 			(at 318.77 191.7699 0)
 			(effects
 				(font
@@ -17451,7 +17445,7 @@
 		(instances
 			(project ""
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "FLASH_R1")
+					(reference "R_FLASH1")
 					(unit 1)
 				)
 			)
@@ -17660,7 +17654,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "168e673b-c3e0-409e-a1cd-9b76da330b79")
-		(property "Reference" "R5"
+		(property "Reference" "R_LED3"
 			(at 251.206 227.33 90)
 			(effects
 				(font
@@ -17676,7 +17670,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 251.46 231.648 90)
 			(effects
 				(font
@@ -17712,7 +17706,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "R5")
+					(reference "R_LED3")
 					(unit 1)
 				)
 			)
@@ -17923,7 +17917,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1c0d41f2-9e41-49db-88c9-34f6daabf084")
-		(property "Reference" "C4_Dec1"
+		(property "Reference" "C_DEC4"
 			(at 54.61 223.52 0)
 			(effects
 				(font
@@ -17976,7 +17970,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "C4_Dec1")
+					(reference "C_DEC4")
 					(unit 1)
 				)
 			)
@@ -18057,7 +18051,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1fab1ee6-51df-4bee-8626-30850556bf8f")
-		(property "Reference" "R3_I2C2"
+		(property "Reference" "R_I2C2"
 			(at 165.1 156.21 0)
 			(effects
 				(font
@@ -18108,7 +18102,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "R3_I2C2")
+					(reference "R_I2C2")
 					(unit 1)
 				)
 			)
@@ -18449,7 +18443,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "252b312a-6ead-4148-92a4-b4b68cb36127")
-		(property "Reference" "C5_Dec1"
+		(property "Reference" "C_DEC5"
 			(at 66.04 223.52 0)
 			(effects
 				(font
@@ -18502,7 +18496,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "C5_Dec1")
+					(reference "C_DEC5")
 					(unit 1)
 				)
 			)
@@ -18581,7 +18575,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "271248f7-8131-4cce-aef3-2cebfd1d5e0b")
-		(property "Reference" "VBAT_R2"
+		(property "Reference" "R_VBAT2"
 			(at 266.192 52.324 90)
 			(effects
 				(font
@@ -18633,7 +18627,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "VBAT_R2")
+					(reference "R_VBAT2")
 					(unit 1)
 				)
 			)
@@ -18648,7 +18642,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "289b9944-c722-46a9-bb91-01de992ea1f8")
-		(property "Reference" "Cboot_5R2"
+		(property "Reference" "CBOOT_10V1"
 			(at 181.61 251.46 90)
 			(effects
 				(font
@@ -18701,7 +18695,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "Cboot_5R2")
+					(reference "CBOOT_10V1")
 					(unit 1)
 				)
 			)
@@ -18716,7 +18710,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "298eccf6-279c-4ee6-8244-f66a2bd7cab0")
-		(property "Reference" "Cin2_5R2"
+		(property "Reference" "CIN_10V2"
 			(at 142.24 265.43 90)
 			(effects
 				(font
@@ -18769,7 +18763,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "Cin2_5R2")
+					(reference "CIN_10V2")
 					(unit 1)
 				)
 			)
@@ -18850,7 +18844,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a7d2c51-a49e-4936-94ad-c35e712e7135")
-		(property "Reference" "C1out_5R1"
+		(property "Reference" "COUT_5V1"
 			(at 91.44 265.43 90)
 			(effects
 				(font
@@ -18903,7 +18897,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "C1out_5R1")
+					(reference "COUT_5V1")
 					(unit 1)
 				)
 			)
@@ -18985,7 +18979,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2adc2018-6dc2-4ae9-bdfb-36f34212a876")
-		(property "Reference" "R3"
+		(property "Reference" "R_LED1"
 			(at 251.206 209.55 90)
 			(effects
 				(font
@@ -19001,7 +18995,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 251.46 213.868 90)
 			(effects
 				(font
@@ -19037,7 +19031,7 @@
 		(instances
 			(project ""
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "R3")
+					(reference "R_LED1")
 					(unit 1)
 				)
 			)
@@ -19184,7 +19178,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f0812b9-b0f8-4d7e-8cc5-03f89090e933")
-		(property "Reference" "R2_OSD1"
+		(property "Reference" "R_OSD2"
 			(at 382.27 133.35 0)
 			(effects
 				(font
@@ -19237,7 +19231,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "R2_OSD1")
+					(reference "R_OSD2")
 					(unit 1)
 				)
 			)
@@ -19444,7 +19438,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "306d3322-b6fa-48b1-a839-676cd78e1917")
-		(property "Reference" "L1"
+		(property "Reference" "L_5V1"
 			(at 77.47 252.73 90)
 			(effects
 				(font
@@ -19495,7 +19489,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "L1")
+					(reference "L_5V1")
 					(unit 1)
 				)
 			)
@@ -19574,7 +19568,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "310283f1-f3cf-4097-9133-7c72ff84615c")
-		(property "Reference" "R5_OSD1"
+		(property "Reference" "R_OSD5"
 			(at 386.08 153.67 0)
 			(effects
 				(font
@@ -19627,7 +19621,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "R5_OSD1")
+					(reference "R_OSD5")
 					(unit 1)
 				)
 			)
@@ -19865,7 +19859,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "34d02274-7fd0-4e96-82a3-3285ecc07be4")
-		(property "Reference" "Cin_5R2"
+		(property "Reference" "CIN_10V1"
 			(at 135.89 264.16 90)
 			(effects
 				(font
@@ -19918,7 +19912,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "Cin_5R2")
+					(reference "CIN_10V1")
 					(unit 1)
 				)
 			)
@@ -20195,7 +20189,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b30c92f-c5d5-4f0e-8c12-310a4fc7cf9d")
-		(property "Reference" "R1_SBUS1"
+		(property "Reference" "R_SBUS2"
 			(at 48.26 93.98 0)
 			(effects
 				(font
@@ -20248,7 +20242,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "R1_SBUS1")
+					(reference "R_SBUS2")
 					(unit 1)
 				)
 			)
@@ -20919,7 +20913,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "480c2986-1b5b-498e-b8c6-482722beed37")
-		(property "Reference" "D1"
+		(property "Reference" "D_LED1"
 			(at 241.554 209.042 0)
 			(effects
 				(font
@@ -20935,7 +20929,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 242.57 212.09 0)
 			(effects
 				(font
@@ -20980,7 +20974,7 @@
 		(instances
 			(project ""
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "D1")
+					(reference "D_LED1")
 					(unit 1)
 				)
 			)
@@ -21191,7 +21185,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4995edd9-2122-40f5-89cd-229900972031")
-		(property "Reference" "C2out_5R2"
+		(property "Reference" "COUT_10V2"
 			(at 208.28 265.43 90)
 			(effects
 				(font
@@ -21244,7 +21238,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "C2out_5R2")
+					(reference "COUT_10V2")
 					(unit 1)
 				)
 			)
@@ -21671,15 +21665,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 396.24 72.39 0)
+		(at 393.7 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "4cbd499f-a4d7-4f6a-8e70-5dd1e65d3dfe")
-		(property "Reference" "C4_G1"
-			(at 397.51 69.85 0)
+		(property "Reference" "C_GYRO2"
+			(at 393.954 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21688,7 +21682,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 398.78 74.93 0)
+			(at 396.24 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21697,7 +21691,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 397.2052 76.2 0)
+			(at 394.6652 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21706,7 +21700,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 396.24 72.39 0)
+			(at 393.7 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21715,7 +21709,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 396.24 72.39 0)
+			(at 393.7 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21731,7 +21725,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "C4_G1")
+					(reference "C_GYRO2")
 					(unit 1)
 				)
 			)
@@ -21739,15 +21733,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 391.16 72.39 0)
+		(at 388.62 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "4e62f75f-a97a-499d-b60d-384e0c2dc677")
-		(property "Reference" "C3_G1"
-			(at 384.81 69.85 0)
+		(property "Reference" "C_GYRO1"
+			(at 377.952 71.882 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21756,7 +21750,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 386.08 74.93 0)
+			(at 383.54 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21764,8 +21758,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 392.1252 76.2 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 389.5852 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21774,7 +21768,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 391.16 72.39 0)
+			(at 388.62 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21783,7 +21777,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 391.16 72.39 0)
+			(at 388.62 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21799,7 +21793,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "C3_G1")
+					(reference "C_GYRO1")
 					(unit 1)
 				)
 			)
@@ -22009,7 +22003,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "509bcf03-4d04-4fec-b97e-e403fac0bd96")
-		(property "Reference" "C1_3R1"
+		(property "Reference" "C_3V1"
 			(at 107.95 222.25 0)
 			(effects
 				(font
@@ -22027,7 +22021,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 117.8052 228.6 0)
 			(effects
 				(font
@@ -22062,7 +22056,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "C1_3R1")
+					(reference "C_3V1")
 					(unit 1)
 				)
 			)
@@ -22468,7 +22462,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "58abbd29-f801-484c-a2eb-6da31eccbcdd")
-		(property "Reference" "C4"
+		(property "Reference" "C_BARO2"
 			(at 320.04 58.42 90)
 			(effects
 				(font
@@ -22519,7 +22513,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "C4")
+					(reference "C_BARO2")
 					(unit 1)
 				)
 			)
@@ -22598,7 +22592,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a088e31-80a0-48bb-9069-7660f738d7c9")
-		(property "Reference" "C6_OSD1"
+		(property "Reference" "C_OSD6"
 			(at 369.57 135.89 0)
 			(effects
 				(font
@@ -22651,7 +22645,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "C6_OSD1")
+					(reference "C_OSD6")
 					(unit 1)
 				)
 			)
@@ -23247,8 +23241,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5facdb78-ff2b-4b81-839d-652cff4f2107")
-		(property "Reference" "Rfbb_5R1"
-			(at 73.66 269.24 0)
+		(property "Reference" "RFBB_5V1"
+			(at 72.898 269.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23300,7 +23294,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "Rfbb_5R1")
+					(reference "RFBB_5V1")
 					(unit 1)
 				)
 			)
@@ -23511,8 +23505,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "638f2b8e-b6bf-4aed-8804-fef497bff485")
-		(property "Reference" "Rfbt_5R2"
-			(at 182.88 259.08 0)
+		(property "Reference" "RFBT_10V1"
+			(at 181.356 259.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23564,7 +23558,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "Rfbt_5R2")
+					(reference "RFBT_10V1")
 					(unit 1)
 				)
 			)
@@ -23579,7 +23573,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63a86558-84e1-4622-aeb9-558b295873ef")
-		(property "Reference" "C2out_5R1"
+		(property "Reference" "COUT_5V2"
 			(at 99.06 265.43 90)
 			(effects
 				(font
@@ -23632,7 +23626,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "C2out_5R1")
+					(reference "COUT_5V2")
 					(unit 1)
 				)
 			)
@@ -23778,7 +23772,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6a285275-9636-418c-b74d-8ffd22640a8d")
-		(property "Reference" "C7_Dec1"
+		(property "Reference" "C_DEC7"
 			(at 88.9 223.52 0)
 			(effects
 				(font
@@ -23831,7 +23825,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "C7_Dec1")
+					(reference "C_DEC7")
 					(unit 1)
 				)
 			)
@@ -23979,7 +23973,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7149bfdb-0300-4e8b-80c2-93aba5b18107")
-		(property "Reference" "R1_LED1"
+		(property "Reference" "R_LED5"
 			(at 148.59 171.45 90)
 			(effects
 				(font
@@ -23995,7 +23989,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 148.59 175.768 90)
 			(effects
 				(font
@@ -24030,7 +24024,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "R1_LED1")
+					(reference "R_LED5")
 					(unit 1)
 				)
 			)
@@ -24111,7 +24105,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "738284e0-1463-4808-b267-7c5b59d0a00a")
-		(property "Reference" "C4_OSD1"
+		(property "Reference" "C_OSD4"
 			(at 370.84 120.65 0)
 			(effects
 				(font
@@ -24164,7 +24158,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "C4_OSD1")
+					(reference "C_OSD4")
 					(unit 1)
 				)
 			)
@@ -24179,7 +24173,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73c7ea7a-3316-4249-9c80-7aeb12075794")
-		(property "Reference" "Buzzer_R1"
+		(property "Reference" "R_BUZ1"
 			(at 261.62 24.13 90)
 			(effects
 				(font
@@ -24230,7 +24224,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "Buzzer_R1")
+					(reference "R_BUZ1")
 					(unit 1)
 				)
 			)
@@ -24245,7 +24239,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75cfb045-9be2-4597-82fc-a06fcd612e04")
-		(property "Reference" "L2"
+		(property "Reference" "L_10V1"
 			(at 186.69 252.73 90)
 			(effects
 				(font
@@ -24296,7 +24290,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "L2")
+					(reference "L_10V1")
 					(unit 1)
 				)
 			)
@@ -24642,8 +24636,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7aa3c1da-2774-42a0-af21-6a6abffc6a3d")
-		(property "Reference" "Q1"
-			(at 49.53 105.41 0)
+		(property "Reference" "Q_SBUS1"
+			(at 49.53 105.4099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24652,7 +24646,7 @@
 			)
 		)
 		(property "Value" "BC817W"
-			(at 49.53 107.95 0)
+			(at 49.53 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24701,7 +24695,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "Q1")
+					(reference "Q_SBUS1")
 					(unit 1)
 				)
 			)
@@ -24716,7 +24710,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c28f7fb-dc63-4282-bcd3-0c296fff809d")
-		(property "Reference" "C2_Dec1"
+		(property "Reference" "C_DEC2"
 			(at 31.75 223.52 0)
 			(effects
 				(font
@@ -24769,7 +24763,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "C2_Dec1")
+					(reference "C_DEC2")
 					(unit 1)
 				)
 			)
@@ -24784,8 +24778,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7ecb9afb-b465-4945-ade0-06e496962942")
-		(property "Reference" "C2_G1"
-			(at 363.22 82.55 0)
+		(property "Reference" "C_GYRO3"
+			(at 361.188 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24837,7 +24831,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "C2_G1")
+					(reference "C_GYRO3")
 					(unit 1)
 				)
 			)
@@ -25176,7 +25170,7 @@
 		(dnp no)
 		(uuid "88680fbb-6cff-4772-9f35-6479c5ebfcb2")
 		(property "Reference" "Y_OSD1"
-			(at 298.45 123.19 90)
+			(at 297.18 123.444 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25373,7 +25367,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f44d8e3-4839-444c-963a-56d997a318dd")
-		(property "Reference" "R2_LED1"
+		(property "Reference" "R_LED6"
 			(at 148.59 182.88 90)
 			(effects
 				(font
@@ -25389,7 +25383,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 148.59 187.198 90)
 			(effects
 				(font
@@ -25424,7 +25418,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "R2_LED1")
+					(reference "R_LED6")
 					(unit 1)
 				)
 			)
@@ -25439,8 +25433,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f4edae7-8325-4804-9729-4118ed22f387")
-		(property "Reference" "Cin3_5R1"
-			(at 39.37 255.27 90)
+		(property "Reference" "CIN_5V3"
+			(at 39.37 257.048 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25492,7 +25486,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "Cin3_5R1")
+					(reference "CIN_5V3")
 					(unit 1)
 				)
 			)
@@ -25507,7 +25501,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f841693-9528-435e-b2c3-fc64bdfa95e7")
-		(property "Reference" "D1_LED1"
+		(property "Reference" "D_LED5"
 			(at 137.16 171.45 0)
 			(effects
 				(font
@@ -25523,7 +25517,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 134.62 173.99 0)
 			(effects
 				(font
@@ -25558,7 +25552,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "D1_LED1")
+					(reference "D_LED5")
 					(unit 1)
 				)
 			)
@@ -26026,7 +26020,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "947cf2f9-d58b-404f-bc1d-b1bbb3eb20b6")
-		(property "Reference" "R3_I2C1"
+		(property "Reference" "R_I2C1"
 			(at 149.86 156.21 0)
 			(effects
 				(font
@@ -26077,7 +26071,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "R3_I2C1")
+					(reference "R_I2C1")
 					(unit 1)
 				)
 			)
@@ -26241,7 +26235,7 @@
 			)
 		)
 		(property "Value" "Jumper_3"
-			(at 223.52 49.53 0)
+			(at 225.552 49.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26295,15 +26289,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 57.15 144.78 90)
+		(at 59.69 146.05 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "972c55b5-bf8c-41f6-a245-970dd8bc5493")
-		(property "Reference" "R4_USB2"
-			(at 50.8 143.51 90)
+		(property "Reference" "R_USB1"
+			(at 52.07 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26311,7 +26305,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 62.23 143.51 90)
+			(at 64.77 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26319,7 +26313,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 57.15 146.558 90)
+			(at 59.69 147.828 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26328,7 +26322,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 144.78 0)
+			(at 59.69 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26337,7 +26331,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 144.78 0)
+			(at 59.69 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26353,7 +26347,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "R4_USB2")
+					(reference "R_USB1")
 					(unit 1)
 				)
 			)
@@ -26693,7 +26687,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e905354-6d52-4ece-8858-09f066861b6d")
-		(property "Reference" "C1_Dec1"
+		(property "Reference" "C_DEC1"
 			(at 20.32 223.52 0)
 			(effects
 				(font
@@ -26711,7 +26705,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 20.0152 229.87 0)
 			(effects
 				(font
@@ -26746,7 +26740,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "C1_Dec1")
+					(reference "C_DEC1")
 					(unit 1)
 				)
 			)
@@ -27085,7 +27079,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a6be880c-22a7-4b2f-8de1-8bdb8e2f7879")
-		(property "Reference" "C3_OSD1"
+		(property "Reference" "C_OSD3"
 			(at 377.19 111.76 90)
 			(effects
 				(font
@@ -27101,7 +27095,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 375.92 112.0648 0)
 			(effects
 				(font
@@ -27136,7 +27130,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "C3_OSD1")
+					(reference "C_OSD3")
 					(unit 1)
 				)
 			)
@@ -27707,7 +27701,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC_208MIL_WIN"
+		(property "Footprint" ""
 			(at 322.58 200.66 0)
 			(effects
 				(font
@@ -27908,8 +27902,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b9918c5d-60ae-47ca-b2aa-7ed4ac93f5d9")
-		(property "Reference" "FLASH_R2"
-			(at 372.618 187.452 0)
+		(property "Reference" "R_FLASH2"
+			(at 381.508 192.278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27962,7 +27956,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "FLASH_R2")
+					(reference "R_FLASH2")
 					(unit 1)
 				)
 			)
@@ -27978,7 +27972,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b9edb0c8-2cbc-4505-be1d-3328c5990bc1")
-		(property "Reference" "D5"
+		(property "Reference" "D_LED4"
 			(at 241.554 235.712 0)
 			(effects
 				(font
@@ -27994,7 +27988,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 242.57 238.76 0)
 			(effects
 				(font
@@ -28039,7 +28033,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "D5")
+					(reference "D_LED4")
 					(unit 1)
 				)
 			)
@@ -28119,7 +28113,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba8304e7-36b7-4179-976d-f9f6874b3763")
-		(property "Reference" "Rfbt_5R1"
+		(property "Reference" "RFBT_5V1"
 			(at 73.66 259.08 0)
 			(effects
 				(font
@@ -28172,7 +28166,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "Rfbt_5R1")
+					(reference "RFBT_5V1")
 					(unit 1)
 				)
 			)
@@ -28409,7 +28403,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc6c11dc-3309-4d14-900a-74cdcc750ab5")
-		(property "Reference" "R3_USB2"
+		(property "Reference" "R_USB2"
 			(at 52.07 147.32 90)
 			(effects
 				(font
@@ -28460,7 +28454,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "R3_USB2")
+					(reference "R_USB2")
 					(unit 1)
 				)
 			)
@@ -28475,7 +28469,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bca14dc3-3750-46bb-860a-e55fb31dc126")
-		(property "Reference" "C3_Dec1"
+		(property "Reference" "C_DEC3"
 			(at 43.18 223.52 0)
 			(effects
 				(font
@@ -28528,7 +28522,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "C3_Dec1")
+					(reference "C_DEC3")
 					(unit 1)
 				)
 			)
@@ -28679,7 +28673,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd101685-436c-4c78-a138-c0d00f771e74")
-		(property "Reference" "D3"
+		(property "Reference" "D_LED2"
 			(at 241.554 217.932 0)
 			(effects
 				(font
@@ -28695,7 +28689,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 242.57 220.98 0)
 			(effects
 				(font
@@ -28740,7 +28734,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "D3")
+					(reference "D_LED2")
 					(unit 1)
 				)
 			)
@@ -28755,8 +28749,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bea17ef3-193b-44de-af99-70b7335c69e5")
-		(property "Reference" "8M1"
-			(at 186.69 34.29 90)
+		(property "Reference" "Y1"
+			(at 192.024 42.418 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28764,8 +28758,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Resonator"
-			(at 187.706 30.226 90)
+		(property "Value" "8M"
+			(at 191.516 31.496 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28811,7 +28805,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "8M1")
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -28826,8 +28820,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c266e70d-d132-4ae5-aeb5-3d5979685bce")
-		(property "Reference" "C1_OSD1"
-			(at 297.18 113.03 0)
+		(property "Reference" "C_OSD1"
+			(at 296.672 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28879,7 +28873,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "C1_OSD1")
+					(reference "C_OSD1")
 					(unit 1)
 				)
 			)
@@ -29155,7 +29149,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c59fbf58-04b8-48a5-b7fb-a88a0d1672b3")
-		(property "Reference" "C2_OSD1"
+		(property "Reference" "C_OSD2"
 			(at 370.84 104.14 90)
 			(effects
 				(font
@@ -29171,7 +29165,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 369.57 104.4448 0)
 			(effects
 				(font
@@ -29206,7 +29200,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "C2_OSD1")
+					(reference "C_OSD2")
 					(unit 1)
 				)
 			)
@@ -29285,7 +29279,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6364e6e-76ba-4a7d-bd18-b390fd267129")
-		(property "Reference" "C2_3R2"
+		(property "Reference" "C_3VG2"
 			(at 219.71 222.25 0)
 			(effects
 				(font
@@ -29303,7 +29297,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 218.1352 228.6 0)
 			(effects
 				(font
@@ -29338,7 +29332,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "C2_3R2")
+					(reference "C_3VG2")
 					(unit 1)
 				)
 			)
@@ -29353,8 +29347,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6a367e2-c467-4f1f-9f46-64bd59bf62ea")
-		(property "Reference" "C6"
-			(at 262.89 59.69 90)
+		(property "Reference" "C_VBAT1"
+			(at 257.81 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29406,7 +29400,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "C6")
+					(reference "C_VBAT1")
 					(unit 1)
 				)
 			)
@@ -29615,7 +29609,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca47c20a-bbbe-4658-b789-2e5292370100")
-		(property "Reference" "Cboot_5R1"
+		(property "Reference" "CBOOT_5V1"
 			(at 72.39 251.46 90)
 			(effects
 				(font
@@ -29668,7 +29662,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "Cboot_5R1")
+					(reference "CBOOT_5V1")
 					(unit 1)
 				)
 			)
@@ -29877,7 +29871,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1b712c7-a0d4-4ef6-b4fd-28b1b34d38e1")
-		(property "Reference" "R6"
+		(property "Reference" "R_LED4"
 			(at 251.206 236.22 90)
 			(effects
 				(font
@@ -29893,7 +29887,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 251.46 240.538 90)
 			(effects
 				(font
@@ -29929,7 +29923,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "R6")
+					(reference "R_LED4")
 					(unit 1)
 				)
 			)
@@ -30011,7 +30005,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d37b4a16-6621-4223-93af-2902f51adcf9")
-		(property "Reference" "C2_3R1"
+		(property "Reference" "C_3V2"
 			(at 152.4 222.25 0)
 			(effects
 				(font
@@ -30029,7 +30023,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 150.8252 228.6 0)
 			(effects
 				(font
@@ -30064,7 +30058,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "C2_3R1")
+					(reference "C_3V2")
 					(unit 1)
 				)
 			)
@@ -30079,7 +30073,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3832d9f-50dd-4c63-b5e1-450a3b7cf4a6")
-		(property "Reference" "BOOT_R1"
+		(property "Reference" "R_BOOT1"
 			(at 221.742 41.148 0)
 			(effects
 				(font
@@ -30131,7 +30125,7 @@
 		(instances
 			(project ""
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "BOOT_R1")
+					(reference "R_BOOT1")
 					(unit 1)
 				)
 			)
@@ -30146,7 +30140,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d46a9dd8-8eab-4a9e-a051-262f2c9838c6")
-		(property "Reference" "Cin2_5R1"
+		(property "Reference" "CIN_5V2"
 			(at 33.02 265.43 90)
 			(effects
 				(font
@@ -30199,7 +30193,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "Cin2_5R1")
+					(reference "CIN_5V2")
 					(unit 1)
 				)
 			)
@@ -30664,7 +30658,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 400.05 66.04 270)
+		(at 400.05 68.58 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30672,7 +30666,7 @@
 		(dnp no)
 		(uuid "e19c12ba-399a-4f80-b98c-5023cfb1d048")
 		(property "Reference" "#PWR014"
-			(at 396.24 66.04 0)
+			(at 396.24 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30680,8 +30674,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V_GYRO"
-			(at 391.668 64.262 90)
+		(property "Value" "+3.3V"
+			(at 395.986 66.802 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30690,7 +30684,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 400.05 66.04 0)
+			(at 400.05 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30699,7 +30693,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 400.05 66.04 0)
+			(at 400.05 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30708,7 +30702,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 400.05 66.04 0)
+			(at 400.05 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30736,7 +30730,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e1b6006c-544b-41f8-8580-faecdd092870")
-		(property "Reference" "C5_OSD1"
+		(property "Reference" "C_OSD5"
 			(at 374.65 128.27 90)
 			(effects
 				(font
@@ -30789,7 +30783,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "C5_OSD1")
+					(reference "C_OSD5")
 					(unit 1)
 				)
 			)
@@ -30868,7 +30862,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e4f0f427-33bc-45e6-9039-5a47a87bec9b")
-		(property "Reference" "D2_LED1"
+		(property "Reference" "D_LED6"
 			(at 138.43 182.88 0)
 			(effects
 				(font
@@ -30884,7 +30878,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 134.62 185.42 0)
 			(effects
 				(font
@@ -30919,7 +30913,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "D2_LED1")
+					(reference "D_LED6")
 					(unit 1)
 				)
 			)
@@ -30999,7 +30993,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6406aff-92e1-4f92-a729-cd89f3efe936")
-		(property "Reference" "R4_OSD1"
+		(property "Reference" "R_OSD4"
 			(at 375.92 153.67 0)
 			(effects
 				(font
@@ -31052,7 +31046,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "R4_OSD1")
+					(reference "R_OSD4")
 					(unit 1)
 				)
 			)
@@ -31067,7 +31061,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e926f771-fb6f-4d1d-b47b-bfef98f9954f")
-		(property "Reference" "CC_R1"
+		(property "Reference" "R_CC1"
 			(at 85.09 114.808 90)
 			(effects
 				(font
@@ -31119,7 +31113,7 @@
 		(instances
 			(project ""
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "CC_R1")
+					(reference "R_CC1")
 					(unit 1)
 				)
 			)
@@ -31430,7 +31424,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 384.81 88.9 0)
+		(at 384.81 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31439,7 +31433,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec9c7d9a-0898-4383-aacc-c6adbf787c60")
 		(property "Reference" "#PWR017"
-			(at 384.81 95.25 0)
+			(at 384.81 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31448,7 +31442,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 384.81 93.98 0)
+			(at 384.81 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31457,7 +31451,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 384.81 88.9 0)
+			(at 384.81 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31466,7 +31460,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 384.81 88.9 0)
+			(at 384.81 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31475,7 +31469,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 384.81 88.9 0)
+			(at 384.81 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31567,7 +31561,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ecfed7da-2180-4d23-9447-43996441c0da")
-		(property "Reference" "R4"
+		(property "Reference" "R_LED2"
 			(at 251.206 218.44 90)
 			(effects
 				(font
@@ -31583,7 +31577,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 251.46 222.758 90)
 			(effects
 				(font
@@ -31619,7 +31613,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "R4")
+					(reference "R_LED2")
 					(unit 1)
 				)
 			)
@@ -31830,7 +31824,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eef39769-b33a-44f1-9656-d4bc9df0ad2e")
-		(property "Reference" "R1_OSD1"
+		(property "Reference" "R_OSD1"
 			(at 389.89 102.87 90)
 			(effects
 				(font
@@ -31883,7 +31877,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "R1_OSD1")
+					(reference "R_OSD1")
 					(unit 1)
 				)
 			)
@@ -31898,8 +31892,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f01a1ab4-f011-456c-b39d-e25cc56f4ead")
-		(property "Reference" "Rfbb_5R2"
-			(at 182.88 269.24 0)
+		(property "Reference" "RFBB_10V1"
+			(at 180.848 269.748 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31951,7 +31945,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "Rfbb_5R2")
+					(reference "RFBB_10V1")
 					(unit 1)
 				)
 			)
@@ -31966,7 +31960,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f296d32d-0224-4724-9efd-2b97c2d13f46")
-		(property "Reference" "Cin3_5R2"
+		(property "Reference" "CIN_10V3"
 			(at 148.59 255.27 90)
 			(effects
 				(font
@@ -32019,7 +32013,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "Cin3_5R2")
+					(reference "CIN_10V3")
 					(unit 1)
 				)
 			)
@@ -32034,8 +32028,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f35dc4ed-5fdc-4d1a-8172-da645b3e140f")
-		(property "Reference" "Cin_5R1"
-			(at 26.67 264.16 90)
+		(property "Reference" "CIN_5V1"
+			(at 26.67 264.922 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32087,7 +32081,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "Cin_5R1")
+					(reference "CIN_5V1")
 					(unit 1)
 				)
 			)
@@ -32102,7 +32096,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f376bf18-fed6-451b-81ca-56a7a1a54709")
-		(property "Reference" "R3_OSD1"
+		(property "Reference" "R_OSD3"
 			(at 364.49 153.67 0)
 			(effects
 				(font
@@ -32155,7 +32149,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "R3_OSD1")
+					(reference "R_OSD3")
 					(unit 1)
 				)
 			)
@@ -32620,7 +32614,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb1c39d7-8577-4249-98ae-74d2e8af3b85")
-		(property "Reference" "R2_SBUS1"
+		(property "Reference" "R_SBUS1"
 			(at 33.02 104.14 90)
 			(effects
 				(font
@@ -32671,7 +32665,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "R2_SBUS1")
+					(reference "R_SBUS1")
 					(unit 1)
 				)
 			)
@@ -32751,7 +32745,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff213598-d847-4a7b-b5f0-a22c4f97d70f")
-		(property "Reference" "D4"
+		(property "Reference" "D_LED3"
 			(at 241.554 226.822 0)
 			(effects
 				(font
@@ -32767,7 +32761,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 242.57 229.87 0)
 			(effects
 				(font
@@ -32812,7 +32806,7 @@
 		(instances
 			(project "Flight Controller"
 				(path "/dbcd5f0a-1493-4b00-ba7e-2224e0d5072f"
-					(reference "D4")
+					(reference "D_LED3")
 					(unit 1)
 				)
 			)

@@ -19148,7 +19148,7 @@
 				)
 			)
 		)
-		(property "Value" "8.6u"
+		(property "Value" "8.2u"
 			(at 77.47 256.54 90)
 			(effects
 				(font
@@ -19156,7 +19156,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Abracon_ASPI-0630LR"
+		(property "Footprint" "Inductor_SMD:L_Vishay_IHLP-2525"
 			(at 77.47 255.27 0)
 			(effects
 				(font
@@ -20904,7 +20904,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX7456EUI:SOP65P637X110-28N"
+		(property "Footprint" "max74:SOP65P637X110-28N"
 			(at 353.06 209.22 0)
 			(effects
 				(font
@@ -23881,7 +23881,7 @@
 				)
 			)
 		)
-		(property "Value" "12.2u"
+		(property "Value" "12u"
 			(at 186.69 256.54 90)
 			(effects
 				(font
@@ -23889,7 +23889,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Abracon_ASPI-0630LR"
+		(property "Footprint" "Inductor_SMD:L_Bourns_SRR1208_12.7x12.7mm"
 			(at 186.69 255.27 0)
 			(effects
 				(font
@@ -27270,7 +27270,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOIC_208MIL_WIN"
 			(at 322.58 200.66 0)
 			(effects
 				(font
@@ -30712,7 +30712,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4110"
 			(at 36.83 156.21 0)
 			(effects
 				(font

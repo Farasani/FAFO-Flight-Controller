@@ -1,4 +1,6 @@
 (fp_lib_table
   (version 7)
   (lib (name "Soldier_Pads")(type "KiCad")(uri "${KIPRJMOD}/Soldier_Pads.pretty")(options "")(descr ""))
+  (lib (name "AWSCR-27.00CV-T ")(type "KiCad")(uri "${KIPRJMOD}/AWSCR-27.00CV-T .pretty")(options "")(descr ""))
+  (lib (name "Pads")(type "KiCad")(uri "${KIPRJMOD}/Pads.pretty")(options "")(descr ""))
 )

@@ -16306,7 +16306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 133.35 77.47 0)
 			(effects
 				(font
@@ -16893,7 +16893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 114.3 151.13 0)
 			(effects
 				(font
@@ -17026,7 +17026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 107.95 81.28 0)
 			(effects
 				(font
@@ -17156,7 +17156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 154.94 130.81 0)
 			(effects
 				(font
@@ -17815,7 +17815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 85.09 171.45 0)
 			(effects
 				(font
@@ -17879,7 +17879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 158.75 86.36 0)
 			(effects
 				(font
@@ -18077,7 +18077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 85.09 162.56 0)
 			(effects
 				(font
@@ -18812,7 +18812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 86.36 114.3 0)
 			(effects
 				(font
@@ -18876,7 +18876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 160.02 167.64 0)
 			(effects
 				(font
@@ -18940,7 +18940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 158.75 115.57 0)
 			(effects
 				(font
@@ -19070,7 +19070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 85.09 168.91 0)
 			(effects
 				(font
@@ -20150,7 +20150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 114.3 168.91 0)
 			(effects
 				(font
@@ -20214,7 +20214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 85.09 189.23 0)
 			(effects
 				(font
@@ -20553,7 +20553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 158.75 113.03 0)
 			(effects
 				(font
@@ -21306,7 +21306,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 133.35 82.55 0)
 			(effects
 				(font
@@ -21437,7 +21437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 114.3 166.37 0)
 			(effects
 				(font
@@ -21569,7 +21569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 158.75 88.9 0)
 			(effects
 				(font
@@ -21830,7 +21830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 85.09 184.15 0)
 			(effects
 				(font
@@ -22026,7 +22026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 154.94 133.35 0)
 			(effects
 				(font
@@ -22224,7 +22224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 158.75 110.49 0)
 			(effects
 				(font
@@ -22288,7 +22288,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 90.17 120.65 0)
 			(effects
 				(font
@@ -23139,7 +23139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 83.82 91.44 0)
 			(effects
 				(font
@@ -24344,7 +24344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 158.75 71.12 0)
 			(effects
 				(font
@@ -24474,7 +24474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 85.09 175.26 0)
 			(effects
 				(font
@@ -24538,7 +24538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 85.09 86.36 0)
 			(effects
 				(font
@@ -24668,7 +24668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 154.94 135.89 0)
 			(effects
 				(font
@@ -24932,7 +24932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 86.36 106.68 0)
 			(effects
 				(font
@@ -24996,7 +24996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 114.3 161.29 0)
 			(effects
 				(font
@@ -25255,7 +25255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 158.75 107.95 0)
 			(effects
 				(font
@@ -25526,7 +25526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 85.09 83.82 0)
 			(effects
 				(font
@@ -25727,7 +25727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 109.22 77.47 0)
 			(effects
 				(font
@@ -25922,7 +25922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 133.35 85.09 0)
 			(effects
 				(font
@@ -26186,7 +26186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 160.02 165.1 0)
 			(effects
 				(font
@@ -26316,7 +26316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 109.22 86.36 0)
 			(effects
 				(font
@@ -26380,7 +26380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 82.55 140.97 0)
 			(effects
 				(font
@@ -26576,7 +26576,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 114.3 153.67 0)
 			(effects
 				(font
@@ -26710,7 +26710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 86.36 111.76 0)
 			(effects
 				(font
@@ -26921,7 +26921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 158.75 91.44 0)
 			(effects
 				(font
@@ -26985,7 +26985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 86.36 109.22 0)
 			(effects
 				(font
@@ -27137,7 +27137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 85.09 180.34 0)
 			(effects
 				(font
@@ -28253,7 +28253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 158.75 74.93 0)
 			(effects
 				(font
@@ -28317,7 +28317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 133.35 87.63 0)
 			(effects
 				(font
@@ -28580,7 +28580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 85.09 88.9 0)
 			(effects
 				(font
@@ -28780,7 +28780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 109.22 83.82 0)
 			(effects
 				(font
@@ -29108,7 +29108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 133.35 74.93 0)
 			(effects
 				(font
@@ -29172,7 +29172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 85.09 177.8 0)
 			(effects
 				(font
@@ -29776,7 +29776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 114.3 163.83 0)
 			(effects
 				(font
@@ -29906,7 +29906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 154.94 138.43 0)
 			(effects
 				(font
@@ -30234,7 +30234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 85.09 166.37 0)
 			(effects
 				(font
@@ -30668,7 +30668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 133.35 80.01 0)
 			(effects
 				(font
@@ -30865,7 +30865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 85.09 186.69 0)
 			(effects
 				(font
@@ -30996,7 +30996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 85.09 160.02 0)
 			(effects
 				(font
@@ -31464,7 +31464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 86.36 116.84 0)
 			(effects
 				(font
@@ -31528,7 +31528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 158.75 105.41 0)
 			(effects
 				(font
@@ -31592,7 +31592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 114.3 158.75 0)
 			(effects
 				(font
@@ -31656,7 +31656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 114.3 156.21 0)
 			(effects
 				(font
@@ -31720,7 +31720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 158.75 102.87 0)
 			(effects
 				(font
@@ -31850,7 +31850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.5mm"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 82.55 138.43 0)
 			(effects
 				(font
@@ -32047,7 +32047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector:Soldier_Pad"
+		(property "Footprint" "Pads:Solder_Pad_SMD"
 			(at 85.09 157.48 0)
 			(effects
 				(font

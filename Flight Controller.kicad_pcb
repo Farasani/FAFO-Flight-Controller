@@ -979,7 +979,7 @@
 			(at 0 -1.17 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "3b04e47d-722a-468a-a03b-dd5cc7e971f6")
+			(uuid "01603722-31a8-4aef-b7c6-7858b8e17a5c")
 			(effects
 				(font
 					(size 1 1)
@@ -990,7 +990,7 @@
 		(property "Value" "10k"
 			(at 0 1.17 90)
 			(layer "F.Fab")
-			(uuid "4df51d6e-6b49-4d8c-8469-3cdf55e61fd7")
+			(uuid "15b6ce5d-3824-4120-ad9b-099c0334fa5e")
 			(effects
 				(font
 					(size 1 1)
@@ -1002,7 +1002,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9b6d12c1-afa7-404c-ba2d-56f4b0e7828e")
+			(uuid "00f86434-543b-4537-831a-c65170ffc6ae")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1014,7 +1014,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6145c630-4643-4b05-b29f-97166fcb3df7")
+			(uuid "4ee740cd-1f4f-4b22-960c-01ecfeca6097")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1358,321 +1358,6 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "0c453bf6-e390-49e1-b7a2-5214f7218778")
-		(at 143.3 67.5)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_GND10"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "e166c10c-4e65-47e5-9ce2-b2f8c8da9189")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "642d0f1a-043f-4c5b-9be6-08f5122311cf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f883cceb-61ca-44b9-aa42-9732659e152e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1858cdfa-fd9c-4247-8a3d-a37a3aba2f0a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/13108f5b-cf7e-40d6-91ec-06a9d6d3dc93")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "c24724a0-c847-4958-94a1-9bb33a12450e")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "b3790601-1a30-4d51-a9ce-b61f29517054")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 2 "GND")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "9ef14ce0-b5a9-4f43-8051-68001edaec58")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "122ab91e-f0f6-4380-b571-bd7112469918")
-		(at 144.2 71)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_S1"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "6298de95-b856-4bed-b004-12265173afb2")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "7e9a1df0-b8cf-4440-8bbd-9b8963fd66d1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "193fcee4-5dae-4315-a3f1-e69e8ebc533a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6fb050ec-ffdd-4288-850c-e27201827fda")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/fef6ad32-3470-4ecc-a327-27b702b39868")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "02fb11cb-e5d5-42fc-b16e-b498a7ee6e0a")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "2e81b1f4-025f-448a-939f-ac16d6d62b5f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 70 "/S1")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "0fb4ac83-97ab-4d70-99c3-9f41a09fdd8c")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "14d7af44-c081-4c55-963c-ca8a7bb6656a")
-		(at 146.5 133)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_S7"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "ee97c0ac-8102-49a3-909d-de279e045b88")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "2a4314a7-c652-44af-8b8c-0095e2837429")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "41831e6e-059e-4b99-b2fa-53641da371a3")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9c9d8ad4-9f47-4f53-a392-46f95ad63828")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/904d0b26-e4b7-4f21-9e43-8ec984a58712")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "84a805ed-02d0-4f5d-9c41-93b51bdf498f")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "8cafd598-f7db-4d4a-b89f-c752b4167052")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 72 "/S3")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "a7a6a21c-29af-4793-aa12-5ba7424d4b7f")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2212,14 +1897,14 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "17c43a67-f25e-46e8-b044-aef7a1221fc3")
-		(at 135.5 82.1 180)
+		(at 138.8 94.1 -90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R_VBAT1"
-			(at 0 -1.65 0)
+			(at 0 -1.65 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "c3626630-8734-478c-9020-92e942c11cb7")
+			(uuid "08064d88-a5e6-43bf-9cea-a09a4390447a")
 			(effects
 				(font
 					(size 1 1)
@@ -2228,9 +1913,9 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 0 1.65 0)
+			(at 0 1.65 90)
 			(layer "F.Fab")
-			(uuid "ece35f7a-0bbc-4e94-a91f-78b492ad93ca")
+			(uuid "46fb37f1-8985-449e-9c48-ea944c1097ee")
 			(effects
 				(font
 					(size 1 1)
@@ -2239,10 +1924,10 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e612248f-83db-42c0-bb5a-b84864ee522b")
+			(uuid "54ebe713-0ce7-4aea-b4ae-7081500f15a4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2251,10 +1936,10 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "05d47140-5f7a-4654-89d6-7a42222976ac")
+			(uuid "79e3d781-af86-4d6a-93b1-3cfd5057535b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2288,26 +1973,6 @@
 			(uuid "dc53a45f-8b4a-41be-9f16-4a39c78fbc98")
 		)
 		(fp_line
-			(start 1.68 0.95)
-			(end -1.68 0.95)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "4e93446f-fa65-46f1-b74b-111d624b3a66")
-		)
-		(fp_line
-			(start 1.68 -0.95)
-			(end 1.68 0.95)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "08369971-1407-44cc-ae8c-4bba755f3733")
-		)
-		(fp_line
 			(start -1.68 0.95)
 			(end -1.68 -0.95)
 			(stroke
@@ -2316,6 +1981,16 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "5d1f15ab-adb0-4e29-8922-66a17e37ee66")
+		)
+		(fp_line
+			(start 1.68 0.95)
+			(end -1.68 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4e93446f-fa65-46f1-b74b-111d624b3a66")
 		)
 		(fp_line
 			(start -1.68 -0.95)
@@ -2328,24 +2003,14 @@
 			(uuid "2383673f-4091-4d90-a829-2214ee589eea")
 		)
 		(fp_line
-			(start 1 0.625)
-			(end -1 0.625)
+			(start 1.68 -0.95)
+			(end 1.68 0.95)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "9e41ac2a-ea1b-4034-8499-e50f058842a5")
-		)
-		(fp_line
-			(start 1 -0.625)
-			(end 1 0.625)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "514d8956-d25b-4523-8ab4-c4e381c68de0")
+			(layer "F.CrtYd")
+			(uuid "08369971-1407-44cc-ae8c-4bba755f3733")
 		)
 		(fp_line
 			(start -1 0.625)
@@ -2358,6 +2023,16 @@
 			(uuid "a13ff5e9-333b-4ca3-8e31-19d75556f521")
 		)
 		(fp_line
+			(start 1 0.625)
+			(end -1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9e41ac2a-ea1b-4034-8499-e50f058842a5")
+		)
+		(fp_line
 			(start -1 -0.625)
 			(end 1 -0.625)
 			(stroke
@@ -2367,8 +2042,18 @@
 			(layer "F.Fab")
 			(uuid "17552940-29e5-4156-a75e-abf51458a7ac")
 		)
+		(fp_line
+			(start 1 -0.625)
+			(end 1 0.625)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "514d8956-d25b-4523-8ab4-c4e381c68de0")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "26a7a353-a3c4-4a53-a4ce-3f21b367b856")
 			(effects
@@ -2379,7 +2064,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.9125 0 180)
+			(at -0.9125 0 270)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.243902)
@@ -2388,7 +2073,7 @@
 			(uuid "ac20aa0c-97a6-4c11-9bfa-12e01ba9f0e6")
 		)
 		(pad "2" smd roundrect
-			(at 0.9125 0 180)
+			(at 0.9125 0 270)
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.243902)
@@ -2415,7 +2100,7 @@
 		(at 128.7125 76.25 180)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
-		(property "Reference" "FC 2"
+		(property "Reference" "D_LED6"
 			(at -3.5 0 0)
 			(layer "F.SilkS")
 			(uuid "5ab405d2-5f89-4ba8-b174-7aaa2bbfe79b")
@@ -2630,321 +2315,6 @@
 			)
 		)
 	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "1b1a5250-6e28-4154-b09a-11638fd27abf")
-		(at 152.2 133)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_SCL1"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "0ced9042-473e-4445-95a0-b9a6090fa9a2")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "45867cc6-7862-44de-ba6d-873e3b41be2b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5411dbd0-294b-4256-89e5-1283a138e653")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "79bd2da3-7d7e-47b8-a89a-69bc413407ba")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/9fdbaf20-90c2-4e48-a358-eaed570c6937")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "97e1b37b-dbba-4629-a045-805f02537ef6")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "6aba6774-a185-4cfa-9499-75c12b5929a7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 84 "/I2C2_SCL")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "7c79382b-7fc4-4229-858f-dfc73eed65e0")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "1dbf4990-4b42-4266-90a7-2395e90252f3")
-		(at 139.5 67.5)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_GND8"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "19b07016-b346-4d11-9b4b-4127299bc36f")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "57f77d30-7a0a-41cf-bd15-95f1c1641936")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "291cad60-bf15-4805-b4fb-7e13701aa496")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d4590acf-9d8f-4483-90b4-fcc288e93545")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/b219b6a4-664d-4e35-ab27-2864ee291e30")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "780bc456-7e82-45ab-a950-442e4f84f241")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "1b2e0c72-f1fc-4d09-85fd-bba5345e8f88")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 2 "GND")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "42dab84e-3125-4166-8272-826308e95183")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "1f330e5f-f8e5-49c0-90ba-f98031ccc43a")
-		(at 139.4 102.9)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "Buz"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "426cb2d1-2b0b-4c01-b31c-361cdc7b578c")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "d0510e79-7ac0-4925-b37d-489960da335f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "86e3ef93-0c36-4b0c-8e55-5a3f7d05a862")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c5a404f2-db51-43bc-9ec5-8f6e615417d3")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/7f54f7bf-28a6-49d8-9cd6-07bd9674aa94")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "bebda69e-4148-48bc-972e-30323777cd5d")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "f1853cd0-69e0-4ba5-9b1d-97e78400495f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 49 "/BUZ-")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "37ec1ae4-b1c1-4178-a599-760eab5de30a")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 		(layer "F.Cu")
 		(uuid "205868d2-978b-4095-b783-3ffdf9642a2b")
@@ -3055,7 +2425,7 @@
 		(at 128.7125 81.5 180)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
-		(property "Reference" "3.3V"
+		(property "Reference" "D_LED3"
 			(at -3.4 0 0)
 			(layer "F.SilkS")
 			(uuid "0ea6ab0e-0303-45f8-b440-f5a6f41cb8e8")
@@ -3528,7 +2898,7 @@
 		(at 128.7125 79.75 180)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
-		(property "Reference" "10V"
+		(property "Reference" "D_LED2"
 			(at -3.1 0 0)
 			(layer "F.SilkS")
 			(uuid "a03c45fd-fbb3-40ca-b676-76563071c371")
@@ -3756,220 +3126,10 @@
 			)
 		)
 	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "2811a4fa-bccc-4de5-8e50-7d8b6e0fd85c")
-		(at 135.7 67.5)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_GND6"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "bab28af5-939f-40b4-9893-bd18e731c7e9")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "c75592ba-c366-4339-bd8f-cf28ba1b309d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5283761f-9324-42aa-95a0-810f4670be78")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "03b9c1ab-ba55-4daf-96ff-5a5d9e413fe0")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/b06300a3-a21b-4904-8c2b-1b3cba9ebf13")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "00f5f8bc-f56b-4272-b69c-947a6ba1f04e")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "832415aa-3494-48b9-9ab2-0d1f8f1b70e4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 2 "GND")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "afb65292-27ce-40c8-886d-2de4aa03689f")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "2d6ce83c-2a6a-49e8-851e-31c9c4bd9c97")
-		(at 146.5 136.8)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_TX3"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "181d4c6e-68be-4ac3-ba8c-aa93e08689b3")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "99727100-449c-4962-a0c8-9cdcff1fae43")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2cc6959a-1d30-4534-ab9c-79334d1a42d7")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "eccaddfa-a177-489e-be17-c7eafe1a2398")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/2f5075ff-80ce-4569-9e5f-b70f3afafc6a")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "7047dfa5-4a5d-43bc-bea6-54b2e8ecf5cf")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "93e0ccf3-9ab2-4103-a9c9-595171228515")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 78 "/UART3_TX")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "bae54ad0-d1f2-4874-999d-1be429dfba48")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "31720ef7-938b-4469-8eb0-73e53351382e")
-		(at 130.8 87.95)
+		(at 129.6 88)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "COUT_10V2"
@@ -4166,115 +3326,10 @@
 			)
 		)
 	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "3e80b563-e17e-4432-b7a9-9d33f88dc162")
-		(at 152.7 102.9)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "LED"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "965372a5-449d-4930-8476-aea12354048b")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "ca7f52e8-e03a-44b0-aa84-b41df3471866")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "57fa6172-af60-4063-8e32-4c27217281c7")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b0882005-3988-4d0f-b21b-30fedee2811f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/21c76961-1df9-40f6-8c5c-c7e21fad72df")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "818fb706-cbb6-492e-a2ff-0fefa864fa21")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "8a2e646f-6078-47e5-b24f-8fbdfc46bdbb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 87 "/LED_S")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "9f7afcc5-d23f-436f-9393-5dfdd4614736")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "3f88001e-0896-4907-ae24-45e45d1cc9e5")
-		(at 148.2 92.955 90)
+		(at 149.9 92.9 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
@@ -4660,531 +3715,6 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "44c717a5-eb5b-42b3-8a2d-adebea66a4c9")
-		(at 141.4 67.5)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_GND9"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "1df6c39b-9b23-4bd6-b0a6-148e22d4b0d5")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "1684257c-34e7-49c8-987c-065c22de93fe")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "04fd626d-7ead-4301-aa1f-0cb23cfcf5dd")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "051f3437-185a-4c99-9fb2-e6e305d712de")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/ae2ecf7e-0ab6-4e27-8ef0-a936bd26303f")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "6fe9c635-ce28-49e3-9b2c-79a836aaaa21")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "80e27903-a77f-47f4-bfe6-823e4eadb06a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 2 "GND")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "b15025b8-73b8-48bd-b1e6-4d582954208a")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "45b742ff-24e9-4926-8635-3eb826f10633")
-		(at 148.4 136.8)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_TX4"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "e522312f-4b09-454d-8f13-310b1b6eecad")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "14e948a4-71aa-433a-a46b-9d6d2eb59f44")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6531f92f-1135-4a94-886b-3dd876bc0375")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2ccc7e7f-6e93-4faf-9603-164bacb6c308")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/96bb9453-969a-447b-b702-35573ec054b4")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "75fd866c-0841-4ac7-94a0-d62bf002bf75")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "3fba6631-2b20-48e8-ae08-7e54262541c9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 79 "/UART4_TX")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "39da570a-52dd-4637-9bd7-863fddc6d35a")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "485508ba-cf4e-4bed-ab83-0b4f55134c2e")
-		(at 147.9 99.3)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "5V"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "a8ee0962-f6e4-4484-b84a-579ad465afee")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "b1b09a1d-da88-4f86-809f-9877e46a60f5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f492d221-0221-4780-ac6d-32cf1f898307")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b3f65727-cf2e-4d03-9d3e-ee3d6d80c969")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/b30cf92f-988a-42b9-81d9-ae33c3d44826")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "60619ed6-2750-4043-9ac2-ba8d1ee7377c")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "275570d0-d2b4-46b7-adba-8480a02579c5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 5 "+5V")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "cb919cba-4a37-46c0-b732-45595840406b")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "4bcb670d-6bad-48eb-93ac-6258a052bd4d")
-		(at 136.5 99.3)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "3V"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "55ea13ba-6ad3-422a-be18-e867e749020e")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "62b2dd57-bac6-4496-967a-0f4fcb93808b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5b389205-f78b-49ea-aabb-06d2395f5dad")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c54764a8-3635-4a45-8452-5085589ae2dc")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/97cd0a09-b31d-4f5d-ac1e-d6a6c4fc5f3f")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "d3e33a50-0c1f-498e-8b1d-2f9d5643628d")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "e15c8237-0bb0-4b5f-bc0f-0726b3464dfa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 6 "+3.3V")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "683bccfe-10ca-4052-adc5-e7d77f09e70a")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "4f414bd6-5bee-4d10-af03-9b1c8ad90e03")
-		(at 134.7 71)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_RX1"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "f88751ba-51b2-4fe7-ab87-d3850df06213")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "6413a0b3-a886-4898-bd0c-ead30f127511")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "534e17b7-6dd5-45df-8b77-31b5dbc705b8")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fb75ce32-d92b-4d7e-be2d-c8b1568f9df6")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/48936515-d753-4962-b32f-0726965d090e")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "5d510a4b-0cd8-4030-a1fa-07b19392cf35")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "2612bd4f-c13b-4eca-9d04-25c78b38b8b3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 76 "/UART1_RX")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "e0c03215-57cb-428c-b4d9-e98f88164e37")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5585,111 +4115,6 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "5398370b-6eff-487f-a39a-074eed14a064")
-		(at 149.9 71)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_S4"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "2550b2c8-4eb4-4750-8fa3-ae714e222a9e")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "6a989873-0f07-4f39-8a22-baf96c487059")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9c2f0195-937e-4a1e-bbaf-09bb6f54e32d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5927ec26-a0ce-45cd-b22f-d4f6dbab7e20")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/56fb5b5a-252c-4964-9e84-6882cbfb0cda")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "277221fe-212e-4489-a118-13848526bf4e")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "aeac7e90-8739-4b6d-9305-a44e55ccb1dc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 73 "/S4")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "90e60c93-7763-4cdf-8c5a-03ba06344f00")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6301,220 +4726,10 @@
 			)
 		)
 	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "60b9b8ec-b60c-42ce-aac6-0a9fb3897414")
-		(at 152.8 67.5)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_S6"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "59cecf07-29b1-4f78-a2f6-d021c7e00272")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "0a21aebc-c157-457e-9c5b-da61a37f3762")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3184f9dc-733f-4648-baa4-6de06e65287e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "480f7317-fb95-42a1-8f8d-26de33322935")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/f4b8fbfe-b68f-4099-9d21-69bdbf5fa530")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "3b2de3e7-e9bc-4c60-a1fb-647dc99b5652")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "ea7e84f1-61fe-4dc7-be03-7ddea0318e37")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 71 "/S2")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "47cc864b-564c-47d3-b7bb-cba010a0f9d9")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "62159fe7-2a60-49ca-b667-779c326a1ed3")
-		(at 138.4 99.3)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "3V"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "c9203010-e903-42ce-a538-aac28311a2bc")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "4ab4299c-974a-44e3-b296-d97a481441a6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dbc08794-35c0-45fa-9d20-b710c1eaecb2")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "367d7132-c039-4d89-86fc-937de6075c41")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/f4952d1c-808c-427b-84e6-c0952707eb35")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "3797580d-3ec5-4ec8-b0b1-eee385732b0b")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "98cbc451-043e-4c6b-bdbc-943d21ba5b9d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 6 "+3.3V")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "498a7a86-d39b-4ce7-bc45-ea9079a03e5a")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "642d24f0-76f6-430b-87fe-0e02b8bc0b4d")
-		(at 130.8 85.85)
+		(at 129.6 85.9)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "COUT_10V1"
@@ -6714,14 +4929,14 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "647c5f53-fbff-4be6-bc86-17525ec6f8d9")
-		(at 148 76.19 90)
+		(at 147.4 93.51 -90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R_I2C2"
 			(at 0 -1.17 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "49706f03-1d4c-4b32-9fc2-0b6c22228a0e")
+			(uuid "048f349a-f74b-4f23-af94-61a9ec12dae6")
 			(effects
 				(font
 					(size 1 1)
@@ -6732,7 +4947,7 @@
 		(property "Value" "5.1k"
 			(at 0 1.17 90)
 			(layer "F.Fab")
-			(uuid "174687a3-aa25-42ee-9806-222987184b7c")
+			(uuid "8e5c2f0b-a617-4280-a8d5-3c0099a31d6c")
 			(effects
 				(font
 					(size 1 1)
@@ -6744,7 +4959,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "521e5473-0471-461d-bc8c-a982a13dfb71")
+			(uuid "b9d7ed00-22f5-428e-b7e8-5fe733ecc49a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6756,7 +4971,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "24a7f72c-7ef5-4ed0-b153-c0570b09a779")
+			(uuid "1d9c1052-c42c-4f02-8a4b-809e1d1d79dc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6770,16 +4985,6 @@
 		(sheetfile "Flight Controller.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.153641 -0.38)
-			(end 0.153641 -0.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "288c86da-9f11-429d-9a14-a579be3e4dd0")
-		)
-		(fp_line
 			(start -0.153641 0.38)
 			(end 0.153641 0.38)
 			(stroke
@@ -6790,34 +4995,14 @@
 			(uuid "ee39221d-0bc3-4e20-92f0-8df357220391")
 		)
 		(fp_line
-			(start 0.93 -0.47)
-			(end 0.93 0.47)
+			(start -0.153641 -0.38)
+			(end 0.153641 -0.38)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "4756e43b-8f00-433f-9b51-67dab89e142b")
-		)
-		(fp_line
-			(start -0.93 -0.47)
-			(end 0.93 -0.47)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "c74c91e1-6000-4a40-b31e-1956f5967c46")
-		)
-		(fp_line
-			(start 0.93 0.47)
-			(end -0.93 0.47)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "bce93264-523b-4820-9a1c-293ab493d7c0")
+			(layer "F.SilkS")
+			(uuid "288c86da-9f11-429d-9a14-a579be3e4dd0")
 		)
 		(fp_line
 			(start -0.93 0.47)
@@ -6830,24 +5015,44 @@
 			(uuid "6703813a-ccd4-4683-acc3-6ae759949ac2")
 		)
 		(fp_line
-			(start 0.525 -0.27)
-			(end 0.525 0.27)
+			(start 0.93 0.47)
+			(end -0.93 0.47)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "0560c3a2-6d89-4e44-b71a-f422a8213885")
+			(layer "F.CrtYd")
+			(uuid "bce93264-523b-4820-9a1c-293ab493d7c0")
 		)
 		(fp_line
-			(start -0.525 -0.27)
-			(end 0.525 -0.27)
+			(start -0.93 -0.47)
+			(end 0.93 -0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c74c91e1-6000-4a40-b31e-1956f5967c46")
+		)
+		(fp_line
+			(start 0.93 -0.47)
+			(end 0.93 0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4756e43b-8f00-433f-9b51-67dab89e142b")
+		)
+		(fp_line
+			(start -0.525 0.27)
+			(end -0.525 -0.27)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "126d6413-eed9-4b61-b0a5-d6c9d7b6f7d1")
+			(uuid "81215834-bdb1-4908-867e-629bd09eda98")
 		)
 		(fp_line
 			(start 0.525 0.27)
@@ -6860,14 +5065,24 @@
 			(uuid "856d4211-bd8a-4020-af9f-5bbfdddfae8d")
 		)
 		(fp_line
-			(start -0.525 0.27)
-			(end -0.525 -0.27)
+			(start -0.525 -0.27)
+			(end 0.525 -0.27)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "81215834-bdb1-4908-867e-629bd09eda98")
+			(uuid "126d6413-eed9-4b61-b0a5-d6c9d7b6f7d1")
+		)
+		(fp_line
+			(start 0.525 -0.27)
+			(end 0.525 0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0560c3a2-6d89-4e44-b71a-f422a8213885")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
@@ -6881,7 +5096,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.51 0 90)
+			(at -0.51 0 270)
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -6890,7 +5105,7 @@
 			(uuid "ae855218-9ef6-483b-a723-678d75c1b09c")
 		)
 		(pad "2" smd roundrect
-			(at 0.51 0 90)
+			(at 0.51 0 270)
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -6900,111 +5115,6 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "662062f5-023d-4b29-9766-d7b60642c64f")
-		(at 154.7 67.5)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_SWD1"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "318b6abb-431a-4703-b922-1d64452b4185")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "464d3b94-744f-43e7-a036-4be0be1f2a28")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b1ca9ef5-7416-4c52-86ad-35bc7dc50f8a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "81f44071-5f35-474f-ab70-a54428c0d324")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/c8913bac-be0f-442f-84c0-728e21841e40")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "eb0184ea-5f20-4f24-846e-b3fa3b92640d")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "10d15c10-8386-4e44-8b9d-6718950b3926")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 104 "/SWD")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "4314fac9-1246-4ff6-974a-024b81e1ed48")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7120,430 +5230,10 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "7298c5ff-9dfb-43c9-aff1-8ebe5f683ade")
-		(at 153.7 71)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_TX2"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "b650cd33-96db-4856-8d72-edabc1fa743d")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "03b739f3-25e7-4aa1-bb64-5f069bba2464")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5d1b6ca2-ad00-40c6-abf6-cff0321c2d44")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "12d9eda5-d20a-49d2-9123-b53063e32832")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/9c52e65a-96d6-4fcd-9676-d05bd40344b3")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "ea63fe59-16aa-4af9-b40a-b653cbc58ecd")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "5dbbe918-4836-4b55-8cfb-551b279b0e3b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 77 "/UART2_TX")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "6ef8ba37-4943-4b45-b500-56a174208001")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "72b91d2c-97f0-4b1a-9728-40937e5fa139")
-		(at 147 102.9)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "GND"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "077ee88d-4109-44f2-b203-ecffed00f594")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "dc4448d5-e114-4219-a16d-a83919389fb8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3e81dc75-e77d-4db0-8579-dfc56b1fc4c8")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "62f4248f-72af-4881-b139-b9e5c13cff65")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/25eb570d-ff3b-41d3-8c38-1f4655b63a89")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "c0b396cd-d0bc-445b-8adf-9b18c85a699d")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "e2f59f9f-5e95-49e0-91a7-141400b49a2c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 2 "GND")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "4ab2c689-b095-43aa-8757-9311cabbe4a9")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "7515f45d-f3e6-4ef5-ac10-155db73a1dc5")
-		(at 146.1 71)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_S2"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "2d27d922-11d0-4004-a6e1-90bc96bd9a48")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "79ddf17b-eb37-4ead-9a32-61fab99b0375")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "53a7186e-6cf4-406f-af5c-4e3d09ba2c22")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f08f99ef-55ef-4e11-b026-de8e7bcd7d45")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/865902f8-79d6-4fc0-acdc-7c4f2d71a1ba")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "fc07df9c-5a42-49c7-a97b-b1f496c99a46")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "af3c2593-28bb-489a-a523-537418a08d67")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 72 "/S3")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "b55420d2-e99d-49e2-ae65-9f6e251b6552")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "766368eb-65ec-4f76-a50b-4fef96004c6b")
-		(at 154.6 102.9)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "TEL"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "9fa6b95a-f42c-4181-bd01-1ff198990502")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "fa29860c-100a-443d-98c3-42f7a29fb291")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d8d999c5-4600-4603-80db-4044a9c507d5")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7d1a8452-9520-4cfc-99b6-93706806d33d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/44970173-2338-49ba-8abb-80ddd13c2a9e")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "dba0f330-e35b-4c62-bd14-3decd38eda05")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "1dc45432-f779-40b4-9d9f-5cab4e9f9f85")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 34 "/TEL")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "e7b99f75-a7ee-4455-bcb1-88489471b8f6")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "777c5521-3a16-4c6d-9e85-6beea7da9ff3")
-		(at 154.45 81.475 180)
+		(at 154.5 81.9 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
@@ -7740,115 +5430,10 @@
 			)
 		)
 	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "782835f7-9e1a-4880-b6f1-9fa62c066e60")
-		(at 134.6 99.3)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "10V"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "efb18c08-e43f-42b4-b3ea-5e891c80468d")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "001ffa7b-93fc-453d-8704-8030fd978011")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "57272d72-c296-4629-a5aa-0f7bd9101d58")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d39f1c56-e564-4cd6-b407-5d0d26597191")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/ebc709a5-5c6a-4f38-b15a-208e5f835df4")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "05f7787d-3269-412f-b63d-d99e2ed19fb6")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "808c59b8-fe07-4bf2-b125-fd9e29ad0619")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 8 "+10V")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "5a719b1c-d0fc-4d9c-ba12-22d6aa91ac9a")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "7bc51c4e-2da2-4530-8288-444de6aa66ac")
-		(at 140.23 80.25 180)
+		(at 138.3 80.25 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C_DEC6"
@@ -8045,122 +5630,17 @@
 			)
 		)
 	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "7c636b48-4dab-47c3-8d0f-a35dfa68fd79")
-		(at 145.1 102.9)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "Curr"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "c9fe53e5-03f2-48f3-b9c7-082f7447449e")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "29b90219-a280-4dee-bf8c-85bb0ad17ad5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f1e3d237-327f-42fe-a274-55b183750b0b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1a69788f-fe3e-4baf-87ce-90d3b65efde8")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/50956450-c53b-4dab-80a0-4c23c60fce63")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "0e51e734-c1d5-4786-bdbb-a6009fd675d5")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "f4825951-76ce-48a1-a64e-9133ceb356df")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 36 "/ADC_Curr")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "54295ae2-a9cb-4140-8cfd-465baad72e06")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "Resistor_SMD:R_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "7f2bd5b6-7567-4f90-85f2-57e0556ac8fb")
-		(at 134.9 84.3 180)
+		(at 141 94.7 -90)
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R_VBAT2"
-			(at 0 -1.83 0)
+			(at 0 -1.83 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "5ed2a359-b0d6-4cd5-ae0f-b91d2fed4f1d")
+			(uuid "6558351f-2994-4398-8a09-0e3ecc5d737a")
 			(effects
 				(font
 					(size 1 1)
@@ -8169,9 +5649,9 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 0 1.83 0)
+			(at 0 1.83 90)
 			(layer "F.Fab")
-			(uuid "817f6acb-da7a-41c1-a7fa-cf0a3c3b9dec")
+			(uuid "2d6e3519-05b5-4a7b-a277-ffb10041e129")
 			(effects
 				(font
 					(size 1 1)
@@ -8180,10 +5660,10 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8ff0cf7b-5985-4c96-80fb-c1b67489bcc9")
+			(uuid "b887d68a-5da8-4d6b-8793-a58aa3aa7ef6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8192,10 +5672,10 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "db897369-425f-4457-bc51-0ae72aae1f75")
+			(uuid "46532b95-7812-4d64-b585-dd48d32cd35e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8229,26 +5709,6 @@
 			(uuid "464568be-152a-484d-b0e9-17b709724b51")
 		)
 		(fp_line
-			(start 2.28 1.13)
-			(end -2.28 1.13)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "652c666e-9557-402a-ba7a-8e44a439f4c8")
-		)
-		(fp_line
-			(start 2.28 -1.13)
-			(end 2.28 1.13)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "50a62410-1cbb-488b-9c70-c67222e22199")
-		)
-		(fp_line
 			(start -2.28 1.13)
 			(end -2.28 -1.13)
 			(stroke
@@ -8257,6 +5717,16 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "10cb1d11-ac17-401f-a265-53bb5ea9883b")
+		)
+		(fp_line
+			(start 2.28 1.13)
+			(end -2.28 1.13)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "652c666e-9557-402a-ba7a-8e44a439f4c8")
 		)
 		(fp_line
 			(start -2.28 -1.13)
@@ -8269,24 +5739,14 @@
 			(uuid "738718fe-c457-4e21-adb6-f8fd7226e940")
 		)
 		(fp_line
-			(start 1.6 0.8)
-			(end -1.6 0.8)
+			(start 2.28 -1.13)
+			(end 2.28 1.13)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "4c261a31-afb0-4271-a397-73a4e48cfd94")
-		)
-		(fp_line
-			(start 1.6 -0.8)
-			(end 1.6 0.8)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "07966120-c040-4c04-b969-401c5013908d")
+			(layer "F.CrtYd")
+			(uuid "50a62410-1cbb-488b-9c70-c67222e22199")
 		)
 		(fp_line
 			(start -1.6 0.8)
@@ -8299,6 +5759,16 @@
 			(uuid "4fefe44e-fbd4-43ff-824d-aa263a76bc62")
 		)
 		(fp_line
+			(start 1.6 0.8)
+			(end -1.6 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4c261a31-afb0-4271-a397-73a4e48cfd94")
+		)
+		(fp_line
 			(start -1.6 -0.8)
 			(end 1.6 -0.8)
 			(stroke
@@ -8308,8 +5778,18 @@
 			(layer "F.Fab")
 			(uuid "1730dd74-7943-4390-9a3d-ad1319b04070")
 		)
+		(fp_line
+			(start 1.6 -0.8)
+			(end 1.6 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "07966120-c040-4c04-b969-401c5013908d")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "702f1842-56ed-404d-9c9b-c134a5f8d7af")
 			(effects
@@ -8320,7 +5800,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.4625 0 180)
+			(at -1.4625 0 270)
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.222222)
@@ -8329,7 +5809,7 @@
 			(uuid "febf2fd5-9c20-4b0a-bc48-056cf12fd816")
 		)
 		(pad "2" smd roundrect
-			(at 1.4625 0 180)
+			(at 1.4625 0 270)
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.222222)
@@ -8339,321 +5819,6 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "7fef3c9b-379c-4f99-a03d-f6178fd464ee")
-		(at 141.3 102.9)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "CAM"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "59cf7ceb-1985-4e1a-b111-af1eb24e7203")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "bfd563aa-4a84-471f-b1a9-d1161471d1be")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a67a9df7-29f4-4026-b388-644183c74033")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b2355495-8464-4ff9-b22e-6b8eab33e8b5")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/90394f27-6cc6-4500-af80-feb371f851bb")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "980ff92d-f4bd-41c3-8f21-655d57bed622")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "c2e95b0e-def6-41e1-9536-2c8880690fdc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 13 "/VIN")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "40bf0062-2f3b-4a4d-9f96-d2ceadf164c7")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "8301e8ec-d76e-4023-bdd2-d116b146e1bf")
-		(at 134.9 124.8)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "5V"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "14bad3c0-eb11-427b-bb85-a1df15eaf862")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "e552c162-ccbb-4c2c-b377-af45c550c0e7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3d2e04f0-244c-47af-ad85-1330eb590b87")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "18bd647e-b8cd-4ee6-82f7-6909544a289b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/c5d15cbc-845c-4c3d-a8bb-2821658faa63")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "74262c66-f2ce-411f-a8ba-6dc4b9850373")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "9eb71133-b21b-42bc-bf24-e7d0d4744b30")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 5 "+5V")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "d90ee001-550b-4f4f-a096-11492b1ea63d")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "83bde707-1c3b-4be2-b7e3-4cead5ac3b97")
-		(at 145.6 126.7)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_GND5"
-			(at 0 -1.8 0)
-			(layer "F.SilkS")
-			(uuid "ca7421fd-c490-46b1-90da-9543be60152f")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "6959d4c3-74ed-4371-a8d1-08ec108e764f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "37376a0b-a953-4e0c-8aef-03b20e9f3908")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "471b016f-8ddd-4489-a48d-d658d9af589c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/c300f714-87c3-4b41-8fed-b71eebd2f2ce")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "f27547fa-a4d5-4407-8d20-404d69c734dd")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "fa314621-0c67-44ee-a974-b0dcb7b2cdcf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 5 "+5V")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "7083fdbd-690d-4dc5-820e-0d39612454dc")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9368,7 +6533,7 @@
 			(size 0.3 1.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 86 "/LED0")
+			(net 56 "/LED1")
 			(pinfunction "PB0")
 			(pintype "bidirectional")
 			(uuid "1e5e2b50-498f-45cf-b7f1-b95e540d3f8c")
@@ -9378,7 +6543,7 @@
 			(size 0.3 1.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 56 "/LED1")
+			(net 86 "/LED0")
 			(pinfunction "PB1")
 			(pintype "bidirectional")
 			(uuid "77ef4a7f-1c96-496a-9f8a-0fc748a88d9c")
@@ -9766,321 +6931,6 @@
 			)
 		)
 	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "846cfb77-a730-4744-9718-97eec2bd3340")
-		(at 137.6 67.5)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_GND7"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "21d6786f-d4d8-4c0c-97aa-34d37486b72c")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "31831962-7c1c-4f8a-abaf-c3ceabdde479")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c7be241a-615a-4e97-a4bb-c753c0d3e7b8")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e400b1ce-2ebe-477c-96b5-e702a63441da")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/4edeb109-cb07-400b-a615-fe6ae2cd2916")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "0948f0d1-685e-405c-803b-24a23ea7e804")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "d4f42ea8-1e2f-4f2d-aa71-c8572aaa496c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 2 "GND")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "0df08a46-2c89-4a73-90ec-2993d74165e8")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "868f239a-c91b-4ae0-8cf7-23d442ba9ce6")
-		(at 140.3 99.3)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "5V"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "7b9ab987-cb46-40e4-ba8f-e916071aa1a0")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "4715206b-a241-4b2e-b67a-0815e8355c17")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b7fabc7d-ab06-44c9-a513-fbe9a987e7be")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "aa2a178e-f52e-4d96-b613-d208690478bb")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/ed163787-e3c5-496c-a9ad-884405038bda")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "cada7cc1-d28b-48a7-a027-28c4535e0488")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "029ebf1e-0f0e-4c84-9c01-b61090265191")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 5 "+5V")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "71d10553-15d6-4731-946c-edd34ea40f40")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "881b8042-706e-4d91-a534-61124280f938")
-		(at 152.2 136.8)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_VBAT+1"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "49de096b-59d2-4cd8-8e8e-61e2449a6b12")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "76ea090a-c892-4585-a491-2f3f6dcb4abe")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6520bbe9-85c5-4c63-b209-ac1d5a19cfb4")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f3e008a9-5147-4740-b834-3fe9046928c8")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/f97b1861-e725-4afa-a61f-d254cfbf255d")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "ed819208-5337-4cde-9e14-cff2fa3a5caa")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "f39c5c26-73b4-49a4-b97d-aeb767281ac5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 16 "/VBAT+")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "4ba85828-5eb5-4de1-93cf-d5a9b35cf07a")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 		(layer "F.Cu")
 		(uuid "8a1288bd-2d31-4a2f-8f9b-ab0b837925ec")
@@ -10440,426 +7290,6 @@
 			)
 		)
 	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "8f09de4a-f78e-439f-894a-0cf1c5cb83fb")
-		(at 150.3 136.8)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_TX5"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "36d69a65-bf5a-40cb-90eb-45adb9684c72")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "d70f3d1b-8aaa-409f-8d0d-215d19f6d6cd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "23477a87-eb55-4777-ae12-6dfc2d161816")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "86e48332-06ec-43e1-8133-c5790e6782a8")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/8e8c729d-5ba5-44c4-85c7-c8bcc635ec8c")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "29269f42-da03-4474-ba54-4462e73fb49d")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "70bff087-9d09-4b59-9c0c-2e68a0fc6de9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 80 "/UART5_TX")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "3f5e239f-22d0-47a1-b24b-90e22354f49f")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "8fb2ce2b-cdeb-4d81-9cc6-d97dd085e355")
-		(at 137.5 102.9)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "5V"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "4bd61787-f51d-4ef0-9456-1f10bb3a97fd")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "9f251874-1bf5-4a8a-820f-3f054ff1c893")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9572d741-e52c-4e48-9d22-45d5c4772fe7")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "75666b64-497f-4eb8-a4ba-7f2ed8dba03d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/f6c7e384-d337-4f7c-994f-af6f93e7087f")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "cb9d5c6c-c924-4623-948e-631a8ebecfbf")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "426e1188-2732-412d-85e3-faa93165d4f8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 5 "+5V")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "f1c25d00-c6cb-4fe3-9ac7-4a6050b57056")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "91284700-5819-4d22-aafe-7f0e2b89edc6")
-		(at 151.8 71)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_TX1"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "c4a1d497-99cb-4f43-8f04-d39dbdad55a1")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "696f643b-de65-4af5-8d0e-0976f77965fe")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "68ccd6c1-daa4-4bb8-8a61-4b50244b2b52")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6f3996a4-d5e0-43d4-8f97-ddb551dfe363")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/300799bd-27a0-428f-874e-5224d357bd8a")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "62ec2907-4669-4d31-a673-b3fe369aa6ea")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "57c8735a-f79d-4a2d-b44d-31eac1fe4401")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 54 "/UART1_TX")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "9b6a87da-2479-433d-8a73-00db2e8c4115")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "9474328e-fc76-413f-9bbc-a6a66209575d")
-		(at 140.4 71)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_RX4"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "668f37a3-cff6-4156-9089-880d679ff3da")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "13bcbe76-664d-4b2d-baa5-af0fa60b55f9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "04be4405-2498-4a82-b194-fd09fb8ccfd3")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5bc76342-ca6e-4742-9abd-b8e95fcf94ab")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/86dba1e6-42e1-4a00-b6d3-7603df483ba8")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "c56f446e-914b-4438-808a-d200188f72df")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "e9259a2e-ffa2-4dd0-8332-746b1e483ff0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 68 "/UART4_RX")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "b0d60ae2-6920-436b-816a-45e0b19cf0cc")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "950d6a8a-b388-4cef-a05a-0d65a3d01c52")
@@ -11049,321 +7479,6 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "95a491b1-cfa1-4666-93d4-fe28f510bb18")
-		(at 153.6 99.3)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "GND"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "acb949fc-2ba5-45e6-8c24-d7913b2f4c6f")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "8b8ab0e9-2c4c-47dd-a900-f9914627b2c8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a0227e1d-a800-4827-b164-195e252d3866")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b435c267-6420-417c-b366-322fbaf2c1ef")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/44f6ae71-80d9-4371-b585-c62c782c2991")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "8f13f5af-6d84-4cca-9d18-67216cb40689")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "124db60a-6321-4071-9abb-98051269e874")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 2 "GND")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "d65ef018-cc7f-4ac1-b80f-2d57be2d0490")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "96402d1e-049a-4b2b-933d-7bd167c804b2")
-		(at 148 71)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_S3"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "f5b842e9-3cb7-4879-bb5a-cb886eb3e524")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "4ddc73be-5dc2-433a-a7aa-0c57700426df")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "89649bb9-9c05-448f-a744-59edf7ec7fb9")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2d78579c-4dc5-4a69-8ac5-4cb60b7c8b8f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/e307ef40-0c92-4f27-800e-edd4000d1dd2")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "ba761988-a5e6-48e9-a35e-aafb76312760")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "b8ead3d3-189d-4e4e-8c0a-e60313e6f534")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 71 "/S2")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "ccfb92c0-e66d-429e-b3ed-8df4c295e07b")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "96e72f2d-0c1e-4927-acff-3b0128d483c0")
-		(at 150.8 102.9)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "GND"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "50025438-4a40-48f7-8796-fdb92ab86233")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "295549a5-8148-4141-9042-b4b951488aff")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "763c2be7-4e10-4737-a9af-cc3c7a4fbfd0")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "136a2f33-9283-448f-b205-f9475e789035")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/20dee0f2-fa74-44ae-9463-cf972b5014b5")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "24abfe77-f4b3-4cdd-969a-ec3ad97ef182")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "3b1aeeb7-a5ad-4123-8a54-4a34261ca2e8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 2 "GND")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "e19b17d9-b1ce-49b5-8445-95046e0fc43f")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11616,223 +7731,13 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "9a960089-68ec-486c-968d-bee2c4f6b1c8")
-		(at 142.2 99.3)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "5V"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "7e4849ef-8f5b-4dee-9a70-1ffa97321949")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "99968808-c533-46dd-a682-e2ece0cda52c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5b122af9-fc18-4bdd-ab09-d2e486f92799")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "66333e22-1811-42a3-958b-79c149731210")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/cf9a3597-9344-4e3b-99f9-7cc3886b73c1")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "71e99f7b-9c83-480d-bf55-d528e42ee69d")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "0b17b36c-4b19-4f39-b62d-d2f685956602")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 5 "+5V")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "9ff44a20-b82d-4753-89ff-b077cc045c6d")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "9b77758d-c8bc-4510-b0cb-b1b3cf0bcccb")
-		(at 155.6 71)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_SDA1"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "6eaab26b-44c1-4a81-815f-ddac32bfda49")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "cc175062-577e-4920-ae9d-fc17d79310a2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d907fb38-efd5-459c-8869-ef6476f22344")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e902c4f3-9783-42fb-9b1c-089bb9548b9f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/2ffc5086-aa41-47fb-b383-4437882e7766")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "de170b4c-9f71-43cd-93ab-7a48ef1f51a9")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "ef7f95d2-0699-4d6b-a061-72e7ca38f1a0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 81 "/I2C2_SDA")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "b3114abb-23da-4d43-97af-4ca91cb114d6")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "9d0ab499-0a92-4273-8caf-028738cde8d6")
 		(at 128.7125 83.25 180)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
-		(property "Reference" "Gyro"
+		(property "Reference" "D_LED4"
 			(at -3.2875 0.05 0)
 			(layer "F.SilkS")
 			(uuid "2f776e17-af80-48ba-8ae9-08a9617fae07")
@@ -12049,111 +7954,6 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "9d0c54c0-b0fe-43b7-b0fb-476c33708777")
-		(at 148.9 102.9)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "GND"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "80c0e03f-6091-4741-90b7-00b540b109ab")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "abb6a39e-56c6-44b0-8b1d-34cf441181b5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c2a729cf-cbf0-4793-b68f-1e9ce19f845f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b0aa1756-2d79-4efa-8e1d-89fd05d99709")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/b6241d47-6760-48c0-9918-2f0a0f88dfb0")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "3b2b224f-685a-4863-8172-d3a21b99f88b")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "991d1d95-863c-4541-8244-7ab001e10ae0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 2 "GND")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "e49f5952-ed38-4fd8-b231-8a815908cbb7")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12746,328 +8546,13 @@
 			)
 		)
 	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "a1636029-14b3-4705-b1e7-5976c532e7e5")
-		(at 174.4 129.3)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_SWC1"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "983f83ab-7d5d-4801-8544-7b355698fe8b")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "f3ce6d30-ab87-4f4b-93f1-1317e0ca1d3a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5728bf13-8edb-4415-a666-043f6b3c4212")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "911a84bd-0cbd-48ed-bebd-f0e3fc30a379")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/a2fb42a0-0447-4d24-bfdb-a240f2ae152d")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "07cad1bb-e538-4694-8aa8-d5edf9212aa4")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "ad0495b0-0b2e-4c87-a9f2-368668180b03")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 95 "/SWC")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "7327fcdf-3337-4dbf-abdb-65e26cedf9a1")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "a2c48e5b-9c44-4a3d-afc7-6b48169e75b5")
-		(at 151.7 99.3)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "5V"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "2a555059-4580-4f2d-b3c4-082b363dff7e")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "e732ad5b-080c-4666-8554-8de1a277fa8d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dca736ac-bdfc-4a59-8ded-dff38f69a1dc")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bbdd2e76-e8cf-4472-b838-b972063e9f84")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/538e1d9e-6b6c-4733-b4e2-7e76b7da639f")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "1e603bbb-af12-46a0-99b9-317e3acfcdd2")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "99b9d1e5-2f9d-4e76-820e-afbcda381962")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 5 "+5V")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "4b402d5f-80b9-4673-b8de-c5140a294876")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "a3f00a97-d495-4cab-b5e0-adfcf35669c0")
-		(at 147.1 67.5)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_GND14"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "35c70b2a-7d46-4214-bf28-96b8d9b7785a")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "6cea1f5a-7711-4205-92d0-2bfdbe5cfb42")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "931ce2c8-39e6-4026-bb4e-54295dc1a32d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4091ec41-9e34-4d03-a7b1-e4eb0c7ad331")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/58bedfa5-fb65-4b15-b5b0-0deed1822a43")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "7231831d-3a20-4f0d-83a0-2c65394fb30f")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "1291953f-59d7-4ae0-aed5-92c7caed360c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 2 "GND")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "8aaf465a-5897-47e4-96e7-098eed7f848a")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "a8bbcbd1-5229-4c02-9852-f90e160b4699")
 		(at 128.7125 78 180)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
-		(property "Reference" "5V"
+		(property "Reference" "D_LED1"
 			(at -2.6 0.15 0)
 			(layer "F.SilkS")
 			(uuid "610fd8ed-7a4d-4133-bcc8-5347173be3c8")
@@ -13498,7 +8983,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "b22d84ca-bad7-460b-a87d-da9437dff306")
-		(at 160.3 91.3 180)
+		(at 158.9 91.2 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R_USB1"
@@ -13695,220 +9180,10 @@
 			)
 		)
 	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "b260b040-2a1e-4c95-a7a5-c64fffedc506")
-		(at 148.4 133)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_S8"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "63e3c62a-d743-45f8-9adc-fc2957957ddc")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "9bd733e9-f175-4a66-b029-8e914facc3e3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b63f592b-e153-4ab0-a061-7b53425e6b12")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f170fe86-71d2-4a13-a047-045a6fb9c503")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/d9f214a2-f00b-4dca-9a7c-1ad1c966c5c1")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "bc559d83-8ff8-483f-8058-1d974df9379f")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "ba7a654d-cca5-470d-9009-e6ad75e319e8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 73 "/S4")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "0c66b9d7-b963-418a-9d25-cea79d5241b0")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "b38428f8-0065-492c-979b-791b20d2bdc9")
-		(at 150.9 67.5)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_S5"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "33583ef2-0ff7-4638-ac16-5cd64194a074")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "4452dd37-503c-4f2d-9d8b-5be456889916")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "92e0d58a-22c8-407a-80e0-bae3aa74ceff")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d5c5bd48-b62d-4c3c-b0e1-272449d120d4")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/f548ddcf-4d56-4527-a310-5373ca0ee4ac")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "05ecfee4-88cf-452e-9b57-4607e7c977a5")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "6cd52b31-fda5-4727-8889-d2e360984908")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 70 "/S1")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "f49bbdb7-a785-4794-82a8-bed26f55716c")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "Connector_USB:USB_C_Receptacle_GCT_USB4110"
 		(layer "F.Cu")
 		(uuid "b4fc634e-94eb-4435-b627-5bd843c260c6")
-		(at 161 83.5 90)
+		(at 161.08 83.55 90)
 		(descr "USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A, https://gct.co/files/drawings/usb4110.pdf")
 		(tags "USB 2.0 C Type-C Receptacle SMD 16P 16C USB4110-GF-A")
 		(property "Reference" "J2"
@@ -14516,11 +9791,11 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "b700cb7c-926d-4dc3-a9b4-9c9988a34fb1")
-		(at 152.95 79.725 90)
+		(at 154.48 80.9)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C_DEC7"
-			(at 1.75 0.25 180)
+			(at 1.75 0.25 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "57d7ca95-42ff-4c4c-8d20-e494336893bf")
@@ -14532,7 +9807,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.16 90)
+			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "c6dfbd0b-9229-4412-b7ff-6b4e92b4dd5a")
 			(effects
@@ -14543,7 +9818,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "55c93b78-cd4f-43e2-9c3f-bb253d306740")
@@ -14555,7 +9830,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4f2d0982-d77a-47bb-97b4-2f3aab913f35")
@@ -14592,16 +9867,6 @@
 			(uuid "c2beb1aa-c83e-494f-974e-1bda08867638")
 		)
 		(fp_line
-			(start 0.91 -0.46)
-			(end 0.91 0.46)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "65dc8e7b-311b-44cc-94ec-102ef9515371")
-		)
-		(fp_line
 			(start -0.91 -0.46)
 			(end 0.91 -0.46)
 			(stroke
@@ -14610,16 +9875,6 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "885268f8-3fef-41b2-a371-ceea3fee4acb")
-		)
-		(fp_line
-			(start 0.91 0.46)
-			(end -0.91 0.46)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "bc7524cf-e830-42d5-bfc1-8d246b8a0d3a")
 		)
 		(fp_line
 			(start -0.91 0.46)
@@ -14632,14 +9887,24 @@
 			(uuid "4131f1cd-d7b8-47f2-a775-7e9a4c769fd8")
 		)
 		(fp_line
-			(start 0.5 -0.25)
-			(end 0.5 0.25)
+			(start 0.91 -0.46)
+			(end 0.91 0.46)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "8903db25-9593-4194-8af6-d9239e0955c9")
+			(layer "F.CrtYd")
+			(uuid "65dc8e7b-311b-44cc-94ec-102ef9515371")
+		)
+		(fp_line
+			(start 0.91 0.46)
+			(end -0.91 0.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bc7524cf-e830-42d5-bfc1-8d246b8a0d3a")
 		)
 		(fp_line
 			(start -0.5 -0.25)
@@ -14652,16 +9917,6 @@
 			(uuid "037a4333-dade-4dcf-b98b-50676b97c773")
 		)
 		(fp_line
-			(start 0.5 0.25)
-			(end -0.5 0.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "b017591b-73bf-4cf8-9be1-a4d829be66a8")
-		)
-		(fp_line
 			(start -0.5 0.25)
 			(end -0.5 -0.25)
 			(stroke
@@ -14671,8 +9926,28 @@
 			(layer "F.Fab")
 			(uuid "935d328d-17e5-469d-b19b-089346166674")
 		)
+		(fp_line
+			(start 0.5 -0.25)
+			(end 0.5 0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8903db25-9593-4194-8af6-d9239e0955c9")
+		)
+		(fp_line
+			(start 0.5 0.25)
+			(end -0.5 0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b017591b-73bf-4cf8-9be1-a4d829be66a8")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "cf05e082-d25e-4e8d-a0a1-b3fad3b1ef33")
 			(effects
@@ -14683,7 +9958,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.48 0 90)
+			(at -0.48 0)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -14692,7 +9967,7 @@
 			(uuid "25122d0e-b3b0-438c-8d4c-9a15c4a4e544")
 		)
 		(pad "2" smd roundrect
-			(at 0.48 0 90)
+			(at 0.48 0)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -14913,433 +10188,13 @@
 			)
 		)
 	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "bb009a94-46d1-43e9-b0a7-d770e2e9a8bc")
-		(at 136.6 71)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_RX2"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "f127bb42-2d78-459e-9dcd-d5211d55c1e8")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "3549627d-505e-4835-a323-3b441296aed8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cd72db95-c252-4571-9c31-3580aca8781e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1549cca0-79ac-4a30-8838-f1f85de7deb4")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/c395f9a7-b5d0-4da4-a5ed-ddf34efb4029")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "719b5ed7-4455-456b-bbab-28a48449064b")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "bf853c6f-4a6a-40e0-bdf5-48ef76ebce57")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 66 "/UART2_RX")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "9e20356e-73f7-4147-8dac-17064d1861f4")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "c06bca61-ccbd-46cb-b802-680475c8c90d")
-		(at 149 67.5)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_GND15"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "9496e056-2b69-4a7b-a09a-54111d810ec5")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "a03f3576-372f-47b8-9b32-926a4ff5e316")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2ad8cd25-0350-4ddf-a4bd-77d232ddffdb")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ca85cfa5-603b-4c98-bba2-d3a07def8909")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/92dd99f4-91d0-4150-87d9-1fc69873202c")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "6f383f0e-bd80-4312-aad9-49a62a66da06")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "b0af53ef-e466-403a-b1f6-4d0fa150b94d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 2 "GND")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "1af7b746-a74d-47f3-a156-ebd95b47e999")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "c4fa8c48-4cd7-4a25-a29e-be2258af0993")
-		(at 138.5 71)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_RX3"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "0e500e63-3941-4a49-9ffc-cda343134cf8")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "c3356c7d-5488-41e2-b9bd-f732b443290f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "50fdfbf1-b1c9-4d72-93d0-bd9aba4d3659")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "64b759fd-a4c6-478d-8ce0-789a01858c8f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/f3d20df4-0b12-431c-b41f-b70b6c1d4db6")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "60af1088-1f26-4cce-bff7-665a6e989767")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "dd87db2d-894e-486b-bf67-b57cdf83fae9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 67 "/UART3_RX")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "2c32eabc-6908-4bf1-9999-4e8d0f7056ef")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "c9819273-2084-4275-93af-8d4fe66658a9")
-		(at 135.6 102.9)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "5V"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "4d215e9a-f394-4a39-a976-e3f19bd55ec5")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "42b177f1-a5a1-47d5-8953-b81e24ad7489")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "795b3b64-b305-403e-ba49-0385b06db136")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "917116ab-f623-436a-85fa-dcd12e2b72bf")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/14f6a41a-759d-4e32-ae5a-8656b6537fa0")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "d5a859a3-a467-48b3-bd32-5ed344f3b05a")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "a43e2ee9-e30b-4f8a-9481-48b63eed061d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 5 "+5V")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "c82d8e57-2fe1-4ba8-8bee-6df30e8bae2f")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "c9b7d5ad-044b-42bc-9764-b420c95d8ce8")
 		(at 128.7125 74.5 180)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
-		(property "Reference" "FC 1"
+		(property "Reference" "D_LED5"
 			(at -3.5 0 0)
 			(layer "F.SilkS")
 			(uuid "1de8b89d-2278-4e3b-845b-2d595e458ad6")
@@ -15746,14 +10601,14 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "d1997d08-5112-4280-a056-ec6acff35dd7")
-		(at 149.805 76.19 -90)
+		(at 148.495 93.51 90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R_I2C1"
-			(at 0 -1.17 270)
+			(at 0 -1.17 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "04321166-69da-4250-9189-1a8587c6b942")
+			(uuid "a908335d-9c35-4f5b-87f2-29d48c30f549")
 			(effects
 				(font
 					(size 1 1)
@@ -15762,9 +10617,9 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 0 1.17 270)
+			(at 0 1.17 90)
 			(layer "F.Fab")
-			(uuid "f4536952-3363-4a26-97db-d362a343b55f")
+			(uuid "58da27f8-b7c3-4cc7-a3bd-2243e9b07150")
 			(effects
 				(font
 					(size 1 1)
@@ -15773,10 +10628,10 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "92a1d2c5-0d4a-46c4-98e8-ac822849ea05")
+			(uuid "11466fa6-997a-4a79-836c-9aff1dd0cb9f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15785,10 +10640,10 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "af42b3f5-d803-41e1-8459-f250053ee8f9")
+			(uuid "d643e84d-6339-476f-b995-b19ae320afc5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15802,16 +10657,6 @@
 		(sheetfile "Flight Controller.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.153641 0.38)
-			(end 0.153641 0.38)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "0844783c-304f-45f2-9cb0-71d3d8527d0c")
-		)
-		(fp_line
 			(start -0.153641 -0.38)
 			(end 0.153641 -0.38)
 			(stroke
@@ -15822,34 +10667,14 @@
 			(uuid "41c7f58a-8cdb-4250-b58a-e59f63306f01")
 		)
 		(fp_line
-			(start -0.93 0.47)
-			(end -0.93 -0.47)
+			(start -0.153641 0.38)
+			(end 0.153641 0.38)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "3733c587-f020-4bcb-ada3-b8143c275cf9")
-		)
-		(fp_line
-			(start 0.93 0.47)
-			(end -0.93 0.47)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "c841fae6-a335-4c39-bac5-2e962325a1ca")
-		)
-		(fp_line
-			(start -0.93 -0.47)
-			(end 0.93 -0.47)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "f3fffbeb-980e-4891-a4d3-ce91450a9427")
+			(layer "F.SilkS")
+			(uuid "0844783c-304f-45f2-9cb0-71d3d8527d0c")
 		)
 		(fp_line
 			(start 0.93 -0.47)
@@ -15862,24 +10687,44 @@
 			(uuid "3d6a1016-8b7d-4869-93dd-91cd0e945a43")
 		)
 		(fp_line
-			(start -0.525 0.27)
-			(end -0.525 -0.27)
+			(start -0.93 -0.47)
+			(end 0.93 -0.47)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "9b6e5a4e-3d37-4b79-868c-b3e90ce06f7b")
+			(layer "F.CrtYd")
+			(uuid "f3fffbeb-980e-4891-a4d3-ce91450a9427")
 		)
 		(fp_line
-			(start 0.525 0.27)
-			(end -0.525 0.27)
+			(start 0.93 0.47)
+			(end -0.93 0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c841fae6-a335-4c39-bac5-2e962325a1ca")
+		)
+		(fp_line
+			(start -0.93 0.47)
+			(end -0.93 -0.47)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3733c587-f020-4bcb-ada3-b8143c275cf9")
+		)
+		(fp_line
+			(start 0.525 -0.27)
+			(end 0.525 0.27)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "5578b45e-414b-4921-8946-d2ae1ea90b10")
+			(uuid "19238ae3-69ca-4496-81fb-eec43c7292f4")
 		)
 		(fp_line
 			(start -0.525 -0.27)
@@ -15892,17 +10737,27 @@
 			(uuid "fec3d67f-6dcd-4b86-9897-38e6efb5128f")
 		)
 		(fp_line
-			(start 0.525 -0.27)
-			(end 0.525 0.27)
+			(start 0.525 0.27)
+			(end -0.525 0.27)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "19238ae3-69ca-4496-81fb-eec43c7292f4")
+			(uuid "5578b45e-414b-4921-8946-d2ae1ea90b10")
+		)
+		(fp_line
+			(start -0.525 0.27)
+			(end -0.525 -0.27)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9b6e5a4e-3d37-4b79-868c-b3e90ce06f7b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "8fbf68f1-55c1-4166-815d-da58825f61c0")
 			(effects
@@ -15913,7 +10768,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.51 0 270)
+			(at -0.51 0 90)
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -15922,7 +10777,7 @@
 			(uuid "26522cae-77a6-4972-943a-c9f04e90afa9")
 		)
 		(pad "2" smd roundrect
-			(at 0.51 0 270)
+			(at 0.51 0 90)
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -15946,7 +10801,7 @@
 	(footprint "Pads:FAFO_LOGO"
 		(layer "F.Cu")
 		(uuid "d1b531f3-677f-4b05-8806-9b3684dcbb1d")
-		(at 160.1 95.3)
+		(at 160.6 94.5)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -15966,7 +10821,7 @@
 			(uuid "760413f2-a02f-455d-a4eb-ebc42cfd8f11")
 			(effects
 				(font
-					(size 1.5 1.5)
+					(size 2 2)
 					(thickness 0.3)
 				)
 			)
@@ -16230,321 +11085,6 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "d73068fe-ff33-4719-8ef1-8dd96ddec74e")
-		(at 142.3 71)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_RX5"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "d0855f15-81bb-490b-b8cc-870466b60968")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "7f34f3d0-51ee-44e2-97fb-593dcc525284")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a3ea9122-17e4-477b-a34f-7ddd961ead20")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "12792964-249e-46ad-8e2d-364e907ee9ce")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/daa885f8-20a4-4b16-b5e8-621442700325")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "f8a4fe54-0d30-4a28-92f7-1ff4c270286a")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "facec1d3-363d-4b55-b7da-5f0dbafa6026")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 69 "/UART5_RX")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "fd73ed10-a462-45c3-8d4c-084457345926")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "d7551b36-670f-4df8-88f4-4966af58665a")
-		(at 150.3 133)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_SBUS1"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "3e6fe0f4-ba83-429b-a473-892bc6759f86")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "f0528e80-560e-4e1d-9dce-118d8e7e03b7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9d0e0801-aa12-4b01-898c-70585897e886")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e02381d6-4500-4dff-9764-f7dc3e4f6b2d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/5ab17c04-a1cf-4a2a-965c-e0bdb09655e6")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "e4255930-d242-4f5d-806a-b6877b077bcf")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "95dc7a54-896b-46bc-bfe9-07b2b047c887")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 59 "/SBUS")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "f6f39ee8-8df7-4ff2-81a2-9a891d1962b4")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "d974641c-8597-48f2-826f-0a6c52fe3821")
-		(at 146 99.3)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "5V"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "6f66a094-3adb-4eb7-b7cb-6229e2ef5b80")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "439671fe-6166-4a1b-a4cb-8c56a04a6d19")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "03eefb7b-2de3-4226-9554-d2f921294901")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "02c184d1-343a-478f-8e10-b12b3e2d6743")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/ecca468e-ca85-4ca8-b72e-f62e2c18ddde")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "dd9407b2-42d0-4800-a010-736105f0d1c2")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "5a45754b-61dc-43d5-9d27-23738ecab405")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 5 "+5V")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "af8fce74-6ab3-4b9c-a4dd-9f20800c5318")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 		(layer "F.Cu")
 		(uuid "d9ece986-6a07-4008-96e1-fd2801668445")
@@ -16648,111 +11188,6 @@
 			(uuid "e10fa0a6-b2e2-4f27-91b1-0a17dd164cec")
 		)
 		(embedded_fonts no)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "da0b644c-41cc-445b-8198-fe660fc74d89")
-		(at 155.5 99.3)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "VTX"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "57d42944-80f9-44db-b3e7-d02e029c6d34")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "08891cb2-77e4-4ec8-9858-18cdbae669f3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2baf89fc-3318-4280-bbf7-126d77edfc71")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5b5d3dcb-e1e6-4299-a37a-04a163ea0cda")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/cdeab01f-bab4-42d3-ad17-65f46e2a3683")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "20ce1408-46da-41c1-83f4-469829557022")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "5425043a-4371-41e3-abd5-87f1f34ee046")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 57 "/VOUT")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "59553e84-23e7-4f41-9bf8-0b069ed1316a")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
@@ -16954,224 +11389,14 @@
 			)
 		)
 	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "dba6a9fb-9e96-4bd7-81ee-7203c382fa7f")
-		(at 143.2 102.9)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "CC"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "a79663e9-d24e-4de7-b7f2-9e7ab1348576")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "ce36a193-3293-428f-baef-4ce1ad4f0dd0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e2e370d2-a434-496d-863d-2c4db89dc549")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c7a00f8f-478f-49d2-8c2c-b18ae41cc8f3")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/5b487d3b-ad5c-44ca-90a0-a60b101089b6")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "7c5e896d-b3f9-405d-991a-6e998898d6b0")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "2edfb3f6-0162-4b69-8208-5b4f1d19c943")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 64 "Net-(R_CC1-Pad2)")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "d17318ed-a0f9-4952-9cd8-638748578327")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "dd166d6a-ed84-49bb-8caa-a4598b931fec")
-		(at 154.1 136.8)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_VBAT+2"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "2655889b-610f-4ca0-a4a7-d6fdc8a39b32")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "aba29d6a-7f5e-4302-ac72-3e9f44b8d896")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "508514f9-a7ac-48c2-9f5d-e4b3b1855377")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9e674927-f809-4a5f-b5d5-e8971717a243")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/1081d85d-3c65-4b19-acf5-bc937ee87247")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "845604f0-b3c7-4d14-971c-6c97d0e43a2f")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "8573a67f-8e66-4a5d-b2af-ab3cb83b32ea")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 16 "/VBAT+")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "eb040c36-9212-4f9c-9e20-18749fb5c813")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "e0ae47bb-7754-4b79-9902-ba5edf595e0f")
-		(at 149.97 92.55 180)
+		(at 150.9 92.9 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C_DEC3"
-			(at -2.9125 3.5975 270)
+			(at -2.9125 3.5975 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "59b290c3-b98c-42a9-b4b8-b6817999f941")
@@ -17183,7 +11408,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.16 0)
+			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "b8f1140f-0f80-4a81-8a19-04c27f25a72a")
 			(effects
@@ -17194,7 +11419,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 180)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3943de11-a934-4d35-8b4b-55c217b1b436")
@@ -17206,7 +11431,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 180)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c9329d52-3c24-4460-bc24-44efd8bb9a77")
@@ -17243,26 +11468,6 @@
 			(uuid "cc1d0f43-e499-49c4-a0ce-b0d0fcd9e4f3")
 		)
 		(fp_line
-			(start 0.91 0.46)
-			(end -0.91 0.46)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "88ce3d4d-6395-4bec-8286-63b6a9b07c08")
-		)
-		(fp_line
-			(start 0.91 -0.46)
-			(end 0.91 0.46)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "d0fcd45e-8f88-4e47-a1f9-75556369e7d0")
-		)
-		(fp_line
 			(start -0.91 0.46)
 			(end -0.91 -0.46)
 			(stroke
@@ -17271,6 +11476,16 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "1a109ab9-adde-43a5-98e6-46e7096c1181")
+		)
+		(fp_line
+			(start 0.91 0.46)
+			(end -0.91 0.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "88ce3d4d-6395-4bec-8286-63b6a9b07c08")
 		)
 		(fp_line
 			(start -0.91 -0.46)
@@ -17283,24 +11498,14 @@
 			(uuid "4a1adb82-a0e3-467f-a63f-63f0b13877ee")
 		)
 		(fp_line
-			(start 0.5 0.25)
-			(end -0.5 0.25)
+			(start 0.91 -0.46)
+			(end 0.91 0.46)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "68c7c456-be02-44bc-8391-7d6e6a38ca99")
-		)
-		(fp_line
-			(start 0.5 -0.25)
-			(end 0.5 0.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "f0bd8892-bd15-4455-a5b6-7545fddadb4e")
+			(layer "F.CrtYd")
+			(uuid "d0fcd45e-8f88-4e47-a1f9-75556369e7d0")
 		)
 		(fp_line
 			(start -0.5 0.25)
@@ -17313,6 +11518,16 @@
 			(uuid "21f387f6-2db1-48c2-b1de-e1fc140e0555")
 		)
 		(fp_line
+			(start 0.5 0.25)
+			(end -0.5 0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "68c7c456-be02-44bc-8391-7d6e6a38ca99")
+		)
+		(fp_line
 			(start -0.5 -0.25)
 			(end 0.5 -0.25)
 			(stroke
@@ -17322,8 +11537,18 @@
 			(layer "F.Fab")
 			(uuid "c7c0b11b-6a0e-43d7-ae76-51577d95ce7f")
 		)
+		(fp_line
+			(start 0.5 -0.25)
+			(end 0.5 0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f0bd8892-bd15-4455-a5b6-7545fddadb4e")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "d86d6d17-b24d-40f2-aa35-aa9cd5a8081b")
 			(effects
@@ -17334,7 +11559,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.48 0 180)
+			(at -0.48 0 270)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -17343,7 +11568,7 @@
 			(uuid "f1b68b69-d43d-4e5d-996e-2bd375fc1111")
 		)
 		(pad "2" smd roundrect
-			(at 0.48 0 180)
+			(at 0.48 0 270)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -18077,111 +12302,6 @@
 			)
 		)
 	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "f08608bd-69de-4cd0-b1b4-ab61b3c5da4d")
-		(at 161.2 126.4)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "VBAT"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "cc6dde4e-c94e-427b-ba09-ead4571ff473")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "29afe171-4201-4474-a2a3-7e5c8add2234")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9bb17f48-7ccb-423a-aef4-e849cf17f912")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "878c4ae3-7f22-4469-941e-cd644f2b88f5")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/a3f4e0e0-7e65-4f1c-bfd2-4c5cbc8dbd72")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "0b6d11dd-6218-444b-8e20-8f3ea3f94890")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "fcf2b73c-b36f-47c1-a70c-019c7fde2a84")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 2 "GND")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "74e66ea2-6177-4d57-bf0b-b7a822c5bce8")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "Wurth-Elektronik:744393465120"
 		(layer "F.Cu")
 		(uuid "f11a2098-5261-442c-b97d-c7dd5b100070")
@@ -18334,216 +12454,6 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Coilcraft_XAL6020-XXX.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "f681fc17-3f8f-4c32-9438-4b62c032ece3")
-		(at 144.1 99.3)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "5V"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "a24845ff-4105-4204-8fbf-730d02e3dfad")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "5575c6c0-b9d1-4570-b457-523f5b34ce48")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "28180665-9377-41cc-837a-2a22d53db567")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "35b1469a-91de-41b6-9866-52127ef18341")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/3100a5ee-eab0-4cdc-a942-f384b3336f55")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "80d0ca38-1334-4906-841a-d9869e977c3a")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "253a94c3-bfb2-4dfa-bcd7-61f4ac2c4392")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 5 "+5V")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "d49c2084-40f5-4851-9352-1e8be68b1ab5")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "f81f311d-4116-4fdd-9598-7982b921754b")
-		(at 145.2 67.5)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_GND13"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "46df2f6d-d3ba-4200-8e11-00ca07400a85")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "11ca7544-7f42-4652-8487-f73d492f236c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d5b06b9e-8f96-4fe2-b8e8-404bcd0fa698")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "603acbed-6e38-4538-93fc-3b3cb60af5b9")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/6409ea59-5a6b-4bfb-b8e1-2422d3df2a9b")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "8a0acc71-6225-4870-bf45-e88c99d418ef")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "6a020d68-f30a-4310-8afc-f8d7dd704e0f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 2 "GND")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "1d999116-2560-4ad0-bb6c-8704afc2bd1e")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18758,14 +12668,14 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "fc888183-ce48-45de-90df-ccde72b28cc5")
-		(at 135.6 86)
+		(at 142.7 95.5 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C_VBAT1"
-			(at 0 -1.16 0)
+			(at 0 -1.16 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "54dbae0d-672e-4055-ad81-baaeb759daef")
+			(uuid "e875ccd3-aa59-47d8-8c98-174f1b5c2018")
 			(effects
 				(font
 					(size 1 1)
@@ -18774,9 +12684,9 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.16 0)
+			(at 0 1.16 90)
 			(layer "F.Fab")
-			(uuid "b79ea039-2bad-4c78-aa68-86da0817083b")
+			(uuid "1e3550be-5cfe-4a00-b067-3945b0e897aa")
 			(effects
 				(font
 					(size 1 1)
@@ -18785,10 +12695,10 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b5bd1105-92e6-4bac-ad09-5424c3cc502a")
+			(uuid "bf82b686-ab63-47c3-93da-cf7fd2b45546")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18797,10 +12707,10 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0cf58ce9-4a13-46aa-886d-ab0f7563161b")
+			(uuid "b41f48d3-a25f-44a1-bafe-08eb72d2da70")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18834,26 +12744,6 @@
 			(uuid "e72f2206-0bc7-4c2b-90ae-476bd329d768")
 		)
 		(fp_line
-			(start -0.91 -0.46)
-			(end 0.91 -0.46)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "f421ade6-9069-462a-a5a8-039ebf4ea32b")
-		)
-		(fp_line
-			(start -0.91 0.46)
-			(end -0.91 -0.46)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "776de79c-54e6-4841-8048-a485f945db84")
-		)
-		(fp_line
 			(start 0.91 -0.46)
 			(end 0.91 0.46)
 			(stroke
@@ -18862,6 +12752,16 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "bb9526d1-5963-4a93-b7fe-7de8f6f09cea")
+		)
+		(fp_line
+			(start -0.91 -0.46)
+			(end 0.91 -0.46)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f421ade6-9069-462a-a5a8-039ebf4ea32b")
 		)
 		(fp_line
 			(start 0.91 0.46)
@@ -18874,24 +12774,14 @@
 			(uuid "6e1f4865-3fe7-41e8-b07b-3de87623934a")
 		)
 		(fp_line
-			(start -0.5 -0.25)
-			(end 0.5 -0.25)
+			(start -0.91 0.46)
+			(end -0.91 -0.46)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "1cc7eefa-c9d3-4ba5-af89-aa7555a65dc6")
-		)
-		(fp_line
-			(start -0.5 0.25)
-			(end -0.5 -0.25)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "e65dd9c5-d919-4826-96be-4ce40e58cffd")
+			(layer "F.CrtYd")
+			(uuid "776de79c-54e6-4841-8048-a485f945db84")
 		)
 		(fp_line
 			(start 0.5 -0.25)
@@ -18904,6 +12794,16 @@
 			(uuid "7198bac9-d9c0-4d5d-b442-79aeefa173ee")
 		)
 		(fp_line
+			(start -0.5 -0.25)
+			(end 0.5 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1cc7eefa-c9d3-4ba5-af89-aa7555a65dc6")
+		)
+		(fp_line
 			(start 0.5 0.25)
 			(end -0.5 0.25)
 			(stroke
@@ -18913,8 +12813,18 @@
 			(layer "F.Fab")
 			(uuid "6984923c-4ed4-43c1-8926-e8d7e883ce6e")
 		)
+		(fp_line
+			(start -0.5 0.25)
+			(end -0.5 -0.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e65dd9c5-d919-4826-96be-4ce40e58cffd")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "00509454-a423-4eb2-b028-20ac55f11255")
 			(effects
@@ -18925,7 +12835,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.48 0)
+			(at -0.48 0 90)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -18934,7 +12844,7 @@
 			(uuid "00e54840-1525-4115-af71-b7193b9242d2")
 		)
 		(pad "2" smd roundrect
-			(at 0.48 0)
+			(at 0.48 0 90)
 			(size 0.56 0.62)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -18958,7 +12868,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "fc8e5496-dbd5-445a-a3ed-d15193e622ad")
-		(at 160.75 75.9 180)
+		(at 158.6 75.9 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R_USB2"
@@ -19144,111 +13054,6 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Pads:Solder_Pad_SMD"
-		(layer "F.Cu")
-		(uuid "fd77f18e-842b-4234-aad0-50ea507ceaf5")
-		(at 149.8 99.3)
-		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
-		(tags "solder Pin_ press fit")
-		(property "Reference" "5V"
-			(at 0.05 -1.75 0)
-			(layer "F.SilkS")
-			(uuid "6e39f0bb-7b81-498d-9c3d-f12c3d77fe62")
-			(effects
-				(font
-					(size 0.35 0.35)
-					(thickness 0.0875)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at -0.25 -5.15 0)
-			(layer "F.Fab")
-			(uuid "df0ba7ea-8c0c-436b-a132-b640b9e27243")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d03d385b-4730-46ed-9c6d-77a3add10546")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8660cef2-1e23-4999-8f06-e182c0ed048a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Pin* Test*")
-		(path "/01849c70-ac74-42d7-9b9c-9a7743395e29")
-		(sheetname "/")
-		(sheetfile "Flight Controller.kicad_sch")
-		(attr through_hole)
-		(fp_rect
-			(start -0.85 -1.35)
-			(end 0.85 1.35)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "c4fd7932-f52b-4b20-bffa-9f9894973c38")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.1 4.2 0)
-			(layer "F.Fab")
-			(uuid "4bb367ef-32fa-4e70-a950-5ce653724c45")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at 0 0)
-			(size 1 2)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.125)
-			(net 5 "+5V")
-			(pinfunction "1")
-			(pintype "passive")
-			(uuid "2d7c6654-bfa9-4039-bc37-8b3915ddd061")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -20973,7 +14778,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "29086991-34e7-4e61-b259-bd72add87eed")
-		(at 144.3051 71.545 90)
+		(at 144.3051 71.4 90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R_FLASH2"
@@ -22041,7 +15846,7 @@
 	(footprint "AWSCR-27.00CV-T :E2X270061X04"
 		(layer "B.Cu")
 		(uuid "59cd08db-6ee0-4f14-a359-c890b26d85cb")
-		(at 150.6 95.8 -90)
+		(at 150.55 96.4 -90)
 		(property "Reference" "Y2"
 			(at 2.175 0.075 180)
 			(unlocked yes)
@@ -22239,7 +16044,7 @@
 			)
 			(polygon
 				(pts
-					(xy 149.6 94.55) (xy 149.6 97.05) (xy 151.6 97.05) (xy 151.6 94.55)
+					(xy 149.55 95.15) (xy 149.55 97.65) (xy 151.55 97.65) (xy 151.55 95.15)
 				)
 			)
 		)
@@ -22248,7 +16053,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "5e2ff9ec-6244-406e-999b-60a6585f74ca")
-		(at 130.175 81.75)
+		(at 128.7125 81.5)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R_LED3"
@@ -23133,7 +16938,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "749e6d21-8e45-4511-b616-cfe445e7872d")
-		(at 130.175 78.25)
+		(at 128.7125 78)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R_LED1"
@@ -24290,7 +18095,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "7d10ef87-34db-4307-9eb8-74d0a0d0bd6f")
-		(at 133.65 69.05 -90)
+		(at 133.65 69.1 -90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R_FLASH1"
@@ -24903,7 +18708,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "903a02cc-cad7-40e4-b1e9-b607e515a3cc")
-		(at 130.175 76.5)
+		(at 128.7125 76.25)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R_LED6"
@@ -25573,7 +19378,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "98b82344-bc8d-475d-b639-8cb0c0c0e0cb")
-		(at 130.175 83.5)
+		(at 128.7125 83.25)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R_LED4"
@@ -27949,7 +21754,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "c4874b66-b666-4cc6-8ad5-d295cebc2f1f")
-		(at 130.175 74.75)
+		(at 128.7125 74.5)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R_LED5"
@@ -28561,14 +22366,14 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "B.Cu")
 		(uuid "e5b39411-eb80-4d72-9496-819127a073f1")
-		(at 142.5 85.1875 90)
+		(at 146.3 82.8375 90)
 		(descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "D2"
 			(at 0 2.4 90)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "083bc58c-b578-4a55-bcf2-e25fc2c89ca5")
+			(uuid "60008ede-5723-4ade-829e-9ebd09cbe481")
 			(effects
 				(font
 					(size 1 1)
@@ -28580,7 +22385,7 @@
 		(property "Value" "BAT54C"
 			(at 0 -2.4 90)
 			(layer "B.Fab")
-			(uuid "6266c983-7434-41e8-8960-0b539d93c878")
+			(uuid "1fd22552-3354-4655-a5ec-88c40a8145aa")
 			(effects
 				(font
 					(size 1 1)
@@ -28593,7 +22398,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4821464f-9be0-4f98-8075-da7141d9c286")
+			(uuid "11547e9a-d3f9-4383-bf1c-825d2a8f90a8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28605,7 +22410,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4c3acb8a-4cb6-4d9e-be71-a3e68f14e7c3")
+			(uuid "eb2e6b56-bb01-44b1-9995-19b2ca441c39")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28803,7 +22608,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "ed5f84fd-d003-4fb8-9c27-839890b576e6")
-		(at 130.175 80)
+		(at 128.7125 79.75)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R_LED2"

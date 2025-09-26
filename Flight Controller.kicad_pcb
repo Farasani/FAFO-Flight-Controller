@@ -265,7 +265,7 @@
 	(footprint "Pads:Solder_Pad_SMD"
 		(layer "F.Cu")
 		(uuid "0007d832-ed5c-405c-941f-c7316c973fbb")
-		(at 168.9 77.2)
+		(at 156.5 52.2)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
 		(property "Reference" "TP_LED1"
@@ -370,7 +370,7 @@
 	(footprint "Pads:Solder_Pad_SMD"
 		(layer "F.Cu")
 		(uuid "008f5dc0-aa5a-4481-b0c8-4ee1e462a9ce")
-		(at 150.8 70.3 180)
+		(at 149.6 44.2 180)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
 		(property "Reference" "3.3V"
@@ -1585,7 +1585,7 @@
 	(footprint "Pads:Solder_Pad_SMD"
 		(layer "F.Cu")
 		(uuid "0d086008-40dc-4bfe-9882-0655f6134dd0")
-		(at 169.65 73.95)
+		(at 158.5 52.2)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
 		(property "Reference" "TP_5V7"
@@ -3667,7 +3667,7 @@
 	(footprint "Pads:Solder_Pad_SMD"
 		(layer "F.Cu")
 		(uuid "2f8b0f4d-d215-4455-b49c-d72e20d4e04d")
-		(at 143.8 66.8 180)
+		(at 142.6 40.7 180)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
 		(property "Reference" "SBUS"
@@ -4373,7 +4373,7 @@
 	(footprint "Pads:Solder_Pad_SMD"
 		(layer "F.Cu")
 		(uuid "4324cd0d-5c5a-45c6-81d4-e6d4c0526241")
-		(at 141.8 66.8 180)
+		(at 140.6 40.7 180)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
 		(property "Reference" "5V"
@@ -4479,7 +4479,7 @@
 	(footprint "Pads:Solder_Pad_SMD"
 		(layer "F.Cu")
 		(uuid "43529b8f-e8c3-4d9f-909d-cfd50f97ce93")
-		(at 151.8 66.8 180)
+		(at 150.6 40.7 180)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
 		(property "Reference" "Buz"
@@ -5100,7 +5100,7 @@
 	(footprint "Pads:Solder_Pad_SMD"
 		(layer "F.Cu")
 		(uuid "5190a2c5-f4c8-474a-aace-65d3efb55be0")
-		(at 147.8 66.8 180)
+		(at 146.6 40.7 180)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
 		(property "Reference" "SWC"
@@ -6206,7 +6206,7 @@
 	(footprint "Pads:Solder_Pad_SMD"
 		(layer "F.Cu")
 		(uuid "647458f8-d9e2-4a2f-9ef4-1a2af03b1dbd")
-		(at 149.8 66.8 180)
+		(at 148.6 40.7 180)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
 		(property "Reference" "GND"
@@ -6512,7 +6512,7 @@
 	(footprint "Pads:Solder_Pad_SMD"
 		(layer "F.Cu")
 		(uuid "66dcc183-e9dc-4468-a3aa-390437671c55")
-		(at 140.8 70.3 180)
+		(at 139.6 44.2 180)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
 		(property "Reference" "RX"
@@ -7517,7 +7517,7 @@
 	(footprint "Pads:Solder_Pad_SMD"
 		(layer "F.Cu")
 		(uuid "8020f6fc-375a-499e-92a0-cc6e7bbfb169")
-		(at 146.8 70.3 180)
+		(at 145.6 44.2 180)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
 		(property "Reference" "3.3V"
@@ -9188,7 +9188,7 @@
 	(footprint "Pads:Solder_Pad_SMD"
 		(layer "F.Cu")
 		(uuid "8ecbbd0e-3057-45a0-817e-04b11e08d271")
-		(at 171.6 77.25)
+		(at 160.5 52.2)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
 		(property "Reference" "TP_GND8"
@@ -9398,7 +9398,7 @@
 	(footprint "Pads:Solder_Pad_SMD"
 		(layer "F.Cu")
 		(uuid "900b461d-b1fc-4543-89ba-f105d1f8398d")
-		(at 142.8 70.3 180)
+		(at 141.6 44.2 180)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
 		(property "Reference" "TX"
@@ -9504,7 +9504,7 @@
 	(footprint "Pads:Solder_Pad_SMD"
 		(layer "F.Cu")
 		(uuid "916c752d-bb7d-4cbe-ab98-0798c90f36fb")
-		(at 136.8 70.3 180)
+		(at 135.6 44.2 180)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
 		(property "Reference" "RX"
@@ -10261,7 +10261,7 @@
 	(footprint "Pads:Solder_Pad_SMD"
 		(layer "F.Cu")
 		(uuid "9b60ecc0-678e-4dc1-a920-226f4f557443")
-		(at 139.8 66.8 180)
+		(at 138.6 40.7 180)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
 		(property "Reference" "GND"
@@ -11287,7 +11287,7 @@
 	(footprint "Pads:Solder_Pad_SMD"
 		(layer "F.Cu")
 		(uuid "a3751283-df90-452e-9516-2d4e33479f67")
-		(at 138.8 70.3 180)
+		(at 137.6 44.2 180)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
 		(property "Reference" "TX"
@@ -13056,7 +13056,7 @@
 	(footprint "Pads:Solder_Pad_SMD"
 		(layer "F.Cu")
 		(uuid "b8249aad-df08-4d1e-883e-fd5bbb8ab5ba")
-		(at 152.8 70.3 180)
+		(at 151.6 44.2 180)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
 		(property "Reference" "GND"
@@ -14077,7 +14077,7 @@
 	(footprint "Pads:Solder_Pad_SMD"
 		(layer "F.Cu")
 		(uuid "d5892393-85f6-4f87-bb61-3e83c81f6af5")
-		(at 145.8 66.8 180)
+		(at 144.6 40.7 180)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
 		(property "Reference" "5V"
@@ -14592,7 +14592,7 @@
 	(footprint "Pads:Solder_Pad_SMD"
 		(layer "F.Cu")
 		(uuid "dd18370f-a33a-43a9-8cba-81d544add1fa")
-		(at 144.8 70.3 180)
+		(at 143.6 44.2 180)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
 		(property "Reference" "GND"
@@ -16089,7 +16089,7 @@
 	(footprint "Pads:Solder_Pad_SMD"
 		(layer "F.Cu")
 		(uuid "f2bf4c75-ea76-4192-b117-4f9208105a79")
-		(at 148.8 70.3 180)
+		(at 147.6 44.2 180)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
 		(property "Reference" "SWD"

@@ -21344,7 +21344,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_EVQP2_MiddlePushTravel_H2.5mm"
 			(at 228.6 40.64 0)
 			(effects
 				(font

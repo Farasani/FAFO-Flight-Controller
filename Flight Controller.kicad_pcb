@@ -1388,8 +1388,8 @@
 		(at 136.75 103.5)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_LED4"
-			(at 0.05 -1.75 0)
+		(property "Reference" "LED"
+			(at -0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "a5967715-61b6-494b-b7f5-19b6e101dc85")
 			(effects
@@ -1799,7 +1799,7 @@
 		(at 152 100)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_TX5"
+		(property "Reference" "TX5"
 			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "dd54e4d8-74f9-4d54-98ee-bd7fc4fabe13")
@@ -1904,7 +1904,7 @@
 		(at 150.25 100)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_5V12"
+		(property "Reference" "5V"
 			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "e3fee612-f8e6-489d-a352-7b21496b5efe")
@@ -2534,7 +2534,7 @@
 		(at 141.75 103.5)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_TX2"
+		(property "Reference" "TX2"
 			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "361ad9ff-771e-4608-80cc-247e70973966")
@@ -2860,7 +2860,7 @@
 		(at 145.25 103.5)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_TX3"
+		(property "Reference" "TX3"
 			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "720ee018-ff7e-4de3-ab00-2fa55c08e46d")
@@ -4694,7 +4694,7 @@
 		(at 141.5 100)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_CC1"
+		(property "Reference" "CC"
 			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "18463e92-60b0-4a5d-87a8-c92c1a29971c")
@@ -4799,7 +4799,7 @@
 		(at 150.5 103.5)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_GND14"
+		(property "Reference" "GND"
 			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "c019b99e-d99b-4271-ac81-18de804dfb28")
@@ -5715,7 +5715,7 @@
 		(at 135 66.75 180)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_GND1"
+		(property "Reference" "GND"
 			(at 0.05 -1.75 180)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -5821,8 +5821,8 @@
 		(at 135 103.5)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_GND3"
-			(at 0.05 -1.75 0)
+		(property "Reference" "GND"
+			(at -0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "323d0486-4ace-434b-8ed5-689f692e682c")
 			(effects
@@ -6526,7 +6526,7 @@
 		(at 145.5 70.25 180)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_GND5"
+		(property "Reference" "GND"
 			(at 0.05 -1.4 180)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -7442,7 +7442,7 @@
 		(at 143.25 100)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_GND6"
+		(property "Reference" "GND"
 			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "d35ea9ad-7ffd-4946-b6c2-a7bb990b804e")
@@ -9317,8 +9317,8 @@
 		(at 155 103.5)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_GND2"
-			(at 0.05 -1.75 0)
+		(property "Reference" "GND"
+			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "7bbb91e4-a4d7-4b42-8d3a-7f425304f8c5")
 			(effects
@@ -9781,7 +9781,7 @@
 		(at 136.25 100)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_5V6"
+		(property "Reference" "5V"
 			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "70ec6903-7d7f-4c14-82ea-9de372466e2e")
@@ -9886,7 +9886,7 @@
 		(at 155 66.75 180)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_GND8"
+		(property "Reference" "GND"
 			(at 0.05 -1.75 180)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -9992,7 +9992,7 @@
 		(at 139.75 100)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_VTX1"
+		(property "Reference" "VTX"
 			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "7f701de9-79ee-4d44-9c2b-1ca0219764b7")
@@ -10509,8 +10509,8 @@
 		(at 133.25 103.5)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_5V3"
-			(at 0.05 -1.75 0)
+		(property "Reference" "5V"
+			(at -0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "308d6fde-2752-4cf4-9d3d-f5418ccac383")
 			(effects
@@ -10614,7 +10614,7 @@
 		(at 148.5 100)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_SDA1"
+		(property "Reference" "SDA"
 			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "718f7976-4c83-48cf-8f19-69c02262f696")
@@ -11065,7 +11065,7 @@
 		(at 136.75 70.25 180)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_GND13"
+		(property "Reference" "GND"
 			(at 0.05 -1.4 180)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -11986,7 +11986,7 @@
 		(at 143.5 103.5)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_RX2"
+		(property "Reference" "RX2"
 			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "b7e02df8-8a3d-41de-91b3-d02dcd4b7c54")
@@ -12431,8 +12431,8 @@
 		(at 156.75 103.5)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_LED3"
-			(at 0.05 -1.75 0)
+		(property "Reference" "LED"
+			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "88247255-9623-4425-925f-14211a2ab513")
 			(effects
@@ -12736,7 +12736,7 @@
 		(at 153.75 100)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_RX5"
+		(property "Reference" "RX5"
 			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "353d0985-0fc2-4b50-b61b-43610490a833")
@@ -13041,8 +13041,8 @@
 		(at 153.25 103.5)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_5V2"
-			(at 0.05 -1.75 0)
+		(property "Reference" "5V"
+			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "4c13d6ad-5507-4b66-a4cd-e63e15b09e56")
 			(effects
@@ -13765,7 +13765,7 @@
 		(at 138 100)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_GND7"
+		(property "Reference" "GND"
 			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "b35f0a9e-83e6-4845-b309-24ae928ab73d")
@@ -14070,7 +14070,7 @@
 		(at 152.5 70.25 180)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_GND10"
+		(property "Reference" "GND"
 			(at 0.05 -1.4 180)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -14376,7 +14376,7 @@
 		(at 133.25 66.75 180)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_5V1"
+		(property "Reference" "5V"
 			(at 0.05 -1.75 180)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -14482,7 +14482,7 @@
 		(at 147 103.5)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_RX3"
+		(property "Reference" "RX3"
 			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "680970a3-aa2e-4230-887f-bdba6f4c5898")
@@ -15114,7 +15114,7 @@
 		(at 140 103.5)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_10V2"
+		(property "Reference" "10V"
 			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "d57a9486-8cfe-458d-aff6-b9d35cdae72b")
@@ -15523,7 +15523,7 @@
 		(at 148 66.75 180)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_GND15"
+		(property "Reference" "GND"
 			(at 0.05 -1.4 180)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -15629,7 +15629,7 @@
 		(at 136.75 66.75 180)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_LED2"
+		(property "Reference" "LED"
 			(at 0.05 -1.75 180)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -16335,7 +16335,7 @@
 		(at 145 100)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_5V5"
+		(property "Reference" "5V"
 			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "87eb5f40-6b54-4a5a-a25f-4f694f9488e0")
@@ -16753,7 +16753,7 @@
 		(at 146.75 100)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_SCL1"
+		(property "Reference" "SCL"
 			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "ce0f74fc-dc4a-4ade-a9a3-1e491cca50f5")
@@ -16858,7 +16858,7 @@
 		(at 148.75 103.5)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_CAM1"
+		(property "Reference" "CAM"
 			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "f18b490c-105c-4a4a-90a7-57f4896ce7a9")
@@ -31183,52 +31183,52 @@
 		(uuid "9ef52156-ae96-4a8c-b777-c84685e4d6b6")
 	)
 	(segment
-		(start 141.5398 94.4224)
-		(end 141.5398 91.7102)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 67)
-		(uuid "0f1b3857-79c5-45de-b46b-b3198a18faec")
-	)
-	(segment
 		(start 147 102.500001)
-		(end 145.803399 101.3034)
+		(end 147 103.5)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 67)
-		(uuid "19fc88ba-eda7-433a-a49c-f3b2321fba6f")
+		(uuid "016c6c9b-ef72-4143-862c-abdf8da1f7e3")
 	)
 	(segment
-		(start 141.5398 91.7102)
-		(end 142 91.25)
+		(start 145.803399 101.3034)
+		(end 147 102.500001)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 67)
-		(uuid "1f7f60ef-beae-43e9-8995-9cd8ead2e3bc")
+		(uuid "0ee4f538-7baf-41dd-9d9b-d1cdf37e6349")
 	)
 	(segment
-		(start 142.61079 88.13921)
-		(end 147 83.75)
+		(start 144.2324 95.730038)
+		(end 145.803399 97.301037)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 67)
-		(uuid "281c6c6a-44f0-423f-a2b1-69ca9e1536bd")
+		(uuid "25111811-56ce-4f95-b491-6ba7d044eb43")
 	)
 	(segment
-		(start 143.002362 94.5)
-		(end 143 94.5)
+		(start 142.043201 89.678379)
+		(end 142.61079 89.11079)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 67)
-		(uuid "297e34d0-124b-42ce-aff9-47546f56f053")
+		(uuid "31838f68-af7e-4968-aadc-0a57399faaea")
 	)
 	(segment
-		(start 142.61079 89.11079)
-		(end 142.61079 88.13921)
+		(start 140.784637 93.561)
+		(end 141.4012 93.561)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 67)
-		(uuid "31d318da-5efc-4413-b500-3483507dcace")
+		(uuid "3df39c37-7c70-46c6-accc-1b2542054c92")
+	)
+	(segment
+		(start 141.4012 93.561)
+		(end 141.5398 93.4224)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 67)
+		(uuid "3f9e3af5-3e47-4e2a-934b-b9b77ebf6803")
 	)
 	(segment
 		(start 148.95 81.531657)
@@ -31239,20 +31239,28 @@
 		(uuid "41d26dff-eec1-4763-af17-9be526c10c28")
 	)
 	(segment
-		(start 142 91.25)
+		(start 141.5398 91.7102)
 		(end 142.0432 91.2068)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 67)
-		(uuid "453bc8bb-4447-4ec8-a9fc-c9a47f4bfb41")
+		(uuid "5a8b55cd-d40e-466c-a6e5-0c44f6769c7e")
 	)
 	(segment
-		(start 142.0432 91.2068)
-		(end 142.043201 89.678379)
+		(start 142.61079 89.11079)
+		(end 142.61079 88.13921)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 67)
-		(uuid "8b2a89f2-95a3-4bd1-9d20-1c6b6eee55e2")
+		(uuid "678b88b2-3e36-4bbc-98b5-8787a29d0ca6")
+	)
+	(segment
+		(start 145.803399 97.301037)
+		(end 145.803399 101.3034)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 67)
+		(uuid "9a72b19c-c69b-4975-80f6-4c1ddb000540")
 	)
 	(segment
 		(start 148.817484 81.664173)
@@ -31263,44 +31271,36 @@
 		(uuid "9db2bdde-1e13-4109-a8ca-ff1617d0439a")
 	)
 	(segment
-		(start 142.043201 89.678379)
-		(end 142.61079 89.11079)
+		(start 142.61079 88.13921)
+		(end 147 83.75)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 67)
-		(uuid "bfb49c20-b31b-4c12-9165-388fd6c939b9")
+		(uuid "a760428c-efd0-47a4-b445-eb489a991c64")
 	)
 	(segment
-		(start 147 103.5)
-		(end 147 102.500001)
+		(start 144.2324 93.4)
+		(end 144.2324 95.730038)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 67)
-		(uuid "c9b3ae41-da74-4e0c-bfd7-d2d370c2115c")
+		(uuid "d8501f2c-b949-4f70-9ab5-32ed338e09d1")
 	)
 	(segment
-		(start 141.4622 94.5)
-		(end 141.5398 94.4224)
+		(start 142.0432 91.2068)
+		(end 142.043201 89.678379)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 67)
-		(uuid "d5909d15-9032-4cd5-af5f-15c34b98fcb3")
+		(uuid "e4dca4e8-6a86-4abe-ad9d-c949c1e99eec")
 	)
 	(segment
-		(start 145.803399 97.301037)
-		(end 143.002362 94.5)
+		(start 141.5398 93.4224)
+		(end 141.5398 91.7102)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 67)
-		(uuid "e1339d5e-0692-4c8f-916e-58c50835f722")
-	)
-	(segment
-		(start 145.803399 101.3034)
-		(end 145.803399 97.301037)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 67)
-		(uuid "f38ec9a5-c1b0-42de-82b6-4fdfb353834e")
+		(uuid "f48e2a68-c467-4ed0-931f-0f3c6931be42")
 	)
 	(via
 		(at 147 83.75)
@@ -31311,7 +31311,7 @@
 		(uuid "730a1d93-f03e-41e2-8503-ac2d1158013c")
 	)
 	(via
-		(at 143 94.5)
+		(at 144.2324 93.4)
 		(size 0.4572)
 		(drill 0.254)
 		(layers "F.Cu" "B.Cu")
@@ -31327,12 +31327,20 @@
 		(uuid "d40344be-cb8d-4190-bfdf-3699697cf4ad")
 	)
 	(via
-		(at 141.4622 94.5)
+		(at 140.784637 93.561)
 		(size 0.4572)
 		(drill 0.254)
 		(layers "F.Cu" "B.Cu")
 		(net 67)
 		(uuid "e9e58af4-787a-4de0-997f-1828f5ba3975")
+	)
+	(segment
+		(start 141.5232 93.561)
+		(end 142.4622 94.5)
+		(width 0.3)
+		(layer "B.Cu")
+		(net 67)
+		(uuid "22767671-7b23-4d6b-a9bd-32034d58819c")
 	)
 	(segment
 		(start 147 83.75)
@@ -31343,6 +31351,14 @@
 		(uuid "27fd2df5-74fb-4c73-8bfd-4230eb3c614b")
 	)
 	(segment
+		(start 142.4622 94.5)
+		(end 143.1324 94.5)
+		(width 0.3)
+		(layer "B.Cu")
+		(net 67)
+		(uuid "447da5cf-6c69-4531-807f-d87b2f4bc412")
+	)
+	(segment
 		(start 147.932838 82.548819)
 		(end 148.817484 81.664173)
 		(width 0.3)
@@ -31351,12 +31367,20 @@
 		(uuid "54267c5e-6bf9-4a9d-ab76-25b220d2274e")
 	)
 	(segment
-		(start 143 94.5)
-		(end 141.4622 94.5)
+		(start 143.1324 94.5)
+		(end 144.2324 93.4)
 		(width 0.3)
 		(layer "B.Cu")
 		(net 67)
-		(uuid "a6ceefac-f748-4fa9-a84e-2770c49bcf95")
+		(uuid "6c7e3046-4aec-44bf-968e-c21c6dc36020")
+	)
+	(segment
+		(start 140.784637 93.561)
+		(end 141.5232 93.561)
+		(width 0.3)
+		(layer "B.Cu")
+		(net 67)
+		(uuid "b01fe864-129b-4d41-bcbd-47e90d545c85")
 	)
 	(segment
 		(start 147.698819 82.548819)
@@ -31679,12 +31703,20 @@
 		(uuid "c8ef6498-ad8b-4183-9628-b9095072e81e")
 	)
 	(segment
-		(start 141.9156 95.25)
-		(end 141.9932 95.1724)
+		(start 141.9932 92.0068)
+		(end 142.4966 91.5034)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 78)
-		(uuid "15782c92-939d-475d-9472-a891322abd1d")
+		(uuid "01fbf0d4-22f1-48d8-9ecd-182bfc3b1f67")
+	)
+	(segment
+		(start 141.9932 94.477736)
+		(end 141.9932 92.0068)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 78)
+		(uuid "2270d803-366d-4e61-ad6d-a5beb519fa6b")
 	)
 	(segment
 		(start 144.4966 87.101038)
@@ -31692,111 +31724,7 @@
 		(width 0.3)
 		(layer "F.Cu")
 		(net 78)
-		(uuid "19f1ebe5-0040-4f5c-9519-b5447a514905")
-	)
-	(segment
-		(start 142.4966 91.5034)
-		(end 142.4966 89.866184)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 78)
-		(uuid "20122952-e710-4c91-aeb6-a476c406f484")
-	)
-	(segment
-		(start 144.4966 88.7534)
-		(end 144.4966 87.101038)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 78)
-		(uuid "4e652b0a-0b4e-4589-9e56-2168c873b594")
-	)
-	(segment
-		(start 141.9932 92.0068)
-		(end 142.4966 91.5034)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 78)
-		(uuid "511c1c53-5dd5-4935-a582-8470935e7f5c")
-	)
-	(segment
-		(start 147.847638 83.75)
-		(end 148.602362 83.75)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 78)
-		(uuid "5341b2f1-0206-41e8-a9f8-61c733825059")
-	)
-	(segment
-		(start 142.862784 89.5)
-		(end 143.75 89.5)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 78)
-		(uuid "855f6e24-0b5a-4b3a-840f-46732af34515")
-	)
-	(segment
-		(start 148.602362 83.75)
-		(end 149.45 82.902362)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 78)
-		(uuid "8843bc85-4913-4b37-8d8f-4576a9203d55")
-	)
-	(segment
-		(start 142.4966 89.866184)
-		(end 142.862784 89.5)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 78)
-		(uuid "949fbd56-4618-419d-b100-201e0f0a65c9")
-	)
-	(segment
-		(start 145.25 103.5)
-		(end 145.25 102.109312)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 78)
-		(uuid "a8cd47d1-5164-4733-bcc9-07afc4238aca")
-	)
-	(segment
-		(start 145.25 102.109312)
-		(end 144.1966 101.055912)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 78)
-		(uuid "ab8f0fbd-daca-4417-86f9-5ad88a8cc986")
-	)
-	(segment
-		(start 144.1966 96.4466)
-		(end 143 95.25)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 78)
-		(uuid "b4a3ec71-c976-4d89-9ad0-e3876fb38594")
-	)
-	(segment
-		(start 141.9932 95.1724)
-		(end 141.9932 92.0068)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 78)
-		(uuid "c9fc1a6f-c247-4371-ab82-d979716b5986")
-	)
-	(segment
-		(start 143.75 89.5)
-		(end 144.4966 88.7534)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 78)
-		(uuid "d7ac392e-9c6f-4f37-908b-c32f0ac73ec7")
-	)
-	(segment
-		(start 144.1966 101.055912)
-		(end 144.1966 96.4466)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 78)
-		(uuid "e6926664-bc51-4525-aa07-54ff1a6ad45f")
+		(uuid "230454ca-906a-49b9-8891-613df79bf542")
 	)
 	(segment
 		(start 149.45 82.902362)
@@ -31804,10 +31732,122 @@
 		(width 0.3)
 		(layer "F.Cu")
 		(net 78)
-		(uuid "f9e9a1ff-fc59-436f-a8f6-4772cf732c50")
+		(uuid "2e33d780-6cd1-45a4-98b7-4b2f425dc348")
+	)
+	(segment
+		(start 142.4966 91.5034)
+		(end 142.4966 89.866184)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 78)
+		(uuid "33da658a-4e45-478d-9d21-fd155d03a1ba")
+	)
+	(segment
+		(start 143.75 89.5)
+		(end 144.4966 88.7534)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 78)
+		(uuid "591d6f15-ea1c-4b47-9788-2833e175d0bd")
+	)
+	(segment
+		(start 143.477238 93.404214)
+		(end 143.477238 95.727238)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 78)
+		(uuid "75e9ba0d-1c4c-4113-80cb-8107b931e07a")
+	)
+	(segment
+		(start 140.4 94.7)
+		(end 141.770936 94.7)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 78)
+		(uuid "78dc8329-207a-476d-acf1-b48ae0646ab9")
+	)
+	(segment
+		(start 144.1966 96.4466)
+		(end 144.1966 101.055912)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 78)
+		(uuid "c19f2437-9145-498f-849f-1ed532bdc4cf")
+	)
+	(segment
+		(start 148.602362 83.75)
+		(end 149.45 82.902362)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 78)
+		(uuid "c273259a-5796-4f16-a88f-006aa23c3687")
+	)
+	(segment
+		(start 143.477238 95.727238)
+		(end 144.1966 96.4466)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 78)
+		(uuid "c61ea899-3ba2-48cc-985f-6c6176d2f533")
+	)
+	(segment
+		(start 144.4966 88.7534)
+		(end 144.4966 87.101038)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 78)
+		(uuid "dccc6221-cbfe-4963-a745-d394f3ac35e9")
+	)
+	(segment
+		(start 147.847638 83.75)
+		(end 148.602362 83.75)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 78)
+		(uuid "dd5637d9-d5be-4d76-9a4a-c56c5dd64cc5")
+	)
+	(segment
+		(start 144.1966 101.055912)
+		(end 145.25 102.109312)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 78)
+		(uuid "dd58c9c3-f697-449b-8619-b9e7c88b3ac7")
+	)
+	(segment
+		(start 142.4966 89.866184)
+		(end 142.862784 89.5)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 78)
+		(uuid "dec9f1ad-44f0-4119-9947-e5e16980bde5")
+	)
+	(segment
+		(start 142.862784 89.5)
+		(end 143.75 89.5)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 78)
+		(uuid "e3b2fcb2-40cc-4f8a-815a-dbaa86ee9478")
+	)
+	(segment
+		(start 141.770936 94.7)
+		(end 141.9932 94.477736)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 78)
+		(uuid "eff43fb4-91e2-4289-8ce9-5c0b33c963e6")
+	)
+	(segment
+		(start 145.25 102.109312)
+		(end 145.25 103.5)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 78)
+		(uuid "f3e3a48a-45b1-44bd-8c5d-882e7c215560")
 	)
 	(via
-		(at 141.9156 95.25)
+		(at 140.4 94.7)
 		(size 0.4572)
 		(drill 0.254)
 		(layers "F.Cu" "B.Cu")
@@ -31815,7 +31855,7 @@
 		(uuid "949cab6b-4b13-4619-b917-3c9ee736e9f5")
 	)
 	(via
-		(at 143 95.25)
+		(at 143.477238 93.404214)
 		(size 0.4572)
 		(drill 0.254)
 		(layers "F.Cu" "B.Cu")
@@ -31823,12 +31863,124 @@
 		(uuid "c99ad0fe-16ee-4c84-a6fe-129f0dfbc067")
 	)
 	(segment
-		(start 143 95.25)
-		(end 141.9156 95.25)
+		(start 143.320204 94.9534)
+		(end 144.341604 93.932)
 		(width 0.3)
 		(layer "B.Cu")
 		(net 78)
-		(uuid "a5a078c3-ae3e-499b-aa13-07fca5151f8a")
+		(uuid "1a6074f9-12f0-463e-9331-bcadcb455275")
+	)
+	(segment
+		(start 141.928052 94.9534)
+		(end 143.320204 94.9534)
+		(width 0.3)
+		(layer "B.Cu")
+		(net 78)
+		(uuid "1bd083bd-1c0a-4ff8-95de-a4648687b39f")
+	)
+	(segment
+		(start 143.7004 93.290796)
+		(end 142.944596 94.0466)
+		(width 0.3)
+		(layer "B.Cu")
+		(net 78)
+		(uuid "2ea95b96-4214-4048-9551-3c2ce6b03a96")
+	)
+	(segment
+		(start 141.841094 94.866442)
+		(end 141.928052 94.9534)
+		(width 0.3)
+		(layer "B.Cu")
+		(net 78)
+		(uuid "444ba72c-9ba1-4ab4-beaa-8c13716c44af")
+	)
+	(segment
+		(start 144.7644 93.620362)
+		(end 144.7644 93.179638)
+		(width 0.3)
+		(layer "B.Cu")
+		(net 78)
+		(uuid "48528396-c75f-4426-9f0b-f52c53d4075f")
+	)
+	(segment
+		(start 143.7004 93.179638)
+		(end 143.7004 93.290796)
+		(width 0.3)
+		(layer "B.Cu")
+		(net 78)
+		(uuid "4b056e3d-1650-4a94-bce6-438de7713df1")
+	)
+	(segment
+		(start 142.944596 94.0466)
+		(end 142.834852 94.0466)
+		(width 0.3)
+		(layer "B.Cu")
+		(net 78)
+		(uuid "64176c6c-e56b-4b82-b03e-b46ac273dbab")
+	)
+	(segment
+		(start 144.012038 92.868)
+		(end 143.7004 93.179638)
+		(width 0.3)
+		(layer "B.Cu")
+		(net 78)
+		(uuid "67011d9d-17c4-44df-a75a-d33a2d3193c3")
+	)
+	(segment
+		(start 144.452762 93.932)
+		(end 144.7644 93.620362)
+		(width 0.3)
+		(layer "B.Cu")
+		(net 78)
+		(uuid "836d8ab1-d7dd-4ee9-b1df-b6a1210e96a3")
+	)
+	(segment
+		(start 144.452762 92.868)
+		(end 144.012038 92.868)
+		(width 0.3)
+		(layer "B.Cu")
+		(net 78)
+		(uuid "83918243-9217-4f0f-88e0-960a157b4a5b")
+	)
+	(segment
+		(start 142.834852 94.0466)
+		(end 143.477238 93.404214)
+		(width 0.3)
+		(layer "B.Cu")
+		(net 78)
+		(uuid "bde361dd-6d1c-435f-9f1d-ac9aa937aac8")
+	)
+	(segment
+		(start 140.4 94.7)
+		(end 140.566442 94.866442)
+		(width 0.3)
+		(layer "B.Cu")
+		(net 78)
+		(uuid "c3955a11-7451-4ed6-9dca-5aaac95cdc1a")
+	)
+	(segment
+		(start 144.7644 93.179638)
+		(end 144.452762 92.868)
+		(width 0.3)
+		(layer "B.Cu")
+		(net 78)
+		(uuid "d5a9ea11-4bc2-4db4-8462-06a525b6d28b")
+	)
+	(segment
+		(start 140.566442 94.866442)
+		(end 141.841094 94.866442)
+		(width 0.3)
+		(layer "B.Cu")
+		(net 78)
+		(uuid "f4539b43-f210-4217-a43e-bb8a4caed9ba")
+	)
+	(segment
+		(start 144.341604 93.932)
+		(end 144.452762 93.932)
+		(width 0.3)
+		(layer "B.Cu")
+		(net 78)
+		(uuid "f95f8932-30a5-462a-b053-37ef8770f2c9")
 	)
 	(segment
 		(start 148.45 78.05)

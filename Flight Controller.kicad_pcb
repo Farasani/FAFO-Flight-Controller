@@ -262,10 +262,221 @@
 	(net 114 "unconnected-(U7-INT2-Pad9)")
 	(net 115 "Net-(U4-BP)")
 	(net 116 "Net-(U8-BP)")
+	(footprint "Pads:Solder_Pad_SMD"
+		(layer "F.Cu")
+		(uuid "0007d832-ed5c-405c-941f-c7316c973fbb")
+		(at 168.9 77.2)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "TP_LED1"
+			(at 0.05 -1.75 0)
+			(layer "F.SilkS")
+			(uuid "660935a2-dd6c-4661-b520-bad55717054f")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 -5.15 0)
+			(layer "F.Fab")
+			(uuid "659d1c1b-cced-4c84-8a3b-8cb50c535510")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b381840-64f0-45da-a4a5-50fbdb51fe46")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "55f02071-4728-4aab-a52c-c58a88ec4bc7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/21c76961-1df9-40f6-8c5c-c7e21fad72df")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 -1.35)
+			(end 0.85 1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "b1acdc32-76e8-4616-be03-b74ebc344994")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 4.2 0)
+			(layer "F.Fab")
+			(uuid "9ceea57a-7759-4093-b6a3-d4f8af79974b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.125)
+			(net 87 "/LED_S")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "e11cbe51-b68d-4379-9261-88937888781d")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Pads:Solder_Pad_SMD"
+		(layer "F.Cu")
+		(uuid "008f5dc0-aa5a-4481-b0c8-4ee1e462a9ce")
+		(at 150.8 70.3 180)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "3.3V"
+			(at 0.05 -1.4 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "1f076fb5-c0f1-40b4-8dc6-4fc64b7c66d4")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 -5.15 0)
+			(layer "F.Fab")
+			(uuid "40704b86-3c5f-4ae5-99b3-170995f11a0a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb5d4e1b-2d4e-4788-aef0-d3bb08435209")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cdf8a951-2934-414a-bbcf-4611520bfcfa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/97cd0a09-b31d-4f5d-ac1e-d6a6c4fc5f3f")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 -1.35)
+			(end 0.85 1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "30446119-6db5-4a1f-ba0e-3fe021822446")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 4.2 0)
+			(layer "F.Fab")
+			(uuid "40dbdbbc-484e-4fa0-bdae-3dce40e26606")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0 180)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.125)
+			(net 6 "+3.3V")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "abb9e531-cc01-40cc-ba1f-815eac452d29")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "01112fac-c8c9-4a1c-9279-9e574a5ea790")
-		(at 135.8075 98.1875 180)
+		(at 135.72 96.95 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "CIN_10V3"
@@ -774,7 +985,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "04b9caa6-52f5-4c53-b5c1-84c33a4f1112")
-		(at 140.5075 91.7875 90)
+		(at 140.42 90.9 90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "RFBB_10V1"
@@ -974,7 +1185,7 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "07bfc495-d69f-4d5b-ad25-cc35c47965d3")
-		(at 145 75.61 -90)
+		(at 144.9 76.8 -90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R_BOOT1"
@@ -1174,7 +1385,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "0ba275a1-a44b-4e0c-8f2f-3e4155ad2408")
-		(at 136.3875 94.4375)
+		(at 136.3 93.2)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "CIN_10V1"
@@ -1371,10 +1582,325 @@
 			)
 		)
 	)
+	(footprint "Pads:Solder_Pad_SMD"
+		(layer "F.Cu")
+		(uuid "0d086008-40dc-4bfe-9882-0655f6134dd0")
+		(at 169.65 73.95)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "TP_5V7"
+			(at 0.05 -1.75 0)
+			(layer "F.SilkS")
+			(uuid "394d5511-4d22-4e78-9c99-bf25f5c4db70")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 -5.15 0)
+			(layer "F.Fab")
+			(uuid "343a7eb4-49c2-42b6-a7be-b82844b4daef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d75607d5-1828-452c-87a4-ebdcea23b6c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "039f41a4-d4d7-4a61-b8bd-aa5bc7dbd981")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/538e1d9e-6b6c-4733-b4e2-7e76b7da639f")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 -1.35)
+			(end 0.85 1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "383b388b-aa8d-46eb-9d88-38c2d66c05f5")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 4.2 0)
+			(layer "F.Fab")
+			(uuid "08a2dc40-80d5-471b-89dd-908cd5470778")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.125)
+			(net 5 "+5V")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "4b430f48-cd8f-41f3-ba05-ea7aa3dd51ee")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Pads:Solder_Pad_SMD"
+		(layer "F.Cu")
+		(uuid "1275ca59-3390-445a-9636-d44f98ec6605")
+		(at 152 99.5)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "TX"
+			(at 0.05 -1.4 0)
+			(layer "F.SilkS")
+			(uuid "dd54e4d8-74f9-4d54-98ee-bd7fc4fabe13")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 -5.15 0)
+			(layer "F.Fab")
+			(uuid "9a1d709f-84a9-4ffe-8fe1-1104a63ff8dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92b81976-9a34-4b54-be1b-4dfd0ccd7918")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e2b8feb-1db7-4c0b-a011-caf4c637c960")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/8e8c729d-5ba5-44c4-85c7-c8bcc635ec8c")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 -1.35)
+			(end 0.85 1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "a4d0c4a2-dd68-4469-beb5-2593af463822")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 4.2 0)
+			(layer "F.Fab")
+			(uuid "36731e0f-7d7a-4af4-8be9-c2a38daf8511")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.125)
+			(net 80 "/UART5_TX")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "febd162b-f938-4d8b-a107-d92bad5de51c")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Pads:Solder_Pad_SMD"
+		(layer "F.Cu")
+		(uuid "13f4195b-9bfe-4911-a38a-1da038e9f96d")
+		(at 150 99.5)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "5V"
+			(at 0.05 -1.4 0)
+			(layer "F.SilkS")
+			(uuid "e3fee612-f8e6-489d-a352-7b21496b5efe")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 -5.15 0)
+			(layer "F.Fab")
+			(uuid "bb4bf863-536a-4c37-98b8-8bb055a59e33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a7e4bed0-4742-46d7-ac42-af2f09eb6c16")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30989a15-6cdb-47f7-9456-74e245ca87b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/14f6a41a-759d-4e32-ae5a-8656b6537fa0")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 -1.35)
+			(end 0.85 1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "f89186cb-9bd0-4b04-af3e-9497efb84707")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 4.2 0)
+			(layer "F.Fab")
+			(uuid "66843676-68bb-408f-9b51-c3f900ac44ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.125)
+			(net 5 "+5V")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "f407ec5f-8756-4a3a-a146-f547a78964fd")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "16aabbe2-41b5-407b-aa2a-479bcbbf0f4d")
-		(at 139.4575 91.7875 -90)
+		(at 139.37 90.9 -90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "RFBT_10V1"
@@ -1574,11 +2100,11 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-6"
 		(layer "F.Cu")
 		(uuid "16d2c135-2f49-4bc3-b3f9-b34cf40b864a")
-		(at 136.75 91.6375)
+		(at 136.6625 90.4)
 		(descr "SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U5"
-			(at 2.3575 2.3 0)
+			(at 2.3575 2.45 0)
 			(layer "F.SilkS")
 			(uuid "0b0a5374-c5d9-4783-bba0-9b62f41c2c47")
 			(effects
@@ -1896,14 +2422,119 @@
 			)
 		)
 	)
+	(footprint "Pads:Solder_Pad_SMD"
+		(layer "F.Cu")
+		(uuid "18211baa-e5a0-4fb7-abf3-f9fbacdcabe9")
+		(at 139 103)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "TX"
+			(at 0.05 -1.4 0)
+			(layer "F.SilkS")
+			(uuid "361ad9ff-771e-4608-80cc-247e70973966")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 -5.15 0)
+			(layer "F.Fab")
+			(uuid "c5105316-95cd-4346-a96a-bbe7d56fd0f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b7d3da6-5849-40ae-8898-819f6998eba7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "010eb386-3751-41fc-8dcb-63c28d18bbda")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/9c52e65a-96d6-4fcd-9676-d05bd40344b3")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 -1.35)
+			(end 0.85 1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "816bb7a3-9c50-4b5f-a66a-0768b75d67f4")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 4.2 0)
+			(layer "F.Fab")
+			(uuid "d2c2b6e0-265a-4f12-9045-4508c987d447")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.125)
+			(net 77 "/UART2_TX")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "036f6957-7a0e-4625-b4d5-c0f1abf2c031")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "191b88d2-b9cb-4d76-9f05-95c4bfd72bff")
-		(at 128.1375 76.15 180)
+		(at 129 76.15 180)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
-		(property "Reference" "D_LED6"
-			(at -4.2625 0 0)
+		(property "Reference" "FC2"
+			(at -3.0625 0 0)
 			(layer "F.SilkS")
 			(uuid "5ab405d2-5f89-4ba8-b174-7aaa2bbfe79b")
 			(effects
@@ -2117,6 +2748,111 @@
 			)
 		)
 	)
+	(footprint "Pads:Solder_Pad_SMD"
+		(layer "F.Cu")
+		(uuid "1f1d0a59-a370-407d-936a-3a2edc354aac")
+		(at 142 99.5)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "TX3"
+			(at 0.05 -1.4 0)
+			(layer "F.SilkS")
+			(uuid "720ee018-ff7e-4de3-ab00-2fa55c08e46d")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 -5.15 0)
+			(layer "F.Fab")
+			(uuid "117f4a99-c5cd-42c4-8b07-0bf68102148c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6495ef10-92c4-4e74-b186-21faa4aadd38")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad9d1be5-b3e4-4f44-b331-8a473c75434c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/2f5075ff-80ce-4569-9e5f-b70f3afafc6a")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 -1.35)
+			(end 0.85 1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "438565ed-c325-4d55-a54b-7951df5840e8")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 4.2 0)
+			(layer "F.Fab")
+			(uuid "6710c74c-5504-403e-b1df-43673ba048a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.125)
+			(net 78 "/UART3_TX")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "9c0293ff-c21c-4cfc-b771-73bb78ff63b1")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 		(layer "F.Cu")
 		(uuid "205868d2-978b-4095-b783-3ffdf9642a2b")
@@ -2224,11 +2960,11 @@
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "22d87793-7ff2-4586-af26-ada16123239a")
-		(at 128.1375 81.4 180)
+		(at 129 81.4 180)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
-		(property "Reference" "D_LED3"
-			(at -4.2125 0 0)
+		(property "Reference" "3.3V"
+			(at -3.3625 0 0)
 			(layer "F.SilkS")
 			(uuid "0ea6ab0e-0303-45f8-b440-f5a6f41cb8e8")
 			(effects
@@ -2458,7 +3194,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-323_SC-70"
 		(layer "F.Cu")
 		(uuid "245fa6da-7212-4f31-9dcd-afba67a44b68")
-		(at 152.2 75.35)
+		(at 152.2 76.1)
 		(descr "SOT-323, SC-70")
 		(tags "SOT-323 SC-70")
 		(property "Reference" "Q_SBUS1"
@@ -2697,11 +3433,11 @@
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "27bc27b2-7dbc-417e-80c6-048f4ca50f1e")
-		(at 128.1375 79.65 180)
+		(at 129 79.65 180)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
-		(property "Reference" "D_LED2"
-			(at -4.2125 0 0)
+		(property "Reference" "10V"
+			(at -3.0625 0 0)
 			(layer "F.SilkS")
 			(uuid "a03c45fd-fbb3-40ca-b676-76563071c371")
 			(effects
@@ -2917,6 +3653,112 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Pads:Solder_Pad_SMD"
+		(layer "F.Cu")
+		(uuid "2f8b0f4d-d215-4455-b49c-d72e20d4e04d")
+		(at 143.8 66.8 180)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "SBUS"
+			(at 0.05 -1.4 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "dd19deaa-9072-4e12-a90f-747b211b42b4")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 -5.15 0)
+			(layer "F.Fab")
+			(uuid "161a0f6c-a6d3-40b5-9885-70adc65c46a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25f97c1f-8d6e-43cc-8daa-96647ecf8484")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cdbbf0f4-1c77-406a-9c05-a7c99d4884ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/5ab17c04-a1cf-4a2a-965c-e0bdb09655e6")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 -1.35)
+			(end 0.85 1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "50e74746-9c2a-40b2-acc2-b5d511556592")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 4.2 0)
+			(layer "F.Fab")
+			(uuid "c2ef8ed7-2527-42f3-9812-b087db07c7ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0 180)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.125)
+			(net 59 "/SBUS")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "333bca71-cbc0-453d-aaf3-dd54882c39f1")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3528,6 +4370,533 @@
 			)
 		)
 	)
+	(footprint "Pads:Solder_Pad_SMD"
+		(layer "F.Cu")
+		(uuid "4324cd0d-5c5a-45c6-81d4-e6d4c0526241")
+		(at 141.8 66.8 180)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "5V"
+			(at 0.05 -1.4 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "d57b192a-e83c-4728-bdd3-2453e3fe6df0")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 -5.15 0)
+			(layer "F.Fab")
+			(uuid "d66ae2e7-b88d-4557-bed0-a623fc8c74ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1989d1cf-9b43-4ae9-9c15-a79abb4edf49")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53c5e571-58bd-4fbf-b9cf-4523f6652c59")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/c5d15cbc-845c-4c3d-a8bb-2821658faa63")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 -1.35)
+			(end 0.85 1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "a11c68b9-7f4b-4e50-91f3-e341425f01a4")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 4.2 0)
+			(layer "F.Fab")
+			(uuid "6b26eccd-b5c7-437e-80d4-cfab359449fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0 180)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.125)
+			(net 5 "+5V")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "6bff6882-0776-4f98-8239-e401286456fc")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Pads:Solder_Pad_SMD"
+		(layer "F.Cu")
+		(uuid "43529b8f-e8c3-4d9f-909d-cfd50f97ce93")
+		(at 151.8 66.8 180)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "Buz"
+			(at 0.05 -1.4 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "a3e46560-f428-4ce3-a253-c1157cd9d57f")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 -5.15 0)
+			(layer "F.Fab")
+			(uuid "aab0ef3d-4ae3-4139-94ab-494bc08692f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3706e408-3dfc-4ed4-8078-d5b289badae3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "429adb73-296f-4b2b-bbd8-c7269fd7fa9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/7f54f7bf-28a6-49d8-9cd6-07bd9674aa94")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 -1.35)
+			(end 0.85 1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "e8d22b40-145c-48f3-a0c2-98f2cc62c908")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 4.2 0)
+			(layer "F.Fab")
+			(uuid "e004335b-ea9a-4487-be51-04fb086addf0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0 180)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.125)
+			(net 49 "/BUZ-")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "233514ee-5346-470e-b6ff-50ad9508cc8b")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Pads:Solder_Pad_SMD"
+		(layer "F.Cu")
+		(uuid "43fa964f-f5d7-48e2-81b0-75f37a945d84")
+		(at 144 99.5)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "CC"
+			(at 0.05 -1.4 0)
+			(layer "F.SilkS")
+			(uuid "18463e92-60b0-4a5d-87a8-c92c1a29971c")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 -5.15 0)
+			(layer "F.Fab")
+			(uuid "ea9cd2e4-cb57-49a6-8abc-edbc740b1155")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14ce6237-a2bf-450e-8965-c70b77eb87e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51f1046c-4448-4854-9d20-e3c3f6705572")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/5b487d3b-ad5c-44ca-90a0-a60b101089b6")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 -1.35)
+			(end 0.85 1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "f8ed94b4-c65a-4b50-9a88-dc1696fb1d11")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 4.2 0)
+			(layer "F.Fab")
+			(uuid "fa833430-872a-46ca-9354-37fe8dbbccf2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.125)
+			(net 64 "Net-(R_CC1-Pad2)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "5cd14adf-b98b-41cf-b29b-2dce4791539b")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Pads:Solder_Pad_SMD"
+		(layer "F.Cu")
+		(uuid "478a6483-767c-403a-8f00-b18e6113c8cd")
+		(at 148 99.5)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "GND"
+			(at 0.05 -1.4 0)
+			(layer "F.SilkS")
+			(uuid "c019b99e-d99b-4271-ac81-18de804dfb28")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 -5.15 0)
+			(layer "F.Fab")
+			(uuid "65aca70e-cc77-4af7-a290-d561e1effc1f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5853e3ef-b247-4597-b73f-3d54e9db9335")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e93b1db-dff9-4ec7-8481-44a5b7562a91")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/58bedfa5-fb65-4b15-b5b0-0deed1822a43")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 -1.35)
+			(end 0.85 1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "2d25db82-8f42-470f-87ab-9005f6ea2c8d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 4.2 0)
+			(layer "F.Fab")
+			(uuid "32cf1e09-88cc-4422-87af-557c62e32c1a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.125)
+			(net 2 "GND")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "9a88e12d-9cdf-4b23-abdd-eaf2a3f0c7dc")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Pads:Solder_Pad_SMD"
+		(layer "F.Cu")
+		(uuid "4b79051b-6388-4db7-af93-84c5223ef4f6")
+		(at 60.3 54.35)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "TP_VBAT-1"
+			(at 0.05 -1.75 0)
+			(layer "F.SilkS")
+			(uuid "b6950207-d7b8-46f9-addc-183bb42c44f6")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 -5.15 0)
+			(layer "F.Fab")
+			(uuid "dd30a6f6-1f6e-40b9-ac5e-9769a5c422b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b4f2791-124c-4937-9b64-248ae05d376d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28e66bc2-9d51-453e-b0b9-c4faad2a835d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/a3f4e0e0-7e65-4f1c-bfd2-4c5cbc8dbd72")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 -1.35)
+			(end 0.85 1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "537b241e-9c6c-46b1-add7-0c00ea3ee871")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 4.2 0)
+			(layer "F.Fab")
+			(uuid "15ca4f6b-532b-491d-9226-3ad588f681ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.125)
+			(net 2 "GND")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "0c52ba3a-17dd-4abb-8239-96fd5140eb01")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "4fb9b78f-6563-4a57-9182-96136bdc6e18")
@@ -3728,10 +5097,116 @@
 			)
 		)
 	)
+	(footprint "Pads:Solder_Pad_SMD"
+		(layer "F.Cu")
+		(uuid "5190a2c5-f4c8-474a-aace-65d3efb55be0")
+		(at 147.8 66.8 180)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "SWC"
+			(at 0.05 -1.4 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "4eb4ef60-e2c0-4dfd-b4c8-73d3628c39d0")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 -5.15 0)
+			(layer "F.Fab")
+			(uuid "dcd110a3-c31d-4111-a28d-1b31108208d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e2d7f69-d7a3-45fe-ab24-62bcf1d03a58")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed1a08c7-426c-4e49-ab34-4183d67cb66c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/a2fb42a0-0447-4d24-bfdb-a240f2ae152d")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 -1.35)
+			(end 0.85 1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "b0715ab3-4845-43e1-92c0-6ac1cc5b032d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 4.2 0)
+			(layer "F.Fab")
+			(uuid "003283af-656d-4e15-854c-259dc18f847e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0 180)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.125)
+			(net 95 "/SWC")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "34386872-c49e-4c58-9280-12e08d48241b")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "5372d149-31e6-40dd-806c-89406dd2e76f")
-		(at 137.4375 89.0875 180)
+		(at 136.6 87.9 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "CBOOT_10V1"
@@ -3931,7 +5406,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "54351a72-7e0e-405f-8b81-4147118d707a")
-		(at 154.825 74.65 90)
+		(at 154.825 75.4 90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R_SBUS2"
@@ -4131,14 +5606,14 @@
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "5bcbf00b-a42d-4eb2-9c3f-af30aaf4811d")
-		(at 135.3 74.4 90)
+		(at 136.25 76.5 90)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R_BUZ1"
 			(at 0 -1.17 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d0d65674-e9bb-4e00-89d1-f2104b1d8527")
+			(uuid "5bd0a397-0925-4577-b48f-4305e49b9d95")
 			(effects
 				(font
 					(size 1 1)
@@ -4149,7 +5624,7 @@
 		(property "Value" "1k"
 			(at 0 1.17 90)
 			(layer "F.Fab")
-			(uuid "c509b7b3-693e-4e3c-a332-8544d04cfffa")
+			(uuid "57ad0f1d-f765-42af-9035-945ad590b5b1")
 			(effects
 				(font
 					(size 1 1)
@@ -4161,7 +5636,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bee04b83-5daf-437e-a723-67f50a8d3bcf")
+			(uuid "b8961328-7bfc-4f40-9a5f-24436f92b334")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4173,7 +5648,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4007956a-2fdd-423e-bce0-4299cac5e6d9")
+			(uuid "838859e7-2afb-4764-9d74-d7f8beb86065")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4331,7 +5806,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "5c64593e-d0b6-4069-91ba-63ec694d9cbc")
-		(at 136.3875 96.5875)
+		(at 136.3 95.35)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "CIN_10V2"
@@ -4728,6 +6203,112 @@
 			)
 		)
 	)
+	(footprint "Pads:Solder_Pad_SMD"
+		(layer "F.Cu")
+		(uuid "647458f8-d9e2-4a2f-9ef4-1a2af03b1dbd")
+		(at 149.8 66.8 180)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "GND"
+			(at 0.05 -1.4 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "6503af14-b3a8-4e0f-b503-18d5cbfae175")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 -5.15 0)
+			(layer "F.Fab")
+			(uuid "b6ea88c0-df90-46dd-a3ad-170425dc2561")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6f3c25e-0faf-4995-b3b0-22b4a2ff849c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa1b66d3-3794-4592-8ce7-f66a7e18354c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/c300f714-87c3-4b41-8fed-b71eebd2f2ce")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 -1.35)
+			(end 0.85 1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "dc814074-3876-4e78-951c-7add5111228a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 4.2 0)
+			(layer "F.Fab")
+			(uuid "0d25c683-e889-4ea4-b6fc-7ae2f1d90fe3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0 180)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.125)
+			(net 5 "+5V")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "30225292-f559-4afa-9929-32e98f6e3d27")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "647c5f53-fbff-4be6-bc86-17525ec6f8d9")
@@ -4917,6 +6498,112 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Pads:Solder_Pad_SMD"
+		(layer "F.Cu")
+		(uuid "66dcc183-e9dc-4468-a3aa-390437671c55")
+		(at 140.8 70.3 180)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "RX"
+			(at 0.05 -1.4 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "d7ba9d33-ffe3-41db-a72d-e420d105ee30")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 -5.15 0)
+			(layer "F.Fab")
+			(uuid "05c1b901-c3d5-43b6-8c78-8a37cba8c493")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0997d1b6-1454-4c24-80ac-eacd9aa27e23")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f17ce0d-bdd7-48e7-82b5-dc97de71e465")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/48936515-d753-4962-b32f-0726965d090e")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 -1.35)
+			(end 0.85 1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "41bcf60d-38c8-419d-8426-e08ae31ecff5")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 4.2 0)
+			(layer "F.Fab")
+			(uuid "787ffb18-271e-4bc2-af05-020ec851062b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0 180)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.125)
+			(net 76 "/UART1_RX")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "86bf2fe6-e272-41d8-b439-fe1992d255cc")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5432,6 +7119,507 @@
 			)
 		)
 	)
+	(footprint "Pads:Solder_Pad_SMD"
+		(layer "F.Cu")
+		(uuid "7db83949-8eb7-417b-a061-7b5a7ebcd544")
+		(at 145 103)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "GND"
+			(at 0.05 -1.4 0)
+			(layer "F.SilkS")
+			(uuid "d35ea9ad-7ffd-4946-b6c2-a7bb990b804e")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 -5.15 0)
+			(layer "F.Fab")
+			(uuid "46ff0622-9837-426c-8444-bfa2882585d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "839b81f6-fb98-41dd-8e7c-ecea5eaaca7f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a774e56-075d-4913-9d5e-911a8facb8ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/b06300a3-a21b-4904-8c2b-1b3cba9ebf13")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 -1.35)
+			(end 0.85 1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "fb059a20-d045-4f37-94ff-21afa690517f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 4.2 0)
+			(layer "F.Fab")
+			(uuid "0b5dd56c-2e0d-46ff-9db2-aaad368a5178")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.125)
+			(net 2 "GND")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "a059a7cd-3cef-4aff-a57c-e42b907296d2")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Pads:FAFO_LOGO"
+		(layer "F.Cu")
+		(uuid "7e9b51b0-a316-47f5-a76a-de5294b9c0bb")
+		(at 142.3 95.3)
+		(property "Reference" "G***"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d06b2df3-7371-4a70-beb9-368c75209b17")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+		(property "Value" "LOGO"
+			(at 0.75 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5e35fc0b-0bdd-4e0c-9bb3-f192700b759c")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b4d9627-b248-4d1c-b61c-6a3edefae6a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e0fcbfa-7bb8-4e47-85e9-256741a48441")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(fp_poly
+			(pts
+				(xy -0.507338 -0.90993) (xy -0.466152 -0.909871) (xy -0.429953 -0.909777) (xy -0.39842 -0.909645)
+				(xy -0.371235 -0.909472) (xy -0.348078 -0.909257) (xy -0.32863 -0.908996) (xy -0.312571 -0.908687)
+				(xy -0.299583 -0.908328) (xy -0.289345 -0.907915) (xy -0.28154 -0.907446) (xy -0.275847 -0.906918)
+				(xy -0.271947 -0.906329) (xy -0.26952 -0.905677) (xy -0.268249 -0.904958) (xy -0.267812 -0.90417)
+				(xy -0.267796 -0.903922) (xy -0.268713 -0.899767) (xy -0.271398 -0.888586) (xy -0.275779 -0.870668)
+				(xy -0.281784 -0.846301) (xy -0.289341 -0.815771) (xy -0.298378 -0.779367) (xy -0.308824 -0.737376)
+				(xy -0.320607 -0.690086) (xy -0.333655 -0.637784) (xy -0.347895 -0.580759) (xy -0.363257 -0.519297)
+				(xy -0.379667 -0.453687) (xy -0.397056 -0.384216) (xy -0.415349 -0.311171) (xy -0.434477 -0.234841)
+				(xy -0.454366 -0.155513) (xy -0.474945 -0.073474) (xy -0.496142 0.010987) (xy -0.517886 0.097584)
+				(xy -0.538359 0.179085) (xy -0.808811 1.255484) (xy -1.043458 1.256455) (xy -1.084752 1.256589)
+				(xy -1.12373 1.256644) (xy -1.159753 1.256624) (xy -1.192181 1.256533) (xy -1.220374 1.256374) (xy -1.243693 1.256152)
+				(xy -1.261497 1.255869) (xy -1.273147 1.25553) (xy -1.278002 1.255139) (xy -1.278106 1.255069) (xy -1.277209 1.251141)
+				(xy -1.274605 1.240432) (xy -1.270426 1.223476) (xy -1.264807 1.200804) (xy -1.257879 1.172949)
+				(xy -1.249775 1.140443) (xy -1.240628 1.103819) (xy -1.230571 1.063609) (xy -1.219735 1.020346)
+				(xy -1.208255 0.974561) (xy -1.198927 0.937399) (xy -1.187034 0.890003) (xy -1.175682 0.844702)
+				(xy -1.165004 0.80203) (xy -1.155134 0.76252) (xy -1.146204 0.726706) (xy -1.138347 0.695121) (xy -1.131695 0.668299)
+				(xy -1.126381 0.646774) (xy -1.122539 0.631079) (xy -1.1203 0.621747) (xy -1.119753 0.619229) (xy -1.123415 0.618731)
+				(xy -1.133963 0.618293) (xy -1.150745 0.61792) (xy -1.173107 0.617617) (xy -1.200395 0.61739) (xy -1.231956 0.617244)
+				(xy -1.267137 0.617184) (xy -1.305283 0.617217) (xy -1.34469 0.617344) (xy -1.569622 0.618316) (xy -1.647581 0.927474)
+				(xy -1.659466 0.974607) (xy -1.670859 1.019793) (xy -1.68162 1.062477) (xy -1.691608 1.102103) (xy -1.700685 1.138113)
+				(xy -1.708709 1.169952) (xy -1.71554 1.197063) (xy -1.721038 1.21889) (xy -1.725063 1.234878) (xy -1.727474 1.244468)
+				(xy -1.728108 1.247001) (xy -1.730677 1.257369) (xy -1.964359 1.257369) (xy -2.014011 1.25734) (xy -2.056585 1.257246)
+				(xy -2.092543 1.257078) (xy -2.122347 1.256826) (xy -2.146459 1.256482) (xy -2.165342 1.256036)
+				(xy -2.179458 1.255479) (xy -2.189268 1.254801) (xy -2.195236 1.253994) (xy -2.197822 1.253047)
+				(xy -2.198015 1.252656) (xy -2.197106 1.248657) (xy -2.19443 1.237632) (xy -2.19006 1.219868) (xy -2.184066 1.195651)
+				(xy -2.176521 1.165268) (xy -2.167497 1.129005) (xy -2.157064 1.08715) (xy -2.145296 1.039989) (xy -2.132263 0.987809)
+				(xy -2.118036 0.930896) (xy -2.102689 0.869538) (xy -2.086292 0.804021) (xy -2.068918 0.734632)
+				(xy -2.050637 0.661657) (xy -2.031522 0.585384) (xy -2.011645 0.506098) (xy -1.991076 0.424087)
+				(xy -1.969888 0.339638) (xy -1.948152 0.253037) (xy -1.927219 0.169659) (xy -1.925942 0.164575)
+				(xy -1.455307 0.164575) (xy -1.451643 0.165151) (xy -1.441079 0.165661) (xy -1.424253 0.166099)
+				(xy -1.401804 0.166458) (xy -1.374372 0.166732) (xy -1.342597 0.166915) (xy -1.307117 0.167) (xy -1.268571 0.16698)
+				(xy -1.230387 0.166861) (xy -1.005466 0.165889) (xy -0.927234 -0.144212) (xy -0.849002 -0.454313)
+				(xy -1.074719 -0.454313) (xy -1.300437 -0.454313) (xy -1.304108 -0.440175) (xy -1.307315 -0.427691)
+				(xy -1.311963 -0.409413) (xy -1.317886 -0.385996) (xy -1.324921 -0.358098) (xy -1.332903 -0.326378)
+				(xy -1.341668 -0.291491) (xy -1.351052 -0.254097) (xy -1.360889 -0.214852) (xy -1.371016 -0.174414)
+				(xy -1.381269 -0.13344) (xy -1.391483 -0.092588) (xy -1.401493 -0.052516) (xy -1.411135 -0.01388)
+				(xy -1.420245 0.022662) (xy -1.428658 0.056451) (xy -1.43621 0.086832) (xy -1.442737 0.113146) (xy -1.448074 0.134735)
+				(xy -1.452057 0.150943) (xy -1.454522 0.161111) (xy -1.455307 0.164575) (xy -1.925942 0.164575)
+				(xy -1.656449 -0.908625) (xy -0.962067 -0.909578) (xy -0.877039 -0.909692) (xy -0.799232 -0.909789)
+				(xy -0.728327 -0.909867) (xy -0.664004 -0.909922) (xy -0.605944 -0.909953) (xy -0.553829 -0.909956)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "eff9e092-2599-41c9-98bf-b3e60bc9d9a1")
+		)
+		(fp_poly
+			(pts
+				(xy 2.89036 -0.902027) (xy 2.88927 -0.897714) (xy 2.886415 -0.886377) (xy 2.881869 -0.868304) (xy 2.875703 -0.843786)
+				(xy 2.867992 -0.813111) (xy 2.858807 -0.776568) (xy 2.848221 -0.734447) (xy 2.836306 -0.687036)
+				(xy 2.823136 -0.634625) (xy 2.808783 -0.577502) (xy 2.79332 -0.515958) (xy 2.776818 -0.45028) (xy 2.759352 -0.380759)
+				(xy 2.740993 -0.307683) (xy 2.721815 -0.231341) (xy 2.701889 -0.152022) (xy 2.681289 -0.070017)
+				(xy 2.660086 0.014387) (xy 2.638355 0.100901) (xy 2.61919 0.1772) (xy 2.350238 1.247943) (xy 1.654052 1.248896)
+				(xy 1.56614 1.249007) (xy 1.485494 1.24909) (xy 1.41184 1.249142) (xy 1.344904 1.249162) (xy 1.284411 1.249149)
+				(xy 1.230088 1.2491) (xy 1.18166 1.249016) (xy 1.138852 1.248893) (xy 1.101391 1.248732) (xy 1.069003 1.248529)
+				(xy 1.041412 1.248284) (xy 1.018346 1.247995) (xy 0.999529 1.247661) (xy 0.984688 1.247281) (xy 0.973548 1.246851)
+				(xy 0.965836 1.246372) (xy 0.961276 1.245842) (xy 0.959594 1.245259) (xy 0.959583 1.245126) (xy 0.960617 1.241166)
+				(xy 0.963396 1.230252) (xy 0.967832 1.212732) (xy 0.973837 1.188953) (xy 0.981325 1.159265) (xy 0.990207 1.124016)
+				(xy 1.000396 1.083554) (xy 1.011804 1.038228) (xy 1.024345 0.988387) (xy 1.03793 0.934378) (xy 1.052472 0.87655)
+				(xy 1.067883 0.815252) (xy 1.073555 0.792689) (xy 1.542956 0.792689) (xy 1.543989 0.793701) (xy 1.548204 0.794567)
+				(xy 1.556071 0.795297) (xy 1.568059 0.795899) (xy 1.584636 0.796384) (xy 1.606271 0.796763) (xy 1.633433 0.797043)
+				(xy 1.666591 0.797236) (xy 1.706215 0.797352) (xy 1.752771 0.797399) (xy 1.767831 0.797401) (xy 1.808394 0.797371)
+				(xy 1.846631 0.797283) (xy 1.881889 0.797144) (xy 1.913519 0.796958) (xy 1.940869 0.796731) (xy 1.963288 0.796468)
+				(xy 1.980125 0.796175) (xy 1.990728 0.795857) (xy 1.994448 0.79552) (xy 1.994448 0.795517) (xy 1.995348 0.791775)
+				(xy 1.99797 0.78118) (xy 2.002199 0.76419) (xy 2.007921 0.741264) (xy 2.015019 0.712862) (xy 2.023378 0.679443)
+				(xy 2.032884 0.641466) (xy 2.043421 0.599391) (xy 2.054873 0.553676) (xy 2.067127 0.504781) (xy 2.080065 0.453166)
+				(xy 2.093574 0.399288) (xy 2.107538 0.343608) (xy 2.121841 0.286585) (xy 2.136368 0.228678) (xy 2.151005 0.170346)
+				(xy 2.165636 0.112049) (xy 2.180145 0.054245) (xy 2.194418 -0.002607) (xy 2.208339 -0.058046) (xy 2.221794 -0.111613)
+				(xy 2.234665 -0.162851) (xy 2.24684 -0.211298) (xy 2.258202 -0.256497) (xy 2.268635 -0.297988) (xy 2.278026 -0.335311)
+				(xy 2.286258 -0.368008) (xy 2.293217 -0.395619) (xy 2.298787 -0.417684) (xy 2.302852 -0.433746)
+				(xy 2.305299 -0.443344) (xy 2.305947 -0.44583) (xy 2.308256 -0.454313) (xy 2.082398 -0.454313) (xy 1.856541 -0.454313)
+				(xy 1.700619 0.166831) (xy 1.683825 0.233721) (xy 1.667515 0.298659) (xy 1.651784 0.361265) (xy 1.636728 0.42116)
+				(xy 1.622443 0.477965) (xy 1.609023 0.5313) (xy 1.596565 0.580786) (xy 1.585165 0.626043) (xy 1.574918 0.666692)
+				(xy 1.565918 0.702353) (xy 1.558264 0.732647) (xy 1.552048 0.757194) (xy 1.547368 0.775615) (xy 1.544319 0.78753)
+				(xy 1.542997 0.79256) (xy 1.542956 0.792689) (xy 1.073555 0.792689) (xy 1.084077 0.750832) (xy 1.100965 0.683639)
+				(xy 1.11846 0.61402) (xy 1.136474 0.542325) (xy 1.154921 0.468902) (xy 1.173712 0.394099) (xy 1.19276 0.318265)
+				(xy 1.211977 0.241748) (xy 1.231277 0.164896) (xy 1.250571 0.088059) (xy 1.269772 0.011584) (xy 1.288793 -0.064179)
+				(xy 1.307545 -0.138884) (xy 1.325942 -0.21218) (xy 1.343896 -0.28372) (xy 1.36132 -0.353156) (xy 1.378125 -0.420138)
+				(xy 1.394225 -0.484318) (xy 1.409532 -0.545349) (xy 1.423959 -0.602881) (xy 1.437417 -0.656566)
+				(xy 1.44982 -0.706055) (xy 1.46108 -0.751001) (xy 1.47111 -0.791054) (xy 1.479821 -0.825866) (xy 1.487127 -0.855089)
+				(xy 1.49294 -0.878375) (xy 1.497173 -0.895374) (xy 1.499737 -0.905739) (xy 1.500549 -0.909122) (xy 1.504257 -0.909266)
+				(xy 1.515134 -0.909405) (xy 1.532809 -0.909539) (xy 1.55691 -0.909668) (xy 1.587065 -0.90979) (xy 1.622903 -0.909906)
+				(xy 1.664052 -0.910013) (xy 1.710142 -0.910113) (xy 1.7608 -0.910202) (xy 1.815654 -0.910282) (xy 1.874335 -0.910351)
+				(xy 1.936469 -0.910409) (xy 2.001685 -0.910454) (xy 2.069613 -0.910487) (xy 2.13988 -0.910506) (xy 2.196564 -0.91051)
+				(xy 2.892579 -0.91051)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "40a89412-1a48-4a5f-a130-18fd021b0e8f")
+		)
+		(fp_poly
+			(pts
+				(xy 3.460298 -2.188648) (xy 3.467987 -2.180689) (xy 3.480272 -2.167879) (xy 3.496856 -2.150528)
+				(xy 3.517445 -2.128949) (xy 3.541741 -2.103452) (xy 3.56945 -2.074348) (xy 3.600275 -2.041947) (xy 3.63392 -2.006561)
+				(xy 3.67009 -1.968501) (xy 3.708488 -1.928077) (xy 3.748819 -1.8856) (xy 3.790786 -1.841381) (xy 3.82239 -1.808071)
+				(xy 3.874667 -1.752939) (xy 3.921947 -1.703023) (xy 3.964448 -1.658088) (xy 4.002384 -1.617901)
+				(xy 4.035973 -1.582229) (xy 4.065429 -1.550837) (xy 4.09097 -1.523492) (xy 4.11281 -1.499961) (xy 4.131168 -1.48001)
+				(xy 4.146257 -1.463405) (xy 4.158295 -1.449913) (xy 4.167497 -1.439299) (xy 4.17408 -1.431331) (xy 4.17826 -1.425774)
+				(xy 4.180252 -1.422396) (xy 4.180348 -1.421019) (xy 4.176443 -1.418144) (xy 4.166718 -1.411356)
+				(xy 4.151555 -1.400912) (xy 4.131333 -1.387068) (xy 4.106431 -1.37008) (xy 4.07723 -1.350205) (xy 4.04411 -1.327699)
+				(xy 4.00745 -1.302818) (xy 3.96763 -1.27582) (xy 3.925031 -1.24696) (xy 3.880031 -1.216495) (xy 3.833011 -1.184682)
+				(xy 3.784351 -1.151776) (xy 3.734431 -1.118034) (xy 3.68363 -1.083713) (xy 3.632328 -1.049069) (xy 3.580905 -1.014358)
+				(xy 3.529742 -0.979837) (xy 3.479217 -0.945763) (xy 3.429711 -0.912391) (xy 3.381603 -0.879978)
+				(xy 3.335274 -0.848781) (xy 3.291104 -0.819056) (xy 3.249471 -0.791059) (xy 3.210757 -0.765047)
+				(xy 3.17534 -0.741276) (xy 3.143602 -0.720003) (xy 3.115921 -0.701484) (xy 3.092677 -0.685976) (xy 3.074251 -0.673735)
+				(xy 3.061022 -0.665017) (xy 3.053371 -0.660078) (xy 3.05152 -0.65901) (xy 3.052251 -0.662728) (xy 3.05471 -0.67298)
+				(xy 3.058702 -0.68901) (xy 3.064028 -0.71006) (xy 3.070492 -0.735375) (xy 3.077897 -0.764198) (xy 3.086045 -0.795772)
+				(xy 3.09474 -0.829342) (xy 3.103785 -0.864149) (xy 3.112983 -0.899439) (xy 3.122137 -0.934455) (xy 3.131049 -0.968439)
+				(xy 3.139524 -1.000636) (xy 3.147363 -1.030289) (xy 3.15437 -1.056642) (xy 3.160348 -1.078938) (xy 3.165099 -1.09642)
+				(xy 3.168428 -1.108333) (xy 3.169291 -1.11128) (xy 3.16923 -1.111887) (xy 3.168517 -1.112455) (xy 3.166913 -1.112985)
+				(xy 3.164183 -1.113479) (xy 3.160088 -1.113937) (xy 3.154394 -1.11436) (xy 3.146862 -1.11475) (xy 3.137256 -1.115108)
+				(xy 3.12534 -1.115434) (xy 3.110877 -1.115731) (xy 3.09363 -1.115998) (xy 3.073362 -1.116237) (xy 3.049836 -1.116449)
+				(xy 3.022817 -1.116634) (xy 2.992066 -1.116795) (xy 2.957348 -1.116933) (xy 2.918426 -1.117047)
+				(xy 2.875063 -1.11714) (xy 2.827022 -1.117212) (xy 2.774066 -1.117264) (xy 2.715959 -1.117298) (xy 2.652465 -1.117314)
+				(xy 2.583345 -1.117314) (xy 2.508365 -1.117299) (xy 2.427286 -1.117269) (xy 2.339872 -1.117226)
+				(xy 2.245887 -1.117171) (xy 2.145094 -1.117105) (xy 2.037255 -1.117029) (xy 1.922135 -1.116944)
+				(xy 1.911052 -1.116935) (xy 0.650834 -1.115987) (xy 0.571155 -0.797403) (xy 0.559185 -0.749541)
+				(xy 0.547699 -0.703624) (xy 0.536837 -0.660201) (xy 0.526735 -0.619818) (xy 0.517529 -0.583023)
+				(xy 0.509357 -0.550364) (xy 0.502356 -0.52239) (xy 0.496663 -0.499646) (xy 0.492415 -0.482682) (xy 0.489749 -0.472045)
+				(xy 0.488846 -0.468451) (xy 0.486215 -0.458083) (xy 0.823499 -0.458083) (xy 0.873253 -0.458052)
+				(xy 0.920826 -0.457963) (xy 0.965681 -0.457819) (xy 1.007281 -0.457625) (xy 1.04509 -0.457386) (xy 1.078571 -0.457106)
+				(xy 1.107187 -0.456789) (xy 1.130401 -0.456441) (xy 1.147677 -0.456065) (xy 1.158477 -0.455666)
+				(xy 1.162263 -0.455256) (xy 1.161595 -0.451252) (xy 1.159224 -0.440472) (xy 1.155278 -0.423455)
+				(xy 1.149889 -0.400739) (xy 1.143187 -0.372862) (xy 1.135302 -0.340361) (xy 1.126364 -0.303775)
+				(xy 1.116505 -0.263643) (xy 1.105854 -0.220502) (xy 1.094542 -0.174891) (xy 1.086436 -0.142327)
+				(xy 1.00913 0.167774) (xy 0.669439 0.167774) (xy 0.329747 0.167774) (xy 0.196211 0.700318) (xy 0.180656 0.762347)
+				(xy 0.165572 0.822493) (xy 0.151062 0.880339) (xy 0.137231 0.935464) (xy 0.124186 0.987453) (xy 0.112031 1.035885)
+				(xy 0.100871 1.080343) (xy 0.090811 1.120408) (xy 0.081956 1.155663) (xy 0.074411 1.185689) (xy 0.068281 1.210067)
+				(xy 0.063671 1.22838) (xy 0.060687 1.240209) (xy 0.059437 1.245116) (xy 0.056199 1.257369) (xy -0.265665 1.257369)
+				(xy -0.587529 1.257369) (xy -0.421734 0.596637) (xy -0.403724 0.524846) (xy -0.384079 0.446511)
+				(xy -0.362994 0.362406) (xy -0.340661 0.273304) (xy -0.317275 0.179976) (xy -0.293028 0.083195)
+				(xy -0.268115 -0.016266) (xy -0.242728 -0.117635) (xy -0.217061 -0.220138) (xy -0.191308 -0.323004)
+				(xy -0.165662 -0.42546) (xy -0.140316 -0.526734) (xy -0.115465 -0.626052) (xy -0.0913 -0.722642)
+				(xy -0.068017 -0.815731) (xy -0.046439 -0.902027) (xy 0.163062 -1.739959) (xy 1.749359 -1.739959)
+				(xy 3.335656 -1.739959) (xy 3.346897 -1.782374) (xy 3.350129 -1.794575) (xy 3.355047 -1.81315) (xy 3.361409 -1.837184)
+				(xy 3.368972 -1.865763) (xy 3.377496 -1.89797) (xy 3.386736 -1.93289) (xy 3.396452 -1.969609) (xy 3.406401 -2.007211)
+				(xy 3.406766 -2.008591) (xy 3.416284 -2.044396) (xy 3.425268 -2.077862) (xy 3.433528 -2.108305)
+				(xy 3.440874 -2.135042) (xy 3.447117 -2.157389) (xy 3.452068 -2.174664) (xy 3.455536 -2.186183)
+				(xy 3.457333 -2.191263) (xy 3.4575 -2.191447)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "24f565a6-2e0e-4175-82d7-1d9c45f9b0ed")
+		)
+		(fp_poly
+			(pts
+				(xy -0.773532 -1.739155) (xy -0.691768 -1.739127) (xy -0.613601 -1.739082) (xy -0.539306 -1.739023)
+				(xy -0.469157 -1.738948) (xy -0.403429 -1.738859) (xy -0.342395 -1.738756) (xy -0.286331 -1.738639)
+				(xy -0.23551 -1.738509) (xy -0.190208 -1.738366) (xy -0.150698 -1.73821) (xy -0.117255 -1.738042)
+				(xy -0.090154 -1.737862) (xy -0.069668 -1.737671) (xy -0.056073 -1.737469) (xy -0.049643 -1.737256)
+				(xy -0.049134 -1.737175) (xy -0.050047 -1.733163) (xy -0.05266 -1.722377) (xy -0.056837 -1.705359)
+				(xy -0.062445 -1.68265) (xy -0.069349 -1.654789) (xy -0.077416 -1.622319) (xy -0.08651 -1.585779)
+				(xy -0.096498 -1.545711) (xy -0.107244 -1.502655) (xy -0.118616 -1.457152) (xy -0.126151 -1.427031)
+				(xy -0.203047 -1.119758) (xy -1.278776 -1.117809) (xy -1.386393 -1.117622) (xy -1.486733 -1.117458)
+				(xy -1.580062 -1.117311) (xy -1.666643 -1.117174) (xy -1.746742 -1.117039) (xy -1.820623 -1.1169)
+				(xy -1.888549 -1.116749) (xy -1.950787 -1.11658) (xy -2.007599 -1.116386) (xy -2.059251 -1.116159)
+				(xy -2.106006 -1.115892) (xy -2.14813 -1.11558) (xy -2.185887 -1.115213) (xy -2.21954 -1.114787)
+				(xy -2.249356 -1.114292) (xy -2.275597 -1.113723) (xy -2.298528 -1.113073) (xy -2.318415 -1.112334)
+				(xy -2.33552 -1.111499) (xy -2.350109 -1.110562) (xy -2.362447 -1.109515) (xy -2.372796 -1.108351)
+				(xy -2.381423 -1.107064) (xy -2.388591 -1.105646) (xy -2.394565 -1.10409) (xy -2.399609 -1.10239)
+				(xy -2.403987 -1.100538) (xy -2.407965 -1.098527) (xy -2.411806 -1.09635) (xy -2.415775 -1.094001)
+				(xy -2.420136 -1.091471) (xy -2.425154 -1.088755) (xy -2.428025 -1.087309) (xy -2.443959 -1.078906)
+				(xy -2.457637 -1.070071) (xy -2.471125 -1.059237) (xy -2.486487 -1.044839) (xy -2.494113 -1.037235)
+				(xy -2.503977 -1.02724) (xy -2.512648 -1.018126) (xy -2.520339 -1.009317) (xy -2.527264 -1.000238)
+				(xy -2.533636 -0.990312) (xy -2.539669 -0.978962) (xy -2.545575 -0.965613) (xy -2.551569 -0.949689)
+				(xy -2.557864 -0.930613) (xy -2.564673 -0.907809) (xy -2.57221 -0.880702) (xy -2.580687 -0.848714)
+				(xy -2.590319 -0.811271) (xy -2.601318 -0.767795) (xy -2.613899 -0.717711) (xy -2.616921 -0.705665)
+				(xy -2.627228 -0.664516) (xy -2.636975 -0.625476) (xy -2.646009 -0.589169) (xy -2.654176 -0.556215)
+				(xy -2.661323 -0.527239) (xy -2.667297 -0.502862) (xy -2.671943 -0.483707) (xy -2.67511 -0.470397)
+				(xy -2.676642 -0.463554) (xy -2.676764 -0.462796) (xy -2.675385 -0.461965) (xy -2.670954 -0.461231)
+				(xy -2.663089 -0.460589) (xy -2.651407 -0.460034) (xy -2.635525 -0.45956) (xy -2.615059 -0.459163)
+				(xy -2.589627 -0.458837) (xy -2.558844 -0.458577) (xy -2.522329 -0.458378) (xy -2.479696 -0.458234)
+				(xy -2.430565 -0.458141) (xy -2.37455 -0.458093) (xy -2.329999 -0.458083) (xy -2.26881 -0.458064)
+				(xy -2.214779 -0.458004) (xy -2.167521 -0.457897) (xy -2.126654 -0.457737) (xy -2.091795 -0.457521)
+				(xy -2.06256 -0.457243) (xy -2.038566 -0.456897) (xy -2.01943 -0.456478) (xy -2.004769 -0.455981)
+				(xy -1.994199 -0.455401) (xy -1.987338 -0.454733) (xy -1.983801 -0.453972) (xy -1.983099 -0.45337)
+				(xy -1.98398 -0.449072) (xy -1.986545 -0.438) (xy -1.990663 -0.420699) (xy -1.9962 -0.397714) (xy -2.003025 -0.36959)
+				(xy -2.011003 -0.336871) (xy -2.020002 -0.300102) (xy -2.029891 -0.259828) (xy -2.040535 -0.216594)
+				(xy -2.051802 -0.170943) (xy -2.059345 -0.140442) (xy -2.135631 0.167774) (xy -2.485275 0.167774)
+				(xy -2.834918 0.167774) (xy -2.838598 0.181912) (xy -2.839936 0.187187) (xy -2.843003 0.19935) (xy -2.847689 0.217976)
+				(xy -2.85389 0.242639) (xy -2.861497 0.272915) (xy -2.870405 0.308377) (xy -2.880505 0.3486) (xy -2.891692 0.393159)
+				(xy -2.903859 0.441628) (xy -2.916899 0.493582) (xy -2.930704 0.548595) (xy -2.945168 0.606242)
+				(xy -2.960185 0.666097) (xy -2.972789 0.716342) (xy -2.988141 0.777535) (xy -3.003006 0.836774)
+				(xy -3.01728 0.893641) (xy -3.030858 0.947718) (xy -3.043633 0.998588) (xy -3.055503 1.045834) (xy -3.066361 1.089038)
+				(xy -3.076104 1.127782) (xy -3.084625 1.16165) (xy -3.09182 1.190224) (xy -3.097584 1.213087) (xy -3.101812 1.229821)
+				(xy -3.104399 1.240008) (xy -3.105228 1.243201) (xy -3.105287 1.244572) (xy -3.104227 1.245744)
+				(xy -3.101492 1.246735) (xy -3.096527 1.247564) (xy -3.088776 1.248249) (xy -3.077683 1.24881) (xy -3.062693 1.249266)
+				(xy -3.043249 1.249635) (xy -3.018796 1.249936) (xy -2.988779 1.250189) (xy -2.952641 1.250411)
+				(xy -2.909828 1.250622) (xy -2.882951 1.250741) (xy -2.658747 1.251713) (xy -3.150582 1.719221)
+				(xy -3.202033 1.768117) (xy -3.252027 1.815609) (xy -3.30029 1.861437) (xy -3.346546 1.905341) (xy -3.390522 1.947061)
+				(xy -3.431942 1.986336) (xy -3.470531 2.022906) (xy -3.506015 2.056512) (xy -3.538119 2.086892)
+				(xy -3.566568 2.113787) (xy -3.591088 2.136937) (xy -3.611403 2.156081) (xy -3.627238 2.170959)
+				(xy -3.63832 2.181312) (xy -3.644373 2.186878) (xy -3.645471 2.18781) (xy -3.647669 2.184726) (xy -3.653396 2.175462)
+				(xy -3.662439 2.160382) (xy -3.674584 2.139854) (xy -3.689621 2.114244) (xy -3.707334 2.083917)
+				(xy -3.727513 2.049239) (xy -3.749944 2.010577) (xy -3.774414 1.968297) (xy -3.800711 1.922764)
+				(xy -3.828623 1.874345) (xy -3.857935 1.823406) (xy -3.888436 1.770313) (xy -3.915794 1.722619)
+				(xy -3.947162 1.667887) (xy -3.977502 1.614936) (xy -4.006601 1.564135) (xy -4.034249 1.515856)
+				(xy -4.060233 1.470467) (xy -4.084341 1.428339) (xy -4.106362 1.389843) (xy -4.126085 1.355347)
+				(xy -4.143297 1.325223) (xy -4.157788 1.299841) (xy -4.169344 1.27957) (xy -4.177756 1.26478) (xy -4.18281 1.255843)
+				(xy -4.18431 1.253118) (xy -4.180883 1.252513) (xy -4.170574 1.251912) (xy -4.154042 1.251328) (xy -4.131947 1.250773)
+				(xy -4.104947 1.25026) (xy -4.073702 1.249803) (xy -4.038869 1.249413) (xy -4.00111 1.249104) (xy -3.967699 1.248917)
+				(xy -3.74984 1.247943) (xy -3.432333 -0.019787) (xy -3.408251 -0.115916) (xy -3.384599 -0.210289)
+				(xy -3.361443 -0.302637) (xy -3.338852 -0.392689) (xy -3.316894 -0.480175) (xy -3.295637 -0.564826)
+				(xy -3.275149 -0.64637) (xy -3.255498 -0.724539) (xy -3.236753 -0.799061) (xy -3.21898 -0.869667)
+				(xy -3.202249 -0.936087) (xy -3.186627 -0.99805) (xy -3.172183 -1.055286) (xy -3.158984 -1.107525)
+				(xy -3.147098 -1.154498) (xy -3.136594 -1.195934) (xy -3.12754 -1.231563) (xy -3.120004 -1.261114)
+				(xy -3.114053 -1.284318) (xy -3.109756 -1.300905) (xy -3.10718 -1.310605) (xy -3.1065 -1.312974)
+				(xy -3.09716 -1.338064) (xy -3.084602 -1.366852) (xy -3.070012 -1.396917) (xy -3.054576 -1.425834)
+				(xy -3.039482 -1.451182) (xy -3.036806 -1.455311) (xy -2.995452 -1.511522) (xy -2.949236 -1.561979)
+				(xy -2.898216 -1.606642) (xy -2.842449 -1.645473) (xy -2.781993 -1.678432) (xy -2.716905 -1.70548)
+				(xy -2.647244 -1.726577) (xy -2.635387 -1.729466) (xy -2.59957 -1.737907) (xy -1.324292 -1.738977)
+				(xy -1.226707 -1.73905) (xy -1.131073 -1.739106) (xy -1.037664 -1.739143) (xy -0.946754 -1.739164)
+				(xy -0.858619 -1.739168)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "b9fde839-fa32-4eb9-b6bc-09b0377ff5c9")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Pads:Solder_Pad_SMD"
+		(layer "F.Cu")
+		(uuid "8020f6fc-375a-499e-92a0-cc6e7bbfb169")
+		(at 146.8 70.3 180)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "3.3V"
+			(at 0.05 -1.4 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "9cc62297-a222-4390-8677-15132313a667")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 -5.15 0)
+			(layer "F.Fab")
+			(uuid "6bd5b0b6-0bb9-436c-8533-5474951b3d7e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b60d46ae-25d1-44fd-b6a3-2743782f541d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b56004f4-906c-4f1c-8234-d930a29cdbbf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/f4952d1c-808c-427b-84e6-c0952707eb35")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 -1.35)
+			(end 0.85 1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "ba4356ba-87cb-443f-871d-2d0d77e596b5")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 4.2 0)
+			(layer "F.Fab")
+			(uuid "d0af77d0-fa74-43ba-b4b3-8675b2cebe7d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0 180)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.125)
+			(net 6 "+3.3V")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "1850fb6b-4a48-4231-9e3a-e22a4745e13e")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Package_QFP:LQFP-64_10x10mm_P0.5mm"
 		(layer "F.Cu")
 		(uuid "84528fe3-3170-4bed-9f57-eb51b51feb39")
@@ -5439,7 +7627,7 @@
 		(descr "LQFP, 64 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ad7606_7606-6_7606-4.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "LQFP QFP")
 		(property "Reference" "U1"
-			(at 0 -7.4 0)
+			(at -0.9 -0.75 0)
 			(layer "F.SilkS")
 			(uuid "4c5b4b55-1b7a-4656-8977-bc9575f8ee2c")
 			(effects
@@ -6640,11 +8828,11 @@
 	(footprint "Package_TO_SOT_SMD:SOT-323_SC-70"
 		(layer "F.Cu")
 		(uuid "8c1a7036-3b8f-4d69-8c78-eed101a2b087")
-		(at 137.8 73.4)
+		(at 139.5 74.4)
 		(descr "SOT-323, SC-70")
 		(tags "SOT-323 SC-70")
 		(property "Reference" "Q2"
-			(at 3 1.15 0)
+			(at -3.1 0.2 0)
 			(layer "F.SilkS")
 			(uuid "52574c16-375e-40f5-9355-8e8a73f4b68f")
 			(effects
@@ -6892,6 +9080,533 @@
 			)
 		)
 	)
+	(footprint "Pads:Solder_Pad_SMD"
+		(layer "F.Cu")
+		(uuid "8cad2107-72a5-4d8c-894c-d02c8bea313a")
+		(at 136 99.5)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "5V"
+			(at 0.05 -1.4 0)
+			(layer "F.SilkS")
+			(uuid "c5f7807b-3428-4c49-bb5a-0570d2c43997")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 -5.15 0)
+			(layer "F.Fab")
+			(uuid "4c357fb2-a80c-47f1-a26f-95bac3422e27")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba6f9c81-8139-4a6c-97cd-5b3596a33b32")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9cb87d91-05c9-4e29-ba8d-7384507c30cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/01849c70-ac74-42d7-9b9c-9a7743395e29")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 -1.35)
+			(end 0.85 1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "52be1727-fa3f-453f-998e-a405d6a11eef")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 4.2 0)
+			(layer "F.Fab")
+			(uuid "d1648995-a8cc-4f6d-ab12-64ce21df9550")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.125)
+			(net 5 "+5V")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "fee29b4b-e090-4265-a55b-78e9a34bf8bb")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Pads:Solder_Pad_SMD"
+		(layer "F.Cu")
+		(uuid "8ecbbd0e-3057-45a0-817e-04b11e08d271")
+		(at 171.6 77.25)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "TP_GND8"
+			(at 0.05 -1.75 0)
+			(layer "F.SilkS")
+			(uuid "0e381759-677f-4660-8896-3861e7bb0d8b")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 -5.15 0)
+			(layer "F.Fab")
+			(uuid "4278939a-3ae1-41b3-9c3a-bbc75af7de77")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "451aeb06-689e-4c9f-a1fa-af142623db1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "503666d5-f8a0-4fd0-86db-2d279a7db098")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/b219b6a4-664d-4e35-ab27-2864ee291e30")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 -1.35)
+			(end 0.85 1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "bbdb615d-f910-4fb0-86ff-2e57e9aef1da")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 4.2 0)
+			(layer "F.Fab")
+			(uuid "d8551610-898c-4549-a313-4a9ea4c3dd7f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.125)
+			(net 2 "GND")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "7fbb1583-631b-4b94-9dde-afc8b37f3563")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Pads:Solder_Pad_SMD"
+		(layer "F.Cu")
+		(uuid "8f45e677-834e-4498-b56c-191616147c0c")
+		(at 141 103)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "VTX"
+			(at 0.05 -1.4 0)
+			(layer "F.SilkS")
+			(uuid "7f701de9-79ee-4d44-9c2b-1ca0219764b7")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 -5.15 0)
+			(layer "F.Fab")
+			(uuid "776d9f67-3702-4c8e-982b-54de5799843e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ca2fd8f-484f-4087-8882-ca5adab3cbc8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d184240-651c-4608-930b-b359f6194f09")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/cdeab01f-bab4-42d3-ad17-65f46e2a3683")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 -1.35)
+			(end 0.85 1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "81768fc2-8372-4429-af59-5c7852f2188f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 4.2 0)
+			(layer "F.Fab")
+			(uuid "f2673f2a-78ee-4d80-8eda-ca44cb503aec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.125)
+			(net 57 "/VOUT")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "f7ea2982-08d2-462e-a78e-5b76b7a93e8a")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Pads:Solder_Pad_SMD"
+		(layer "F.Cu")
+		(uuid "900b461d-b1fc-4543-89ba-f105d1f8398d")
+		(at 142.8 70.3 180)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "TX"
+			(at 0.05 -1.4 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "3abd4502-63d5-4a7d-a6cf-fc69d1e94bf4")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 -5.15 0)
+			(layer "F.Fab")
+			(uuid "df127818-106c-423c-8729-8566553b25eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f097e71-65a0-457a-b28f-536b8e22ae4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25395e9a-9017-4e3e-8cc1-4cff8c782b9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/300799bd-27a0-428f-874e-5224d357bd8a")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 -1.35)
+			(end 0.85 1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "64633aa1-f500-46d1-b98c-5a8ee14f2b6c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 4.2 0)
+			(layer "F.Fab")
+			(uuid "4460c3e4-4f6b-4bf6-9370-6d724f2a53a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0 180)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.125)
+			(net 54 "/UART1_TX")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "6c9b2e79-fa6a-4193-b237-c4ae38225521")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Pads:Solder_Pad_SMD"
+		(layer "F.Cu")
+		(uuid "916c752d-bb7d-4cbe-ab98-0798c90f36fb")
+		(at 136.8 70.3 180)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "RX"
+			(at 0.05 -1.4 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "961dfc80-e583-462e-8a32-2c3d41546910")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 -5.15 0)
+			(layer "F.Fab")
+			(uuid "c76dde71-df42-4226-92a5-e572a62267fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e19229e-fed0-4975-87d0-75f285a0f018")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ddf1755a-163c-4777-8096-ef509d25a9a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/86dba1e6-42e1-4a00-b6d3-7603df483ba8")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 -1.35)
+			(end 0.85 1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "c87b317b-a638-4eb8-a8ef-803e16b95863")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 4.2 0)
+			(layer "F.Fab")
+			(uuid "1a5eca28-b05a-4011-8926-c79b9df5075f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0 180)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.125)
+			(net 68 "/UART4_RX")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "070e1f83-deae-4a1d-a897-0125e54f66d5")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "950d6a8a-b388-4cef-a05a-0d65a3d01c52")
@@ -7092,10 +9807,115 @@
 			)
 		)
 	)
+	(footprint "Pads:Solder_Pad_SMD"
+		(layer "F.Cu")
+		(uuid "983dee88-20ee-4d9d-8328-1e97ba88262b")
+		(at 151 103)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "SDA"
+			(at 0.05 -1.4 0)
+			(layer "F.SilkS")
+			(uuid "718f7976-4c83-48cf-8f19-69c02262f696")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 -5.15 0)
+			(layer "F.Fab")
+			(uuid "f92a1b8c-fbc4-4307-b4c0-d3629b3fe7ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11f362bb-8e25-4525-be1a-bc72d7707909")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76d6ad09-5816-4bd8-9cd5-0b5c18f7d9e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/2ffc5086-aa41-47fb-b383-4437882e7766")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 -1.35)
+			(end 0.85 1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "e858b6a3-34bf-4049-aba7-07c710eafc1f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 4.2 0)
+			(layer "F.Fab")
+			(uuid "017b2f9b-5ba1-42d9-b21c-aa46d40b74d6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.125)
+			(net 81 "/I2C2_SDA")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "669780d5-0957-477d-b27f-31a2f09a0cb6")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Pads:OpenSource_Logo"
 		(layer "F.Cu")
 		(uuid "9848c910-66b7-496e-8723-bc0715af0929")
-		(at 141.895575 95.97744)
+		(at 161.3 94.2)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -7333,14 +10153,225 @@
 		)
 		(embedded_fonts no)
 	)
+	(footprint "Pads:Solder_Pad_SMD"
+		(layer "F.Cu")
+		(uuid "997a86dd-fb04-4c26-999f-ff41a530a254")
+		(at 56.4 65.7)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "TP_VBAT+1"
+			(at 0.05 -1.75 0)
+			(layer "F.SilkS")
+			(uuid "ff65e6bb-9747-4bc6-9176-46df90d84c67")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 -5.15 0)
+			(layer "F.Fab")
+			(uuid "d0aa2557-35ad-4be9-ab9e-478a8d328bbe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5f46f8fb-335b-4e90-b1c2-923524ea9708")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b07100a7-71d0-49b2-9220-262cf91199bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/f97b1861-e725-4afa-a61f-d254cfbf255d")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 -1.35)
+			(end 0.85 1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "4879b7fa-5d28-4c3e-8974-75d980fed2d1")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 4.2 0)
+			(layer "F.Fab")
+			(uuid "9e806b8b-4289-4e89-bd10-6b7deecb7c49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.125)
+			(net 16 "/VBAT+")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "a87a06c0-08cc-43ca-9564-61b88ed80782")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Pads:Solder_Pad_SMD"
+		(layer "F.Cu")
+		(uuid "9b60ecc0-678e-4dc1-a920-226f4f557443")
+		(at 139.8 66.8 180)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "GND"
+			(at 0.05 -1.4 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "05e05a61-9791-4fd4-87c5-5cf47a2f0420")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 -5.15 0)
+			(layer "F.Fab")
+			(uuid "940b7b4e-ca86-4208-8733-9f612195ba5a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3676890c-2c88-4162-b718-76fa2c138f1c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "531164fe-18b5-4097-b4a5-3f854937da41")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/6409ea59-5a6b-4bfb-b8e1-2422d3df2a9b")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 -1.35)
+			(end 0.85 1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "b6f3ff20-e9b2-4b31-a662-2014bf718c18")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 4.2 0)
+			(layer "F.Fab")
+			(uuid "ceff515b-bad1-44c7-b935-b589efd2e0e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0 180)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.125)
+			(net 2 "GND")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "85b18e3e-a5aa-4c65-859d-e9073e34cdd9")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "9d0ab499-0a92-4273-8caf-028738cde8d6")
-		(at 128.1375 83.15 180)
+		(at 129 83.15 180)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
-		(property "Reference" "D_LED4"
-			(at -4.2625 0 0)
+		(property "Reference" "3.3VGyro"
+			(at -5.0625 -0.15 0)
 			(layer "F.SilkS")
 			(uuid "2f776e17-af80-48ba-8ae9-08a9617fae07")
 			(effects
@@ -7574,7 +10605,7 @@
 		(descr "LGA-14 Bosch https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMI160-DS000-07.pdf")
 		(tags "lga land grid array")
 		(property "Reference" "U7"
-			(at 0 -2.5 0)
+			(at 1.65 3.25 0)
 			(layer "F.SilkS")
 			(uuid "d8fa8b44-3509-465f-ac53-f12401e40851")
 			(effects
@@ -8148,14 +11179,225 @@
 			)
 		)
 	)
+	(footprint "Pads:Solder_Pad_SMD"
+		(layer "F.Cu")
+		(uuid "a33fb453-425e-4344-b306-29928838a1cd")
+		(at 140 99.5)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "RX2"
+			(at 0.05 -1.4 0)
+			(layer "F.SilkS")
+			(uuid "b7e02df8-8a3d-41de-91b3-d02dcd4b7c54")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 -5.15 0)
+			(layer "F.Fab")
+			(uuid "42959064-c503-4394-a0b7-88992dc43303")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e77c5339-a2a1-44ec-9630-447a9c5a3f31")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8bf3682f-1385-4e1b-b0d2-d9ef55668a76")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/c395f9a7-b5d0-4da4-a5ed-ddf34efb4029")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 -1.35)
+			(end 0.85 1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "6ee8e8e1-9bf3-481f-bdfa-319abc6266d3")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 4.2 0)
+			(layer "F.Fab")
+			(uuid "4556104e-15ec-4803-8227-a2f464a9aae0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.125)
+			(net 66 "/UART2_RX")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "bebe6de2-81b7-47aa-9360-88459e041cd9")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Pads:Solder_Pad_SMD"
+		(layer "F.Cu")
+		(uuid "a3751283-df90-452e-9516-2d4e33479f67")
+		(at 138.8 70.3 180)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "TX"
+			(at 0.05 -1.4 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "bcea8add-be1e-465a-a549-fda0513ac3be")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 -5.15 0)
+			(layer "F.Fab")
+			(uuid "efc3d2cb-ebf3-45e8-80f9-c1dd3e4876b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e95f5329-c13f-4045-862f-0a035ea34098")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12e29580-440f-4b9e-9bd5-cf23b5b5307d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/96bb9453-969a-447b-b702-35573ec054b4")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 -1.35)
+			(end 0.85 1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "098f15f1-b4ff-4536-8550-08ffb660eb19")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 4.2 0)
+			(layer "F.Fab")
+			(uuid "e4370e06-3cf0-43aa-99cb-bd814d8b007c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0 180)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.125)
+			(net 79 "/UART4_TX")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "cece68b1-1fa4-4c06-8863-ed4951bd78b5")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "a8bbcbd1-5229-4c02-9852-f90e160b4699")
-		(at 128.1375 77.9 180)
+		(at 129 77.9 180)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
-		(property "Reference" "D_LED1"
-			(at -4.2625 -0.05 0)
+		(property "Reference" "5V"
+			(at -2.5625 0 0)
 			(layer "F.SilkS")
 			(uuid "610fd8ed-7a4d-4133-bcc8-5347173be3c8")
 			(effects
@@ -8385,7 +11627,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "b164e296-41f0-4d06-b534-c2fd40b069ca")
-		(at 152.075 72.85 180)
+		(at 152.075 73.6 180)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R_SBUS1"
@@ -8571,6 +11813,111 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Pads:Solder_Pad_SMD"
+		(layer "F.Cu")
+		(uuid "b1c5d606-979f-4533-a8df-259fd8ff7fa0")
+		(at 154 99.5)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "RX"
+			(at 0.05 -1.4 0)
+			(layer "F.SilkS")
+			(uuid "353d0985-0fc2-4b50-b61b-43610490a833")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 -5.15 0)
+			(layer "F.Fab")
+			(uuid "714accaa-d14d-402b-aa4d-0af164bf3990")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7455d3ba-a6e7-41af-9ac8-9fa7629425d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b725c73a-6853-41fa-92fc-b2c0ee8d1789")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/daa885f8-20a4-4b16-b5e8-621442700325")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 -1.35)
+			(end 0.85 1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "85735480-52c7-4554-bfd6-157e71c0c732")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 4.2 0)
+			(layer "F.Fab")
+			(uuid "9dfa1bee-1b09-4bc4-896b-19e78ad8e4b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.125)
+			(net 69 "/UART5_RX")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "28d870aa-6ecc-4ecf-ad3a-c0478783482f")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8789,7 +12136,7 @@
 		(descr "USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A, https://gct.co/files/drawings/usb4110.pdf")
 		(tags "USB 2.0 C Type-C Receptacle SMD 16P 16C USB4110-GF-A")
 		(property "Reference" "J2"
-			(at -0.1 -2 90)
+			(at 0 -0.29 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "f25233e5-60f5-4971-b362-2c8079d89d28")
@@ -9389,6 +12736,122 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/3DModels/USB4110GFA--3DModel-STEP-269445.STEP"
+			(offset
+				(xyz 0 2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
+	)
+	(footprint "Pads:Solder_Pad_SMD"
+		(layer "F.Cu")
+		(uuid "b6b33e72-b9a0-476c-aba1-4e83c3751c74")
+		(at 138 99.5)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "GND"
+			(at 0.05 -1.4 0)
+			(layer "F.SilkS")
+			(uuid "b35f0a9e-83e6-4845-b309-24ae928ab73d")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 -5.15 0)
+			(layer "F.Fab")
+			(uuid "22e1cb79-2584-4abd-95c6-36ce5f8a962b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ab894d2-7410-46ae-8deb-f0a10f4d5f60")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbaaa05f-b15a-4288-95aa-ae21c8ad801d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/4edeb109-cb07-400b-a615-fe6ae2cd2916")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 -1.35)
+			(end 0.85 1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "7736ee8c-21f2-486a-9217-28c4aa14c488")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 4.2 0)
+			(layer "F.Fab")
+			(uuid "13c8bd57-3a6b-49ce-86e0-5ef2fc6cd758")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.125)
+			(net 2 "GND")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "49ff1fa7-d9a2-44f2-944c-501aa45ef39f")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
@@ -9579,6 +13042,112 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Pads:Solder_Pad_SMD"
+		(layer "F.Cu")
+		(uuid "b8249aad-df08-4d1e-883e-fd5bbb8ab5ba")
+		(at 152.8 70.3 180)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "GND"
+			(at 0.05 -1.4 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "32849a84-17df-4ef3-a45c-913250f27010")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 -5.15 0)
+			(layer "F.Fab")
+			(uuid "8d5a5392-3b94-4fab-aa3a-c0d06b9f8ccf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3537e3d-f6a9-42ca-997b-653468ecd9b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97d89e6b-4c22-4212-9389-35e92f49adfb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/13108f5b-cf7e-40d6-91ec-06a9d6d3dc93")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 -1.35)
+			(end 0.85 1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "f5a38268-f401-46c9-854b-149f87ca4fb1")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 4.2 0)
+			(layer "F.Fab")
+			(uuid "4892e5e7-fe61-4ef9-a3a0-d34acb86ce69")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0 180)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.125)
+			(net 2 "GND")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "867b4928-1ede-4fa8-975b-0f9265e5d7a0")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9790,14 +13359,119 @@
 			)
 		)
 	)
+	(footprint "Pads:Solder_Pad_SMD"
+		(layer "F.Cu")
+		(uuid "c31b0b82-d38a-4076-9dc8-192e375d8509")
+		(at 143 103)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "RX"
+			(at 0.05 -1.4 0)
+			(layer "F.SilkS")
+			(uuid "680970a3-aa2e-4230-887f-bdba6f4c5898")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 -5.15 0)
+			(layer "F.Fab")
+			(uuid "757ae099-17f5-4be5-9006-477c44d26ded")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d3e50241-1f06-464f-8844-0b1a84458c04")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0cd8c9de-72c0-4541-9685-3462fb32cd10")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/f3d20df4-0b12-431c-b41f-b70b6c1d4db6")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 -1.35)
+			(end 0.85 1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "78c75496-49fd-4596-bf71-9d3f80c0430f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 4.2 0)
+			(layer "F.Fab")
+			(uuid "3862c5fb-0de2-4078-88cc-49e465a5f304")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.125)
+			(net 67 "/UART3_RX")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "31cdbf94-8c0b-46c8-a8f2-a28cad054d30")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "c9b7d5ad-044b-42bc-9764-b420c95d8ce8")
-		(at 128.1375 74.4 180)
+		(at 129 74.4 180)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
-		(property "Reference" "D_LED5"
-			(at -4.2125 0 0)
+		(property "Reference" "FC1"
+			(at -3.0625 0 0)
 			(layer "F.SilkS")
 			(uuid "1de8b89d-2278-4e3b-845b-2d595e458ad6")
 			(effects
@@ -10014,7 +13688,7 @@
 	(footprint "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels"
 		(layer "F.Cu")
 		(uuid "d0a44198-10da-4319-94c5-efaf02d628b8")
-		(at 144.95 73.36)
+		(at 144.85 74.55)
 		(descr "SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open, labeled with numbers")
 		(tags "solder jumper open")
 		(property "Reference" "JP1"
@@ -10150,7 +13824,7 @@
 			(uuid "6e8b436d-ef35-43d6-83bb-2c036ed5f770")
 		)
 		(fp_text user "1"
-			(at -2.6 0 0)
+			(at -2.95 0 0)
 			(layer "F.SilkS")
 			(uuid "0140ffc7-ae9d-402e-92a5-5b06265c239b")
 			(effects
@@ -10161,7 +13835,7 @@
 			)
 		)
 		(fp_text user "3"
-			(at 2.6 0 0)
+			(at 3.05 0 0)
 			(layer "F.SilkS")
 			(uuid "a2744f2b-bfa6-4c2a-bd62-03fb225ed8e4")
 			(effects
@@ -10400,39 +14074,147 @@
 			)
 		)
 	)
-	(footprint "Pads:FAFO_LOGO"
+	(footprint "Pads:Solder_Pad_SMD"
 		(layer "F.Cu")
-		(uuid "d1b531f3-677f-4b05-8806-9b3684dcbb1d")
-		(at 135.75 86.55)
-		(property "Reference" "G***"
-			(at 0 0 0)
+		(uuid "d5892393-85f6-4f87-bb61-3e83c81f6af5")
+		(at 145.8 66.8 180)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "5V"
+			(at 0.05 -1.4 180)
+			(unlocked yes)
 			(layer "F.SilkS")
-			(hide yes)
-			(uuid "0e10fc3f-b4af-4169-850b-5e7cd09e53c9")
+			(uuid "af10bfed-c9d2-4dd6-8d42-a6fe09988936")
 			(effects
 				(font
-					(size 1.5 1.5)
-					(thickness 0.3)
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
 				)
 			)
 		)
-		(property "Value" "LOGO"
-			(at 0.75 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "760413f2-a02f-455d-a4eb-ebc42cfd8f11")
+		(property "Value" "TestPoint"
+			(at -0.25 -5.15 0)
+			(layer "F.Fab")
+			(uuid "fcabfec9-e72f-4e31-af1d-f5e8729b2e30")
 			(effects
 				(font
-					(size 2 2)
-					(thickness 0.3)
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 0 0 0)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8a7a9c5b-4b35-4fab-8a78-3a24aed68c74")
+			(uuid "b9eb60e2-91d0-4cb9-a3e9-2475ee7504c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d330320-5e83-4546-a63f-223c4b0a7bf1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/f6c7e384-d337-4f7c-994f-af6f93e7087f")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 -1.35)
+			(end 0.85 1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "f17c26ad-b0eb-4538-901f-8ec962bc8803")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 4.2 0)
+			(layer "F.Fab")
+			(uuid "bc477c14-f723-46f9-b65a-5ef2d97be74d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0 180)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.125)
+			(net 5 "+5V")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "9f18c351-6d2e-4c15-bbbb-e3cba985b7a9")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Pads:Solder_Pad_SMD"
+		(layer "F.Cu")
+		(uuid "d7d424cb-c8d8-4e39-b87e-ff994779fec6")
+		(at 137 103)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "10V"
+			(at 0.05 -1.4 0)
+			(layer "F.SilkS")
+			(uuid "d57a9486-8cfe-458d-aff6-b9d35cdae72b")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 -5.15 0)
+			(layer "F.Fab")
+			(uuid "22b1b517-f243-46b5-a441-130fdc49c44d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ede05f51-16ef-4877-bd78-6fbc95469b0c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10442,9 +14224,10 @@
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3b7bc11a-ca0c-4881-944d-fe457a80e794")
+			(uuid "2c71cc2d-26de-4ff6-bad2-559e88650633")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10452,240 +14235,55 @@
 				)
 			)
 		)
-		(attr board_only exclude_from_pos_files exclude_from_bom)
-		(fp_poly
-			(pts
-				(xy -0.424272 -0.760948) (xy -0.38983 -0.760898) (xy -0.359557 -0.760819) (xy -0.333188 -0.760709)
-				(xy -0.310453 -0.760565) (xy -0.291088 -0.760385) (xy -0.274824 -0.760167) (xy -0.261394 -0.759909)
-				(xy -0.250533 -0.759608) (xy -0.241972 -0.759262) (xy -0.235444 -0.75887) (xy -0.230683 -0.758429)
-				(xy -0.227422 -0.757937) (xy -0.225393 -0.757391) (xy -0.224329 -0.75679) (xy -0.223964 -0.756131)
-				(xy -0.223951 -0.755924) (xy -0.224718 -0.752448) (xy -0.226963 -0.743098) (xy -0.230626 -0.728114)
-				(xy -0.235648 -0.707736) (xy -0.241968 -0.682205) (xy -0.249526 -0.651762) (xy -0.258261 -0.616646)
-				(xy -0.268115 -0.577099) (xy -0.279026 -0.53336) (xy -0.290935 -0.485672) (xy -0.303781 -0.434273)
-				(xy -0.317505 -0.379405) (xy -0.332047 -0.321308) (xy -0.347345 -0.260223) (xy -0.363341 -0.196391)
-				(xy -0.379973 -0.130051) (xy -0.397183 -0.061444) (xy -0.41491 0.009189) (xy -0.433093 0.081607)
-				(xy -0.450214 0.149764) (xy -0.676385 1.049925) (xy -0.872615 1.050737) (xy -0.907147 1.050849)
-				(xy -0.939744 1.050896) (xy -0.969869 1.050879) (xy -0.996987 1.050803) (xy -1.020564 1.05067) (xy -1.040065 1.050484)
-				(xy -1.054954 1.050247) (xy -1.064696 1.049964) (xy -1.068757 1.049637) (xy -1.068844 1.049578)
-				(xy -1.068093 1.046293) (xy -1.065915 1.037338) (xy -1.062421 1.023158) (xy -1.057722 1.004198)
-				(xy -1.051928 0.980904) (xy -1.045151 0.95372) (xy -1.037502 0.923092) (xy -1.029091 0.889466) (xy -1.02003 0.853286)
-				(xy -1.010429 0.814998) (xy -1.002629 0.78392) (xy -0.992682 0.744284) (xy -0.983189 0.7064) (xy -0.97426 0.670715)
-				(xy -0.966006 0.637674) (xy -0.958538 0.607723) (xy -0.951967 0.58131) (xy -0.946404 0.55888) (xy -0.941961 0.540879)
-				(xy -0.938747 0.527753) (xy -0.936875 0.519949) (xy -0.936417 0.517843) (xy -0.93948 0.517427) (xy -0.948301 0.517061)
-				(xy -0.962336 0.516749) (xy -0.981036 0.516495) (xy -1.003856 0.516305) (xy -1.03025 0.516183) (xy -1.05967 0.516134)
-				(xy -1.091571 0.516161) (xy -1.124525 0.516267) (xy -1.31263 0.51708) (xy -1.377825 0.77562) (xy -1.387764 0.815036)
-				(xy -1.397291 0.852824) (xy -1.40629 0.88852) (xy -1.414644 0.921657) (xy -1.422234 0.951771) (xy -1.428944 0.978397)
-				(xy -1.434657 1.00107) (xy -1.439254 1.019323) (xy -1.44262 1.032693) (xy -1.444637 1.040713) (xy -1.445167 1.042831)
-				(xy -1.447315 1.051502) (xy -1.642737 1.051502) (xy -1.684259 1.051477) (xy -1.719863 1.051399)
-				(xy -1.749933 1.051258) (xy -1.774858 1.051048) (xy -1.795022 1.05076) (xy -1.810814 1.050387) (xy -1.822618 1.049921)
-				(xy -1.830822 1.049355) (xy -1.835813 1.048679) (xy -1.837976 1.047887) (xy -1.838137 1.04756) (xy -1.837376 1.044216)
-				(xy -1.835139 1.034997) (xy -1.831484 1.020141) (xy -1.826472 0.999889) (xy -1.820162 0.97448) (xy -1.812615 0.944155)
-				(xy -1.803891 0.909153) (xy -1.794049 0.869713) (xy -1.78315 0.826076) (xy -1.771253 0.778482) (xy -1.758419 0.72717)
-				(xy -1.744706 0.67238) (xy -1.730177 0.614352) (xy -1.714889 0.553325) (xy -1.698904 0.48954) (xy -1.682281 0.423236)
-				(xy -1.66508 0.354652) (xy -1.647361 0.28403) (xy -1.629184 0.211608) (xy -1.611678 0.141881) (xy -1.610611 0.13763)
-				(xy -1.217031 0.13763) (xy -1.213968 0.138111) (xy -1.205133 0.138538) (xy -1.191062 0.138904) (xy -1.172289 0.139204)
-				(xy -1.149348 0.139434) (xy -1.122775 0.139587) (xy -1.093104 0.139657) (xy -1.06087 0.139641) (xy -1.028937 0.139542)
-				(xy -0.840843 0.138728) (xy -0.775419 -0.1206) (xy -0.709996 -0.379928) (xy -0.898757 -0.379928)
-				(xy -1.087518 -0.379928) (xy -1.090588 -0.368105) (xy -1.09327 -0.357666) (xy -1.097157 -0.34238)
-				(xy -1.10211 -0.322797) (xy -1.107993 -0.299467) (xy -1.114669 -0.27294) (xy -1.121999 -0.243766)
-				(xy -1.129846 -0.212494) (xy -1.138073 -0.179674) (xy -1.146542 -0.145857) (xy -1.155116 -0.111592)
-				(xy -1.163657 -0.077429) (xy -1.172028 -0.043917) (xy -1.180092 -0.011607) (xy -1.18771 0.018952)
-				(xy -1.194746 0.047209) (xy -1.201061 0.072615) (xy -1.20652 0.094621) (xy -1.210983 0.112675) (xy -1.214314 0.12623)
-				(xy -1.216375 0.134733) (xy -1.217031 0.13763) (xy -1.610611 0.13763) (xy -1.38524 -0.759856) (xy -0.804549 -0.760653)
-				(xy -0.733443 -0.760749) (xy -0.668375 -0.76083) (xy -0.609079 -0.760895) (xy -0.555288 -0.760941)
-				(xy -0.506734 -0.760967) (xy -0.463151 -0.76097)
-			)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/ebc709a5-5c6a-4f38-b15a-208e5f835df4")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 -1.35)
+			(end 0.85 1.35)
 			(stroke
-				(width 0)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
-			(fill yes)
-			(layer "F.SilkS")
-			(uuid "1eaa34fb-0001-4b9b-83cb-98c2c07a9e38")
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "13e0b9ab-07bb-4773-b379-f1a25ea726ea")
 		)
-		(fp_poly
-			(pts
-				(xy 2.417124 -0.754339) (xy 2.416212 -0.750732) (xy 2.413825 -0.741251) (xy 2.410023 -0.726138)
-				(xy 2.404867 -0.705634) (xy 2.398418 -0.679981) (xy 2.390737 -0.649421) (xy 2.381884 -0.614196)
-				(xy 2.371921 -0.574548) (xy 2.360907 -0.530718) (xy 2.348904 -0.482948) (xy 2.335972 -0.43148) (xy 2.322173 -0.376556)
-				(xy 2.307566 -0.318417) (xy 2.292213 -0.257306) (xy 2.276175 -0.193463) (xy 2.259511 -0.127132)
-				(xy 2.242284 -0.058553) (xy 2.224553 0.012032) (xy 2.20638 0.084381) (xy 2.190353 0.148187) (xy 1.965436 1.043619)
-				(xy 1.383235 1.044416) (xy 1.309717 1.044509) (xy 1.242275 1.044578) (xy 1.180681 1.044621) (xy 1.124704 1.044638)
-				(xy 1.074116 1.044627) (xy 1.028687 1.044587) (xy 0.988187 1.044516) (xy 0.952389 1.044414) (xy 0.921061 1.044279)
-				(xy 0.893976 1.044109) (xy 0.870903 1.043904) (xy 0.851613 1.043663) (xy 0.835877 1.043384) (xy 0.823466 1.043065)
-				(xy 0.81415 1.042706) (xy 0.8077 1.042306) (xy 0.803887 1.041862) (xy 0.802481 1.041375) (xy 0.802471 1.041263)
-				(xy 0.803336 1.037952) (xy 0.80566 1.028825) (xy 0.80937 1.014173) (xy 0.814392 0.994287) (xy 0.820653 0.96946)
-				(xy 0.828081 0.939982) (xy 0.836602 0.906146) (xy 0.846142 0.868241) (xy 0.85663 0.82656) (xy 0.86799 0.781394)
-				(xy 0.880151 0.733034) (xy 0.89304 0.681772) (xy 0.897783 0.662903) (xy 1.29033 0.662903) (xy 1.291193 0.66375)
-				(xy 1.294718 0.664474) (xy 1.301297 0.665084) (xy 1.311322 0.665588) (xy 1.325185 0.665994) (xy 1.343278 0.66631)
-				(xy 1.365993 0.666545) (xy 1.393722 0.666706) (xy 1.426858 0.666803) (xy 1.465792 0.666842) (xy 1.478386 0.666844)
-				(xy 1.512308 0.666819) (xy 1.544284 0.666745) (xy 1.573769 0.666629) (xy 1.60022 0.666473) (xy 1.623092 0.666283)
-				(xy 1.64184 0.666063) (xy 1.655921 0.665818) (xy 1.664788 0.665553) (xy 1.667899 0.665271) (xy 1.667899 0.665268)
-				(xy 1.668651 0.662139) (xy 1.670844 0.653279) (xy 1.674381 0.63907) (xy 1.679166 0.619898) (xy 1.685101 0.596146)
-				(xy 1.692092 0.568199) (xy 1.700042 0.53644) (xy 1.708853 0.501254) (xy 1.718431 0.463024) (xy 1.728678 0.422135)
-				(xy 1.739498 0.37897) (xy 1.750795 0.333914) (xy 1.762472 0.28735) (xy 1.774434 0.239663) (xy 1.786583 0.191237)
-				(xy 1.798823 0.142456) (xy 1.811058 0.093703) (xy 1.823192 0.045364) (xy 1.835128 -0.002179) (xy 1.84677 -0.048542)
-				(xy 1.858021 -0.093339) (xy 1.868786 -0.136187) (xy 1.878967 -0.176702) (xy 1.888468 -0.214501)
-				(xy 1.897194 -0.249198) (xy 1.905047 -0.280411) (xy 1.911931 -0.307754) (xy 1.917751 -0.330844)
-				(xy 1.922408 -0.349297) (xy 1.925808 -0.362729) (xy 1.927854 -0.370756) (xy 1.928396 -0.372834)
-				(xy 1.930328 -0.379928) (xy 1.741449 -0.379928) (xy 1.552571 -0.379928) (xy 1.422179 0.139517) (xy 1.408134 0.195455)
-				(xy 1.394494 0.24976) (xy 1.381339 0.302116) (xy 1.368748 0.352204) (xy 1.356801 0.399709) (xy 1.345579 0.444311)
-				(xy 1.335161 0.485695) (xy 1.325627 0.523542) (xy 1.317058 0.557535) (xy 1.309532 0.587358) (xy 1.30313 0.612692)
-				(xy 1.297933 0.63322) (xy 1.294019 0.648625) (xy 1.291469 0.658589) (xy 1.290363 0.662796) (xy 1.29033 0.662903)
-				(xy 0.897783 0.662903) (xy 0.906582 0.6279) (xy 0.920705 0.571708) (xy 0.935335 0.513488) (xy 0.9504 0.453531)
-				(xy 0.965827 0.39213) (xy 0.981541 0.329574) (xy 0.99747 0.266156) (xy 1.013541 0.202167) (xy 1.029681 0.137899)
-				(xy 1.045816 0.073642) (xy 1.061873 0.009688) (xy 1.07778 -0.053671) (xy 1.093462 -0.116144) (xy 1.108847 -0.17744)
-				(xy 1.123861 -0.237267) (xy 1.138432 -0.295334) (xy 1.152486 -0.351349) (xy 1.16595 -0.405021) (xy 1.178751 -0.456059)
-				(xy 1.190815 -0.504171) (xy 1.20207 -0.549066) (xy 1.212443 -0.590453) (xy 1.221859 -0.62804) (xy 1.230246 -0.661535)
-				(xy 1.237532 -0.690648) (xy 1.243641 -0.715086) (xy 1.248503 -0.734559) (xy 1.252042 -0.748775)
-				(xy 1.254187 -0.757443) (xy 1.254865 -0.760272) (xy 1.257966 -0.760392) (xy 1.267063 -0.760509)
-				(xy 1.281844 -0.760621) (xy 1.301998 -0.760729) (xy 1.327216 -0.760831) (xy 1.357186 -0.760928)
-				(xy 1.391599 -0.761018) (xy 1.430142 -0.7611) (xy 1.472505 -0.761176) (xy 1.518379 -0.761242) (xy 1.567452 -0.7613)
-				(xy 1.619413 -0.761348) (xy 1.673951 -0.761386) (xy 1.730757 -0.761413) (xy 1.789519 -0.761429)
-				(xy 1.836923 -0.761433) (xy 2.41898 -0.761433)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 4.2 0)
+			(layer "F.Fab")
+			(uuid "4db62bf9-543c-4117-9a44-b8e7d2c65491")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
 			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.SilkS")
-			(uuid "26025a80-4bb7-423e-814b-4ab17a14a32f")
 		)
-		(fp_poly
-			(pts
-				(xy 2.893746 -1.830303) (xy 2.900177 -1.823647) (xy 2.91045 -1.812934) (xy 2.924319 -1.798424) (xy 2.941537 -1.780378)
-				(xy 2.961856 -1.759056) (xy 2.985027 -1.734717) (xy 3.010805 -1.707621) (xy 3.038942 -1.678029)
-				(xy 3.06919 -1.6462) (xy 3.101301 -1.612395) (xy 3.135028 -1.576872) (xy 3.170124 -1.539894) (xy 3.196554 -1.512037)
-				(xy 3.240272 -1.465932) (xy 3.279811 -1.424188) (xy 3.315353 -1.386611) (xy 3.347078 -1.353004)
-				(xy 3.375167 -1.323172) (xy 3.3998 -1.29692) (xy 3.421159 -1.274052) (xy 3.439424 -1.254374) (xy 3.454776 -1.237689)
-				(xy 3.467395 -1.223803) (xy 3.477462 -1.21252) (xy 3.485157 -1.203644) (xy 3.490662 -1.19698) (xy 3.494158 -1.192333)
-				(xy 3.495824 -1.189508) (xy 3.495904 -1.188356) (xy 3.492638 -1.185952) (xy 3.484506 -1.180276)
-				(xy 3.471825 -1.171542) (xy 3.454914 -1.159964) (xy 3.43409 -1.145758) (xy 3.40967 -1.129137) (xy 3.381972 -1.110316)
-				(xy 3.351314 -1.089509) (xy 3.318014 -1.066931) (xy 3.28239 -1.042797) (xy 3.244758 -1.01732) (xy 3.205436 -0.990715)
-				(xy 3.164743 -0.963196) (xy 3.122996 -0.934979) (xy 3.080513 -0.906277) (xy 3.03761 -0.877306) (xy 2.994607 -0.848278)
-				(xy 2.95182 -0.819409) (xy 2.909568 -0.790914) (xy 2.868168 -0.763006) (xy 2.827937 -0.7359) (xy 2.789193 -0.709811)
-				(xy 2.752255 -0.684952) (xy 2.717439 -0.661539) (xy 2.685063 -0.639786) (xy 2.655445 -0.619908)
-				(xy 2.628903 -0.602118) (xy 2.605754 -0.586631) (xy 2.586316 -0.573662) (xy 2.570907 -0.563424)
-				(xy 2.559844 -0.556134) (xy 2.553445 -0.552004) (xy 2.551898 -0.55111) (xy 2.552509 -0.55422) (xy 2.554566 -0.562793)
-				(xy 2.557904 -0.576198) (xy 2.562358 -0.593802) (xy 2.567763 -0.614972) (xy 2.573956 -0.639076)
-				(xy 2.58077 -0.665481) (xy 2.588041 -0.693554) (xy 2.595606 -0.722663) (xy 2.603297 -0.752175) (xy 2.610952 -0.781457)
-				(xy 2.618406 -0.809877) (xy 2.625492 -0.836803) (xy 2.632048 -0.861601) (xy 2.637908 -0.883639)
-				(xy 2.642907 -0.902284) (xy 2.646881 -0.916904) (xy 2.649665 -0.926866) (xy 2.650386 -0.929331)
-				(xy 2.650335 -0.929838) (xy 2.649739 -0.930313) (xy 2.648398 -0.930757) (xy 2.646114 -0.93117) (xy 2.64269 -0.931553)
-				(xy 2.637928 -0.931907) (xy 2.631629 -0.932233) (xy 2.623596 -0.932532) (xy 2.613631 -0.932805)
-				(xy 2.601536 -0.933053) (xy 2.587113 -0.933276) (xy 2.570163 -0.933476) (xy 2.55049 -0.933653) (xy 2.527894 -0.933809)
-				(xy 2.502178 -0.933943) (xy 2.473145 -0.934058) (xy 2.440595 -0.934154) (xy 2.404332 -0.934231)
-				(xy 2.364156 -0.934291) (xy 2.319871 -0.934335) (xy 2.271278 -0.934363) (xy 2.218179 -0.934377)
-				(xy 2.160377 -0.934377) (xy 2.097672 -0.934364) (xy 2.029869 -0.934339) (xy 1.956767 -0.934304)
-				(xy 1.87817 -0.934258) (xy 1.793879 -0.934202) (xy 1.703697 -0.934139) (xy 1.607426 -0.934067) (xy 1.598157 -0.93406)
-				(xy 0.544273 -0.933268) (xy 0.47764 -0.666845) (xy 0.46763 -0.626819) (xy 0.458025 -0.58842) (xy 0.448941 -0.552106)
-				(xy 0.440492 -0.518335) (xy 0.432794 -0.487565) (xy 0.42596 -0.460253) (xy 0.420105 -0.436859) (xy 0.415345 -0.417839)
-				(xy 0.411792 -0.403653) (xy 0.409563 -0.394757) (xy 0.408807 -0.391752) (xy 0.406607 -0.383081)
-				(xy 0.688668 -0.383081) (xy 0.730276 -0.383056) (xy 0.77006 -0.382981) (xy 0.80757 -0.38286) (xy 0.84236 -0.382698)
-				(xy 0.873978 -0.382498) (xy 0.901977 -0.382264) (xy 0.925908 -0.381999) (xy 0.945321 -0.381708)
-				(xy 0.959769 -0.381393) (xy 0.968801 -0.38106) (xy 0.971966 -0.380717) (xy 0.971408 -0.377368) (xy 0.969425 -0.368354)
-				(xy 0.966125 -0.354123) (xy 0.961619 -0.335126) (xy 0.956014 -0.311813) (xy 0.94942 -0.284634) (xy 0.941946 -0.254038)
-				(xy 0.9337 -0.220477) (xy 0.924793 -0.184399) (xy 0.915333 -0.146256) (xy 0.908555 -0.119024) (xy 0.843906 0.140305)
-				(xy 0.559832 0.140305) (xy 0.275757 0.140305) (xy 0.164086 0.585656) (xy 0.151077 0.637529) (xy 0.138462 0.687828)
-				(xy 0.126328 0.736202) (xy 0.114762 0.782302) (xy 0.103853 0.825778) (xy 0.093688 0.866281) (xy 0.084355 0.90346)
-				(xy 0.075942 0.936965) (xy 0.068537 0.966448) (xy 0.062228 0.991558) (xy 0.057101 1.011945) (xy 0.053246 1.027259)
-				(xy 0.05075 1.037152) (xy 0.049705 1.041255) (xy 0.046997 1.051502) (xy -0.222169 1.051502) (xy -0.491334 1.051502)
-				(xy -0.352684 0.498951) (xy -0.337623 0.438914) (xy -0.321195 0.373405) (xy -0.303561 0.30307) (xy -0.284885 0.228556)
-				(xy -0.265328 0.150509) (xy -0.245051 0.069574) (xy -0.224217 -0.013603) (xy -0.202987 -0.098374)
-				(xy -0.181522 -0.184095) (xy -0.159986 -0.270119) (xy -0.138539 -0.3558) (xy -0.117343 -0.440492)
-				(xy -0.09656 -0.523548) (xy -0.076352 -0.604324) (xy -0.056881 -0.682172) (xy -0.038836 -0.754339)
-				(xy 0.136363 -1.455077) (xy 1.462938 -1.455077) (xy 2.789512 -1.455077) (xy 2.798913 -1.490548)
-				(xy 2.801615 -1.500751) (xy 2.805728 -1.516285) (xy 2.811049 -1.536384) (xy 2.817374 -1.560283)
-				(xy 2.824502 -1.587217) (xy 2.832229 -1.61642) (xy 2.840354 -1.647127) (xy 2.848674 -1.678572) (xy 2.848979 -1.679726)
-				(xy 2.856939 -1.709669) (xy 2.864452 -1.737656) (xy 2.87136 -1.763114) (xy 2.877503 -1.785473) (xy 2.882724 -1.804162)
-				(xy 2.886864 -1.818608) (xy 2.889765 -1.828241) (xy 2.891267 -1.83249) (xy 2.891407 -1.832643)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.SilkS")
-			(uuid "6847052d-54b1-42a2-b972-2a55dba059eb")
-		)
-		(fp_poly
-			(pts
-				(xy -0.646883 -1.454405) (xy -0.578506 -1.454381) (xy -0.513137 -1.454344) (xy -0.451006 -1.454294)
-				(xy -0.392343 -1.454232) (xy -0.337376 -1.454157) (xy -0.286335 -1.454071) (xy -0.23945 -1.453973)
-				(xy -0.196951 -1.453864) (xy -0.159066 -1.453745) (xy -0.126025 -1.453614) (xy -0.098057 -1.453474)
-				(xy -0.075393 -1.453324) (xy -0.058262 -1.453164) (xy -0.046893 -1.452995) (xy -0.041515 -1.452817)
-				(xy -0.04109 -1.452749) (xy -0.041853 -1.449394) (xy -0.044038 -1.440374) (xy -0.047531 -1.426142)
-				(xy -0.052221 -1.407151) (xy -0.057995 -1.383852) (xy -0.064741 -1.356698) (xy -0.072346 -1.326141)
-				(xy -0.080699 -1.292633) (xy -0.089686 -1.256626) (xy -0.099196 -1.218574) (xy -0.105497 -1.193384)
-				(xy -0.169803 -0.93642) (xy -1.069404 -0.934791) (xy -1.1594 -0.934634) (xy -1.243312 -0.934498)
-				(xy -1.32136 -0.934375) (xy -1.393766 -0.93426) (xy -1.46075 -0.934147) (xy -1.522534 -0.93403)
-				(xy -1.57934 -0.933905) (xy -1.631387 -0.933763) (xy -1.678897 -0.933601) (xy -1.722092 -0.933411)
-				(xy -1.761193 -0.933188) (xy -1.79642 -0.932927) (xy -1.827994 -0.93262) (xy -1.856138 -0.932263)
-				(xy -1.881071 -0.93185) (xy -1.903016 -0.931374) (xy -1.922193 -0.93083) (xy -1.938824 -0.930212)
-				(xy -1.953128 -0.929514) (xy -1.965329 -0.92873) (xy -1.975646 -0.927855) (xy -1.984301 -0.926882)
-				(xy -1.991516 -0.925805) (xy -1.99751 -0.924619) (xy -2.002506 -0.923318) (xy -2.006724 -0.921896)
-				(xy -2.010386 -0.920348) (xy -2.013712 -0.918666) (xy -2.016924 -0.916846) (xy -2.020243 -0.914881)
-				(xy -2.02389 -0.912766) (xy -2.028087 -0.910494) (xy -2.030487 -0.909285) (xy -2.043813 -0.902258)
-				(xy -2.055251 -0.894869) (xy -2.06653 -0.885809) (xy -2.079378 -0.873769) (xy -2.085755 -0.867409)
-				(xy -2.094004 -0.85905) (xy -2.101255 -0.851429) (xy -2.107687 -0.844063) (xy -2.113478 -0.83647)
-				(xy -2.118807 -0.828168) (xy -2.123852 -0.818677) (xy -2.128791 -0.807514) (xy -2.133804 -0.794197)
-				(xy -2.139068 -0.778244) (xy -2.144762 -0.759174) (xy -2.151065 -0.736505) (xy -2.158154 -0.709755)
-				(xy -2.166209 -0.678442) (xy -2.175408 -0.642085) (xy -2.185928 -0.600201) (xy -2.188456 -0.590127)
-				(xy -2.197075 -0.555715) (xy -2.205227 -0.523067) (xy -2.212781 -0.492704) (xy -2.219611 -0.465146)
-				(xy -2.225588 -0.440914) (xy -2.230584 -0.420528) (xy -2.234469 -0.40451) (xy -2.237117 -0.393379)
-				(xy -2.238399 -0.387656) (xy -2.238501 -0.387023) (xy -2.237347 -0.386327) (xy -2.233642 -0.385714)
-				(xy -2.227065 -0.385177) (xy -2.217296 -0.384712) (xy -2.204014 -0.384316) (xy -2.186899 -0.383984)
-				(xy -2.16563 -0.383712) (xy -2.139888 -0.383494) (xy -2.109351 -0.383328) (xy -2.073699 -0.383208)
-				(xy -2.032611 -0.38313) (xy -1.985768 -0.383089) (xy -1.948511 -0.383081) (xy -1.897341 -0.383065)
-				(xy -1.852156 -0.383015) (xy -1.812635 -0.382925) (xy -1.77846 -0.382792) (xy -1.749308 -0.382611)
-				(xy -1.724859 -0.382378) (xy -1.704794 -0.382089) (xy -1.688791 -0.381739) (xy -1.67653 -0.381324)
-				(xy -1.667691 -0.380839) (xy -1.661953 -0.38028) (xy -1.658996 -0.379643) (xy -1.658409 -0.37914)
-				(xy -1.659145 -0.375545) (xy -1.661291 -0.366286) (xy -1.664734 -0.351818) (xy -1.669365 -0.332596)
-				(xy -1.675072 -0.309077) (xy -1.681744 -0.281715) (xy -1.68927 -0.250966) (xy -1.697539 -0.217286)
-				(xy -1.706441 -0.181131) (xy -1.715863 -0.142955) (xy -1.722171 -0.117447) (xy -1.785967 0.140305)
-				(xy -2.078364 0.140305) (xy -2.370761 0.140305) (xy -2.373838 0.152128) (xy -2.374957 0.156539)
-				(xy -2.377521 0.166711) (xy -2.381441 0.182287) (xy -2.386626 0.202912) (xy -2.392988 0.228231)
-				(xy -2.400437 0.257887) (xy -2.408884 0.291525) (xy -2.418239 0.328788) (xy -2.428414 0.369321)
-				(xy -2.439318 0.412769) (xy -2.450863 0.458775) (xy -2.46296 0.506983) (xy -2.475518 0.557038) (xy -2.486058 0.599056)
-				(xy -2.498896 0.650231) (xy -2.511328 0.69977) (xy -2.523265 0.747326) (xy -2.534619 0.792549) (xy -2.545303 0.835091)
-				(xy -2.555229 0.874601) (xy -2.56431 0.910731) (xy -2.572457 0.943132) (xy -2.579583 0.971455) (xy -2.5856 0.995351)
-				(xy -2.59042 1.01447) (xy -2.593956 1.028464) (xy -2.59612 1.036983) (xy -2.596812 1.039653) (xy -2.596862 1.0408)
-				(xy -2.595976 1.04178) (xy -2.593689 1.042609) (xy -2.589537 1.043302) (xy -2.583054 1.043875) (xy -2.573778 1.044344)
-				(xy -2.561242 1.044725) (xy -2.544981 1.045034) (xy -2.524532 1.045286) (xy -2.49943 1.045497) (xy -2.469209 1.045683)
-				(xy -2.433405 1.045859) (xy -2.410929 1.045959) (xy -2.223433 1.046772) (xy -2.634741 1.437735)
-				(xy -2.677768 1.478626) (xy -2.719576 1.518342) (xy -2.759937 1.556666) (xy -2.79862 1.593382) (xy -2.835396 1.628271)
-				(xy -2.870034 1.661116) (xy -2.902305 1.691698) (xy -2.93198 1.719802) (xy -2.958827 1.745208) (xy -2.982618 1.7677)
-				(xy -3.003123 1.787059) (xy -3.020112 1.803069) (xy -3.033355 1.815511) (xy -3.042622 1.824168)
-				(xy -3.047684 1.828823) (xy -3.048602 1.829603) (xy -3.050441 1.827024) (xy -3.05523 1.819276) (xy -3.062792 1.806666)
-				(xy -3.072949 1.789499) (xy -3.085523 1.768081) (xy -3.100337 1.74272) (xy -3.117212 1.71372) (xy -3.13597 1.681388)
-				(xy -3.156434 1.64603) (xy -3.178425 1.607952) (xy -3.201767 1.567461) (xy -3.22628 1.524862) (xy -3.251787 1.480462)
-				(xy -3.274666 1.440577) (xy -3.300898 1.394806) (xy -3.32627 1.350525) (xy -3.350605 1.308042) (xy -3.373726 1.267667)
-				(xy -3.395456 1.22971) (xy -3.415617 1.194479) (xy -3.434033 1.162286) (xy -3.450526 1.133438) (xy -3.46492 1.108246)
-				(xy -3.477038 1.08702) (xy -3.486703 1.070068) (xy -3.493737 1.0577) (xy -3.497963 1.050225) (xy -3.499218 1.047947)
-				(xy -3.496352 1.047441) (xy -3.487731 1.046938) (xy -3.473906 1.04645) (xy -3.455428 1.045986) (xy -3.432849 1.045557)
-				(xy -3.406719 1.045174) (xy -3.37759 1.044848) (xy -3.346013 1.04459) (xy -3.318072 1.044433) (xy -3.135883 1.043619)
-				(xy -2.870361 -0.016547) (xy -2.850222 -0.096937) (xy -2.830442 -0.175858) (xy -2.811078 -0.253086)
-				(xy -2.792186 -0.328394) (xy -2.773823 -0.401556) (xy -2.756046 -0.472347) (xy -2.738913 -0.540541)
-				(xy -2.72248 -0.605911) (xy -2.706803 -0.668231) (xy -2.691941 -0.727277) (xy -2.677949 -0.782822)
-				(xy -2.664885 -0.83464) (xy -2.652805 -0.882505) (xy -2.641767 -0.926191) (xy -2.631828 -0.965473)
-				(xy -2.623044 -1.000125) (xy -2.615472 -1.02992) (xy -2.609169 -1.054633) (xy -2.604193 -1.074038)
-				(xy -2.600599 -1.087909) (xy -2.598445 -1.09602) (xy -2.597877 -1.098002) (xy -2.590066 -1.118984)
-				(xy -2.579564 -1.143059) (xy -2.567362 -1.168201) (xy -2.554454 -1.192383) (xy -2.541831 -1.213581)
-				(xy -2.539593 -1.217034) (xy -2.50501 -1.264042) (xy -2.466361 -1.306237) (xy -2.423694 -1.343588)
-				(xy -2.377058 -1.376061) (xy -2.3265 -1.403624) (xy -2.27207 -1.426243) (xy -2.213814 -1.443886)
-				(xy -2.203898 -1.446302) (xy -2.173946 -1.453361) (xy -1.107467 -1.454256) (xy -1.02586 -1.454317)
-				(xy -0.945884 -1.454363) (xy -0.867769 -1.454395) (xy -0.791744 -1.454412) (xy -0.718039 -1.454415)
-			)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.SilkS")
-			(uuid "03bf97cc-966b-437e-b7ba-afefd971e274")
+		(pad "1" smd roundrect
+			(at 0 0)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.125)
+			(net 8 "+10V")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "3c70dc06-f1ad-494e-9446-7b83cb29428e")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
 		(layer "F.Cu")
@@ -10980,6 +14578,112 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Pads:Solder_Pad_SMD"
+		(layer "F.Cu")
+		(uuid "dd18370f-a33a-43a9-8cba-81d544add1fa")
+		(at 144.8 70.3 180)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "GND"
+			(at 0.05 -1.4 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "208618b7-fcd9-4ee7-90a5-2d0c63f655b1")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 -5.15 0)
+			(layer "F.Fab")
+			(uuid "49b0999f-f6e0-4004-9bf6-f208658dfe60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cafc1084-3c7c-4d00-bf8d-eff4ec1e4237")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3cd8520a-9802-4e19-bbaa-0d4916a4ba75")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/92dd99f4-91d0-4150-87d9-1fc69873202c")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 -1.35)
+			(end 0.85 1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "58f906c4-aa42-4867-a179-add5131f8ba2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 4.2 0)
+			(layer "F.Fab")
+			(uuid "340e4083-6a43-4bf9-9909-8f0c538cc5e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0 180)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.125)
+			(net 2 "GND")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "2be0de0e-f626-4d50-803b-b4ff801edf2c")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11591,6 +15295,111 @@
 			)
 		)
 	)
+	(footprint "Pads:Solder_Pad_SMD"
+		(layer "F.Cu")
+		(uuid "e93c114b-160f-4c67-b388-1e4711d0d344")
+		(at 147 103)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "5V"
+			(at 0.05 -1.4 0)
+			(layer "F.SilkS")
+			(uuid "87eb5f40-6b54-4a5a-a25f-4f694f9488e0")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 -5.15 0)
+			(layer "F.Fab")
+			(uuid "9c0ae7e2-8e00-4d26-b48a-af74bd111baf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "30a8a090-4856-4109-8824-cc61a5efd5fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c35dee50-3d2e-486d-bab8-1c79812a0dc2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/b30cf92f-988a-42b9-81d9-ae33c3d44826")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 -1.35)
+			(end 0.85 1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "f6e29dff-ba10-442d-bbdf-b6210cdddace")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 4.2 0)
+			(layer "F.Fab")
+			(uuid "3a2c561f-0f53-4e61-8809-83d3057c6b77")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.125)
+			(net 5 "+5V")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "c904e1e3-3fed-4357-b6b6-4ca4bfaf46ca")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Package_LGA:Bosch_LGA-8_2x2.5mm_P0.65mm_ClockwisePinNumbering"
 		(layer "F.Cu")
 		(uuid "ec439c8a-42b9-440b-9da8-df52ebba8175")
@@ -11904,6 +15713,216 @@
 			)
 		)
 	)
+	(footprint "Pads:Solder_Pad_SMD"
+		(layer "F.Cu")
+		(uuid "ecfef067-68bd-428d-a848-9c0ec737e2b1")
+		(at 149 103)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "SCL"
+			(at 0.05 -1.4 0)
+			(layer "F.SilkS")
+			(uuid "ce0f74fc-dc4a-4ade-a9a3-1e491cca50f5")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 -5.15 0)
+			(layer "F.Fab")
+			(uuid "41eb62a1-a311-422a-9323-a429c98b1f6d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9eda3a33-29bd-47c5-9692-31ed44385221")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b8a5ec7-689b-47b2-937e-c903bcf004f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/9fdbaf20-90c2-4e48-a358-eaed570c6937")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 -1.35)
+			(end 0.85 1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "c6723207-54b0-4338-ba38-c3999acbd166")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 4.2 0)
+			(layer "F.Fab")
+			(uuid "46d247e0-7081-4ee6-af1c-c1a20a518eaa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.125)
+			(net 84 "/I2C2_SCL")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "34dca4c8-bfe7-4c18-8f26-c314660c1ded")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Pads:Solder_Pad_SMD"
+		(layer "F.Cu")
+		(uuid "ee2bc993-0d42-4f21-bae1-b6afba7e0fe7")
+		(at 146 99.5)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "CAM"
+			(at 0.05 -1.4 0)
+			(layer "F.SilkS")
+			(uuid "f18b490c-105c-4a4a-90a7-57f4896ce7a9")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 -5.15 0)
+			(layer "F.Fab")
+			(uuid "54b1c956-bebd-4284-8e0d-302fea260eab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db08b1b1-7b3e-4d84-9b86-04be4db726bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1340835-d33a-4186-83c3-fe6df462b026")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/90394f27-6cc6-4500-af80-feb371f851bb")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 -1.35)
+			(end 0.85 1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "68768e0c-1c7d-42b9-a675-3d3bf52f27f5")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 4.2 0)
+			(layer "F.Fab")
+			(uuid "b8f737eb-216f-48d5-9d65-f2b47b54c2c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.125)
+			(net 13 "/VIN")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "63fddd88-3065-417c-a70c-98ad6d68dc76")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Wurth-Elektronik:744393465120"
 		(layer "F.Cu")
 		(uuid "f11a2098-5261-442c-b97d-c7dd5b100070")
@@ -12056,6 +16075,112 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Coilcraft_XAL6020-XXX.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Pads:Solder_Pad_SMD"
+		(layer "F.Cu")
+		(uuid "f2bf4c75-ea76-4192-b117-4f9208105a79")
+		(at 148.8 70.3 180)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "SWD"
+			(at 0.05 -1.4 180)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "a82b3364-0892-4edb-837e-4b2d0b808328")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 -5.15 0)
+			(layer "F.Fab")
+			(uuid "bf8929b6-5fa4-491c-8bd7-5908af6d827b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f63b9fbe-50c7-439f-a5ec-c0d88bb87fef")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bada56bc-6dd8-4083-a400-7f5ddef5c04c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/c8913bac-be0f-442f-84c0-728e21841e40")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 -1.35)
+			(end 0.85 1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "3d527b75-2763-41e2-991c-01c2212c7357")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 4.2 0)
+			(layer "F.Fab")
+			(uuid "7e1ddcde-0e1e-4cb4-a9ca-7847da961e6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 0 180)
+			(size 1 2)
+			(layers "F.Cu" "F.Mask")
+			(roundrect_rratio 0.125)
+			(net 104 "/SWD")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "738d4ba2-65d3-4b76-99d1-55d095904b06")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12470,7 +16595,7 @@
 	(footprint "Pads:OpenSource_Text"
 		(layer "F.Cu")
 		(uuid "fdf70e08-dc27-4779-bbd6-88d5daf1b68d")
-		(at 148.55 96.45)
+		(at 160.5 110.7)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -14111,6 +18236,117 @@
 			)
 		)
 	)
+	(footprint "Pads:Solder_Pad_SMD_Half"
+		(layer "B.Cu")
+		(uuid "18499244-abf4-477b-8d10-e04f320834ec")
+		(at 139.6 103.3 180)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "TP_Curr1"
+			(at 0.05 1.75 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "86a11a3c-0780-418f-b3b8-4b41912e0453")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 5.15 0)
+			(layer "B.Fab")
+			(uuid "5db288fb-b48a-4391-a72c-9c1a44b87ba5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5215c1e4-e9c3-4366-86ad-f39fae49bb99")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "afe81285-d6f4-4b66-93c3-6a1dff946e81")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/50956450-c53b-4dab-80a0-4c23c60fce63")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 0.85)
+			(end 0.85 -1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "f4052530-4009-4b32-9203-4cf01d9e49b3")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 -4.2 0)
+			(layer "B.Fab")
+			(uuid "46b1f162-a4b3-446d-a530-4b9f937dd5f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 -0.25 180)
+			(size 1 1.5)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.125)
+			(net 36 "/ADC_Curr")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "147c7bb8-d7fe-4dc6-82f5-5576209a78e2")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "1cd13d3e-b1de-4ed8-84e1-a6f063f139e4")
@@ -14316,6 +18552,117 @@
 			)
 		)
 	)
+	(footprint "Pads:Solder_Pad_SMD_Half"
+		(layer "B.Cu")
+		(uuid "1d211ac1-80af-4a01-929d-ac160867e3ec")
+		(at 149.1 103.3 180)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "TP_GND9"
+			(at 0.05 1.75 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "7cc3fa31-2b58-4a0f-b419-0b7a8894a993")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 5.15 0)
+			(layer "B.Fab")
+			(uuid "7ad2aa0f-ac69-4ab3-8b1c-71ffd8052fa9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6e292db6-e5c1-4d28-963f-626718d30b82")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ade272fd-75b7-43cf-a48c-03d1c9ce3492")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/ae2ecf7e-0ab6-4e27-8ef0-a936bd26303f")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 0.85)
+			(end 0.85 -1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "a0904b05-f7a0-4fca-a385-4095ee7dd80d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 -4.2 0)
+			(layer "B.Fab")
+			(uuid "ee3d6ba6-db68-4142-8dc3-54fa7b91d4d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 -0.25 180)
+			(size 1 1.5)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.125)
+			(net 2 "GND")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "ea45b9e4-0e66-4fe4-8cf0-c61c2c138d63")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "29086991-34e7-4e61-b259-bd72add87eed")
@@ -14510,6 +18857,117 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Pads:Solder_Pad_SMD_Half"
+		(layer "B.Cu")
+		(uuid "3229164f-8938-45fd-b517-e2090ab7b84d")
+		(at 145.3 103.3 180)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "TP_S2"
+			(at 0.05 1.75 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "7ffee1dc-2155-493f-b48e-04d380aefc05")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 5.15 0)
+			(layer "B.Fab")
+			(uuid "83c82660-72cd-4d73-94b3-79cba503cb0a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "40fc82b5-23e3-49d9-bd0c-938362dfb56c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "34ca491b-61c9-4093-9f98-cd5e56630ea8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/f4b8fbfe-b68f-4099-9d21-69bdbf5fa530")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 0.85)
+			(end 0.85 -1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "c0723c1c-f684-4bc1-873a-60fd7b3b8dc7")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 -4.2 0)
+			(layer "B.Fab")
+			(uuid "a1cf8b60-2836-4b36-8242-52298709fef5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 -0.25 180)
+			(size 1 1.5)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.125)
+			(net 71 "/S2")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "97b0a7b7-4ff9-467a-938c-27f64597bcdd")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14830,6 +19288,117 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Pads:Solder_Pad_SMD_Half"
+		(layer "B.Cu")
+		(uuid "33764d7f-71df-4a13-aa4f-d8ccaf2e25c9")
+		(at 151 103.3 180)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "TP_VBAT+2"
+			(at 0.05 1.75 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "5e40f6b4-b3fd-4b08-bc5b-4e9243e4c5ef")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 5.15 0)
+			(layer "B.Fab")
+			(uuid "27baaafd-4318-4d8f-bc23-200fc555de2c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a1b034e6-455a-4619-a304-8228f9cd43d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b8777503-cf24-446a-b1e2-ee04d8e773c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/1081d85d-3c65-4b19-acf5-bc937ee87247")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 0.85)
+			(end 0.85 -1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "b7cbfdfe-2ba8-44c9-a267-937d5733cb7a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 -4.2 0)
+			(layer "B.Fab")
+			(uuid "339a43f6-c2c4-436b-ae8c-a5eb33c12c87")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 -0.25 180)
+			(size 1 1.5)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.125)
+			(net 16 "/VBAT+")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "7fd62423-58ff-4c0a-85c3-8cde85deb909")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16446,6 +21015,117 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Pads:Solder_Pad_SMD_Half"
+		(layer "B.Cu")
+		(uuid "733aa381-c0e2-454f-93cb-c7b7357ca1e8")
+		(at 147.2 103.3 180)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "TP_S1"
+			(at 0.05 1.75 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "2ce39a76-8d4c-4f62-b156-0be0d0e354ec")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 5.15 0)
+			(layer "B.Fab")
+			(uuid "00383350-0118-45a9-a349-e871de499b10")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "14ea0ab6-9d3f-48f7-92e2-9f0823575924")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8919340c-efac-4ed1-a39f-7320e1f70e55")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/f548ddcf-4d56-4527-a310-5373ca0ee4ac")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 0.85)
+			(end 0.85 -1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "0f1b4c5f-b0b3-4a08-9082-ef56f61c8fd9")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 -4.2 0)
+			(layer "B.Fab")
+			(uuid "ea29d338-b099-4e16-8f26-74a4103860fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 -0.25 180)
+			(size 1 1.5)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.125)
+			(net 70 "/S1")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "6a1c41a5-fb09-4ce8-b91c-25b7c04497b8")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18431,6 +23111,117 @@
 			)
 		)
 	)
+	(footprint "Pads:Solder_Pad_SMD_Half"
+		(layer "B.Cu")
+		(uuid "8b5ced40-d04e-44db-85db-8fece19fa74f")
+		(at 141.5 103.3 180)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "TP_S4"
+			(at 0.05 1.75 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "c5b3e20f-d303-4e0d-9dc0-2982268a0c0b")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 5.15 0)
+			(layer "B.Fab")
+			(uuid "7f215a8d-366b-4d40-b4ef-a43ff63881eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7a5bf58d-e7b0-4048-9b4f-940617d7cb12")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3124de8f-e3ec-48d3-a3a6-fade511974f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/d9f214a2-f00b-4dca-9a7c-1ad1c966c5c1")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 0.85)
+			(end 0.85 -1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "f9642415-39e1-49cf-9109-330b65b4e008")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 -4.2 0)
+			(layer "B.Fab")
+			(uuid "d353fcc2-2223-4eba-a063-0e95849ca8e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 -0.25 180)
+			(size 1 1.5)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.125)
+			(net 73 "/S4")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "b2c230bb-612a-42a9-a1e8-4b27bf6029ed")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "B.Cu")
 		(uuid "8bb87a5f-abde-4d38-bb0e-9c35a32295a2")
@@ -18843,13 +23634,13 @@
 	(footprint "Connector_JST:JST_SH_SM08B-SRSS-TB_1x08-1MP_P1.00mm_Horizontal"
 		(layer "B.Cu")
 		(uuid "909c4a0e-37d9-42cc-ba48-ad77a8067805")
-		(at 144.25 101.5 180)
+		(at 144.3 99 180)
 		(descr "JST SH series connector, SM08B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST SH horizontal")
 		(property "Reference" "J1"
 			(at 0 3.98 0)
 			(layer "B.SilkS")
-			(uuid "3b2da860-753e-447e-868f-99b25d44e288")
+			(uuid "79c27d06-629c-4d66-8706-afe269ca4285")
 			(effects
 				(font
 					(size 1 1)
@@ -18861,7 +23652,7 @@
 		(property "Value" "Conn_01x08_MountingPin"
 			(at 0 -3.98 0)
 			(layer "B.Fab")
-			(uuid "889a6d46-9c67-4ef6-9bbf-1a33cbc66b46")
+			(uuid "3af91ce0-95ca-4e74-8076-ffe3d39e94df")
 			(effects
 				(font
 					(size 1 1)
@@ -18874,7 +23665,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "0c1b0bef-27f5-4c17-b05f-8fb84e197372")
+			(uuid "fff2640e-1a29-49eb-8fcb-3e3d61fd464a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18887,7 +23678,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "bab35d81-a0ab-4e23-b44a-ccbf5f2414a1")
+			(uuid "b1738e67-8ab8-40df-ba55-9783b1d296b1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19921,13 +24712,13 @@
 	(footprint "Diode_SMD:D_SOD-882"
 		(layer "B.Cu")
 		(uuid "b00ab40c-09a8-4256-9ec2-844672374d5d")
-		(at 147.2 97.5 180)
+		(at 147.25 95 180)
 		(descr "SOD-882, DFN1006-2, body 1.0 x 0.6 x 0.48mm, pitch 0.65mm, https://assets.nexperia.com/documents/package-information/SOD882.pdf")
 		(tags "Diode SOD882 DFN1006-2")
 		(property "Reference" "D6"
 			(at 0 1.35 0)
 			(layer "B.SilkS")
-			(uuid "c6e99b90-9f92-45cf-9eb9-b0076fe24541")
+			(uuid "9428d58d-ed13-44e5-8e81-102e817fa539")
 			(effects
 				(font
 					(size 1 1)
@@ -19939,7 +24730,7 @@
 		(property "Value" "PESD1CANFD36LS-Q"
 			(at 0 -1.35 0)
 			(layer "B.Fab")
-			(uuid "e4526cae-7b03-4d61-9d5e-194651979bc9")
+			(uuid "dd079648-15c9-4948-9d7b-846513d76c0e")
 			(effects
 				(font
 					(size 1 1)
@@ -19953,7 +24744,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "f4daa46b-5fda-4a69-b523-98d7f51a191c")
+			(uuid "59c3683e-4f4f-4a90-8df6-88b0bde6e8f9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19967,7 +24758,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c03b63a8-63a6-4278-844b-374b37469038")
+			(uuid "9de0366e-bb13-4c6f-b640-01f3fa90b842")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20610,6 +25401,117 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Pads:Solder_Pad_SMD_Half"
+		(layer "B.Cu")
+		(uuid "bb3d12a6-a8d4-45f0-83f3-6fe8a8228a64")
+		(at 137.7 103.3 180)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "TP_TEL1"
+			(at 0.05 1.75 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "617f079e-8bd6-49b4-a216-f90b122ca97b")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 5.15 0)
+			(layer "B.Fab")
+			(uuid "0b215622-78f2-4887-a39f-26d15b329df6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2d775919-8408-4e7d-a146-723ae682566c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d729ec7b-a5fe-40b3-b557-e72d9b9954a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/44970173-2338-49ba-8abb-80ddd13c2a9e")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 0.85)
+			(end 0.85 -1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "fe0cb441-a0ef-48c1-a5d9-5c392c8aa4f8")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 -4.2 0)
+			(layer "B.Fab")
+			(uuid "e4bc6af4-7711-4c36-9148-904ea0c3d6b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 -0.25 180)
+			(size 1 1.5)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.125)
+			(net 34 "/TEL")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "af397cf0-14b0-4412-9f13-34981f31e242")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22088,6 +26990,117 @@
 			)
 		)
 	)
+	(footprint "Pads:Solder_Pad_SMD_Half"
+		(layer "B.Cu")
+		(uuid "d6871254-54a4-4cd4-afd0-4a60d490e2d7")
+		(at 143.4 103.3 180)
+		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
+		(tags "solder Pin_ press fit")
+		(property "Reference" "TP_S3"
+			(at 0.05 1.75 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "147e085a-bb42-43ff-bf81-6ad4269278db")
+			(effects
+				(font
+					(size 0.35 0.35)
+					(thickness 0.0875)
+					(bold yes)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at -0.25 5.15 0)
+			(layer "B.Fab")
+			(uuid "84111acc-518e-4310-9458-e754b2c80593")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6a53e9c0-135c-4e5a-835a-61aab8b7231e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d9e22d47-52f0-4d9c-b7c8-b2d8589bf157")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/904d0b26-e4b7-4f21-9e43-8ec984a58712")
+		(sheetname "/")
+		(sheetfile "Flight Controller.kicad_sch")
+		(attr through_hole)
+		(fp_rect
+			(start -0.85 0.85)
+			(end 0.85 -1.35)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill no)
+			(layer "B.CrtYd")
+			(uuid "c980531f-aa31-4b5f-8747-d6c5ab5942d4")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.1 -4.2 0)
+			(layer "B.Fab")
+			(uuid "d5a5d835-75e4-4697-b257-933eb6281cc4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" smd roundrect
+			(at 0 -0.25 180)
+			(size 1 1.5)
+			(layers "B.Cu" "B.Mask" "B.Paste")
+			(roundrect_rratio 0.125)
+			(net 72 "/S3")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "beba5eef-63ca-4b2b-b9e7-589722d90ad0")
+		)
+		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D1.0mm_L10.0mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "d9cc9970-e844-4113-9b1a-59a2e4f44edf")
@@ -23435,6 +28448,18 @@
 		(layer "Edge.Cuts")
 		(uuid "f75659be-02d2-47ac-ad8c-162ed27aed82")
 	)
+	(gr_text "Designed and Assembled\n in the Saudi Arabia"
+		(at 154 96.9 0)
+		(layer "B.SilkS")
+		(uuid "637db21d-864b-4c9b-92c2-0e8107f59ea0")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+			(justify bottom mirror)
+		)
+	)
 	(segment
 		(start 149.95 92.37)
 		(end 149.95 90.725)
@@ -23564,8 +28589,8 @@
 		(uuid "15c9efbd-9c7c-4e5a-8c1d-54eb15210582")
 	)
 	(segment
-		(start 146.75 99.5)
-		(end 146.75 97.6)
+		(start 146.8 97)
+		(end 146.8 95.1)
 		(width 0.3)
 		(layer "B.Cu")
 		(net 2)
@@ -23580,8 +28605,8 @@
 		(uuid "264da7ea-b6c8-4593-9429-97f97213adc7")
 	)
 	(segment
-		(start 146.75 97.6)
-		(end 146.85 97.5)
+		(start 146.8 95.1)
+		(end 146.9 95)
 		(width 0.3)
 		(layer "B.Cu")
 		(net 2)
@@ -24020,16 +29045,16 @@
 		(uuid "c15f1985-9a39-410f-bdb9-633eb9664039")
 	)
 	(segment
-		(start 147.75 99.5)
-		(end 147.75 97.7)
+		(start 147.8 97)
+		(end 147.8 95.2)
 		(width 0.3)
 		(layer "B.Cu")
 		(net 16)
 		(uuid "0a42217e-93fa-412f-b492-b0a356be8336")
 	)
 	(segment
-		(start 147.75 97.7)
-		(end 147.55 97.5)
+		(start 147.8 95.2)
+		(end 147.6 95)
 		(width 0.3)
 		(layer "B.Cu")
 		(net 16)
@@ -24132,148 +29157,196 @@
 		(uuid "65a400b6-8b73-42e5-816c-82c3a8797dd0")
 	)
 	(segment
-		(start 127.35 77.9)
-		(end 126.25 77.9)
+		(start 128.2125 77.9)
+		(end 127.3 77.9)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 21)
-		(uuid "1901fd36-9f2c-4b04-8fe3-750ff30fb5f5")
+		(uuid "c1dccfa4-a320-49dc-b0ad-1fafe351066c")
 	)
 	(via
-		(at 126.25 77.9)
+		(at 127.3 77.9)
 		(size 0.4572)
 		(drill 0.254)
 		(layers "F.Cu" "B.Cu")
 		(net 21)
-		(uuid "98d52188-324b-4e07-9201-45ea92dba908")
+		(uuid "c9c1c610-fd71-4f57-ba3a-99aa6ae3a6a4")
 	)
 	(segment
-		(start 126.25 77.9)
+		(start 127.3 77.9)
 		(end 128.2875 77.9)
 		(width 0.3)
 		(layer "B.Cu")
 		(net 21)
-		(uuid "e929c045-86e3-4b84-a637-3b45c8809f52")
+		(uuid "69ec7403-eff3-4fb2-a1ad-d72168658c59")
 	)
 	(segment
-		(start 127.35 79.65)
-		(end 126.25 79.65)
+		(start 127.25 79.65)
+		(end 127.2 79.6)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 22)
-		(uuid "a73a469b-3193-4687-8839-676f7d25d448")
+		(uuid "1fb539c9-045d-4b4c-ba90-65f2a8b135fa")
+	)
+	(segment
+		(start 128.2125 79.65)
+		(end 127.25 79.65)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 22)
+		(uuid "d56400e3-fc9a-4478-8588-43c094261f0b")
 	)
 	(via
-		(at 126.25 79.65)
+		(at 127.2 79.6)
 		(size 0.4572)
 		(drill 0.254)
 		(layers "F.Cu" "B.Cu")
 		(net 22)
-		(uuid "1bf45f3e-f40c-429d-ba73-a836a83cbb1d")
+		(uuid "89075712-a3bf-47ff-a54a-4e9b2f104d65")
 	)
 	(segment
-		(start 126.25 79.65)
+		(start 128.2375 79.6)
 		(end 128.2875 79.65)
 		(width 0.3)
 		(layer "B.Cu")
 		(net 22)
-		(uuid "a1277c66-2362-46b9-80b0-9f742ab6d80a")
+		(uuid "36221dba-3407-4b0b-821c-eb665641caec")
 	)
 	(segment
-		(start 127.35 81.4)
-		(end 126.25 81.4)
+		(start 127.2 79.6)
+		(end 128.2375 79.6)
+		(width 0.3)
+		(layer "B.Cu")
+		(net 22)
+		(uuid "417757f6-3237-4fe2-8216-eda5e179e24a")
+	)
+	(segment
+		(start 128.2125 81.4)
+		(end 127.1 81.4)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 23)
-		(uuid "219be81e-16d5-4c13-ade6-fbe51d09023e")
+		(uuid "db8a7b58-2010-4a49-9ffd-1c8bc1136349")
 	)
 	(via
-		(at 126.25 81.4)
+		(at 127.1 81.4)
 		(size 0.4572)
 		(drill 0.254)
 		(layers "F.Cu" "B.Cu")
 		(net 23)
-		(uuid "c304d28d-1538-4daa-913f-413eacfe8a7a")
+		(uuid "01e61566-eb66-43cf-88d7-ccb2c97e8024")
 	)
 	(segment
-		(start 126.25 81.4)
+		(start 127.1 81.4)
 		(end 128.2875 81.4)
 		(width 0.3)
 		(layer "B.Cu")
 		(net 23)
-		(uuid "c4394e87-26fd-4a46-b7d9-8e0acd3057a6")
+		(uuid "34330683-5475-45c4-b927-40e74b98e86d")
 	)
 	(segment
-		(start 127.35 83.15)
-		(end 126.3 83.15)
+		(start 128.2125 83.15)
+		(end 127.35 83.15)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 24)
-		(uuid "f9873aa7-dae7-4ee5-befd-e4c9c805b7a9")
+		(uuid "0376588c-4b94-4481-95a2-335bad44452d")
+	)
+	(segment
+		(start 127.35 83.15)
+		(end 127.3 83.2)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 24)
+		(uuid "1a0a83ad-2604-4db2-8085-cf504de1655c")
 	)
 	(via
-		(at 126.3 83.15)
+		(at 127.3 83.2)
 		(size 0.4572)
 		(drill 0.254)
 		(layers "F.Cu" "B.Cu")
 		(net 24)
-		(uuid "81946d89-de7e-4ce0-a677-cdc648a42ec4")
+		(uuid "c68e3c3b-7df8-4b5d-a142-4b77973ee4e2")
 	)
 	(segment
-		(start 126.3 83.15)
+		(start 128.2375 83.2)
 		(end 128.2875 83.15)
 		(width 0.3)
 		(layer "B.Cu")
 		(net 24)
-		(uuid "ff4d0e26-d8a5-43b8-a014-7ab710c3ce1e")
+		(uuid "4485b9c3-9256-47eb-b6be-1b95e1227caf")
 	)
 	(segment
-		(start 127.35 74.4)
-		(end 126.3 74.4)
+		(start 127.3 83.2)
+		(end 128.2375 83.2)
+		(width 0.3)
+		(layer "B.Cu")
+		(net 24)
+		(uuid "b1468153-be51-40ba-ac61-703a2d4d7803")
+	)
+	(segment
+		(start 128.2125 74.4)
+		(end 127.2 74.4)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 25)
-		(uuid "3de0bb85-5d65-4771-8cd4-937674c31f5c")
+		(uuid "4f5ee149-97d2-4de3-87d9-a64b0c00debf")
 	)
 	(via
-		(at 126.3 74.4)
+		(at 127.2 74.4)
 		(size 0.4572)
 		(drill 0.254)
 		(layers "F.Cu" "B.Cu")
 		(net 25)
-		(uuid "dcc9fc3e-f1ba-4ad9-a830-39601f2f57fa")
+		(uuid "426f5493-dcbc-4e47-8a0f-b3ef53ffbd84")
 	)
 	(segment
-		(start 126.3 74.4)
+		(start 127.2 74.4)
 		(end 128.2875 74.4)
 		(width 0.3)
 		(layer "B.Cu")
 		(net 25)
-		(uuid "64981127-584b-4b42-8339-3ac97a2c6ab2")
+		(uuid "b1840486-6209-45ba-b4a3-ef476de8fade")
 	)
 	(segment
-		(start 127.35 76.15)
-		(end 126.3 76.15)
+		(start 127.25 76.15)
+		(end 127.2 76.1)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 26)
-		(uuid "7b0c5050-1855-4de8-9794-ef3aff5932d0")
+		(uuid "98742135-b904-4ea1-9655-512273da4c51")
+	)
+	(segment
+		(start 128.2125 76.15)
+		(end 127.25 76.15)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 26)
+		(uuid "b39a05d2-5921-403e-8231-e607c3b5c6a6")
 	)
 	(via
-		(at 126.3 76.15)
+		(at 127.2 76.1)
 		(size 0.4572)
 		(drill 0.254)
 		(layers "F.Cu" "B.Cu")
 		(net 26)
-		(uuid "59bc782d-02c9-4ae0-a125-d6370ff126ab")
+		(uuid "2beb016a-5cc0-4334-a055-fb39ff840232")
 	)
 	(segment
-		(start 126.3 76.15)
+		(start 128.2375 76.1)
 		(end 128.2875 76.15)
 		(width 0.3)
 		(layer "B.Cu")
 		(net 26)
-		(uuid "07cc52cc-e8ef-4838-b40b-2186d848bf8e")
+		(uuid "7acde113-91ba-427b-9aa6-0fa31787d486")
+	)
+	(segment
+		(start 127.2 76.1)
+		(end 128.2375 76.1)
+		(width 0.3)
+		(layer "B.Cu")
+		(net 26)
+		(uuid "dedd5d56-6dd0-4dba-8dba-c437af953608")
 	)
 	(segment
 		(start 145.95 89.912784)
@@ -24612,104 +29685,104 @@
 		(uuid "db5ebf4f-1a07-4391-90f1-ab982b13a62e")
 	)
 	(segment
-		(start 135.3 73.89)
-		(end 135.3 73.7)
+		(start 138.5 73.75)
+		(end 136.85 73.75)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 50)
-		(uuid "0fc196bc-21dd-470f-98d8-c3281e6359b3")
+		(uuid "0384148e-1e6b-46cf-88de-2876885fa165")
 	)
 	(segment
-		(start 135.3 73.7)
-		(end 136.25 72.75)
+		(start 136.85 73.75)
+		(end 136.25 74.35)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 50)
-		(uuid "93160a46-95f9-4241-a7bc-aa68e5d34b68")
+		(uuid "30aa164f-5dba-431a-8a5b-3e0a4ec69d45")
 	)
 	(segment
-		(start 136.25 72.75)
-		(end 136.8 72.75)
+		(start 136.25 74.35)
+		(end 136.25 75.99)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 50)
-		(uuid "cf933f62-973e-4a6d-93fb-c969de44494e")
+		(uuid "9a903ae9-6be1-4b9c-98ad-c54272fd75d8")
 	)
 	(segment
-		(start 151.2 74.7)
-		(end 151.2 72.8875)
+		(start 151.2 75.45)
+		(end 151.2 73.6375)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 53)
 		(uuid "473fedca-a31c-4989-9764-762517b4d24f")
 	)
 	(segment
-		(start 151.2 72.8875)
-		(end 151.1625 72.85)
+		(start 151.2 73.6375)
+		(end 151.1625 73.6)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 53)
 		(uuid "fe94af0d-75b1-45c3-8de2-431d433d4599")
 	)
 	(segment
+		(start 153.2 77)
+		(end 153.2 76.1)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 54)
+		(uuid "620613a9-5f61-43c3-866d-34a86011623a")
+	)
+	(segment
+		(start 152.5 77.7)
+		(end 153.2 77)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 54)
+		(uuid "7cfcc860-42a7-4860-b4e9-3fe90364f9fd")
+	)
+	(segment
+		(start 146.8 77.7)
+		(end 152.5 77.7)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 54)
+		(uuid "9d24e4fc-1e55-463c-ac57-8fd2e50cb54e")
+	)
+	(segment
+		(start 145.95 78.55)
+		(end 146.8 77.7)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 54)
+		(uuid "bb9054f9-8382-4c1f-bfb8-fb68444dfa5d")
+	)
+	(segment
 		(start 145.95 79.375)
-		(end 145.95 78.562784)
+		(end 145.95 78.55)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 54)
-		(uuid "0561eb62-490c-4087-8afa-23d153cf3496")
+		(uuid "cd087ec8-701b-4681-9e67-3bec56f28f68")
 	)
 	(segment
-		(start 151.8 77.7)
-		(end 153.2 76.3)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 54)
-		(uuid "0a37e3b4-7b4b-4af2-9a27-f9354284fe71")
-	)
-	(segment
-		(start 146.812784 77.7)
-		(end 151.8 77.7)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 54)
-		(uuid "3de37557-b1c0-45ac-af5f-428c2a9d84bf")
-	)
-	(segment
-		(start 153.2 76.3)
-		(end 153.2 75.35)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 54)
-		(uuid "5c07702e-e052-41c8-b194-2072ecb734da")
-	)
-	(segment
-		(start 145.95 78.562784)
-		(end 146.812784 77.7)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 54)
-		(uuid "c56f6a73-4055-45e4-8875-e4a232c30d27")
-	)
-	(segment
-		(start 154.825 73.825)
-		(end 154.325 73.825)
+		(start 154.825 74.575)
+		(end 154.325 74.575)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 54)
 		(uuid "e63da904-8c6b-4c25-8700-32169429ea7b")
 	)
 	(segment
-		(start 154.325 73.825)
-		(end 153.2 74.95)
+		(start 154.325 74.575)
+		(end 153.2 75.7)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 54)
 		(uuid "f0868921-b0ee-4a80-a481-a8cac09274ba")
 	)
 	(segment
-		(start 153.2 74.95)
-		(end 153.2 75.35)
+		(start 153.2 75.7)
+		(end 153.2 76.1)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 54)
@@ -24877,15 +29950,23 @@
 	)
 	(segment
 		(start 144.95 79.375)
-		(end 144.95 76.17)
+		(end 144.95 77.36)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 62)
-		(uuid "143f24b1-db19-48ea-85c3-6e45480ff06a")
+		(uuid "17aa99d0-356d-4e8d-90bf-24ac7d29e4f5")
 	)
 	(segment
-		(start 144.95 76.17)
-		(end 145 76.12)
+		(start 144.95 77.36)
+		(end 144.9 77.31)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 62)
+		(uuid "7f2c642e-5446-4371-b4f1-5eca841af722")
+	)
+	(segment
+		(start 144.85 77.36)
+		(end 144.9 77.31)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 62)
@@ -24900,20 +29981,36 @@
 		(uuid "254749fe-0042-43ef-b667-d80291210cba")
 	)
 	(segment
-		(start 135.3 79.65)
-		(end 135.3 74.91)
+		(start 135.85 77.95)
+		(end 135.85 80.2)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 63)
-		(uuid "99f9088e-4288-4dbc-bae6-ce2088bb60b4")
+		(uuid "61d23129-a13f-431a-9c32-42956c699d46")
 	)
 	(segment
-		(start 136.85 81.2)
-		(end 135.3 79.65)
+		(start 136.25 77.55)
+		(end 135.85 77.95)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 63)
-		(uuid "ba635c59-3b7f-412a-93bb-f83b746978a1")
+		(uuid "6f2c3912-18c3-4828-8b32-8a9dff971f89")
+	)
+	(segment
+		(start 135.85 80.2)
+		(end 136.85 81.2)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 63)
+		(uuid "86dd6b9a-dbd6-4612-9d2e-81308da3a8a2")
+	)
+	(segment
+		(start 136.25 77.01)
+		(end 136.25 77.55)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 63)
+		(uuid "fb5c21e9-03d9-47d2-a422-4c56d41e4c7d")
 	)
 	(via
 		(at 136.85 81.2)
@@ -25012,20 +30109,44 @@
 		(uuid "baadc0cb-bc93-4e5d-8988-7744a7f619bf")
 	)
 	(segment
-		(start 148.95 91.537216)
-		(end 148.95 90.725)
+		(start 148.287216 92.2)
+		(end 147.9 92.2)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 84)
-		(uuid "4b7f3042-0e37-4669-9300-992460f1be78")
+		(uuid "2c3c71a0-e274-49fa-847d-c54efaee1dd3")
 	)
 	(segment
-		(start 147.487216 93)
+		(start 147.4 92.7)
+		(end 147.4 93)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 84)
+		(uuid "8c80754f-211a-4e22-97a8-439b0486bb2e")
+	)
+	(segment
+		(start 147.9 92.2)
+		(end 147.4 92.7)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 84)
+		(uuid "a206397f-dfcb-41ee-ad71-5b39bc7b7ff8")
+	)
+	(segment
+		(start 148.95 91.537216)
+		(end 148.287216 92.2)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 84)
+		(uuid "ae33b2c8-199c-43d7-97fb-3056b15401f9")
+	)
+	(segment
+		(start 148.95 90.725)
 		(end 148.95 91.537216)
 		(width 0.3)
 		(layer "F.Cu")
 		(net 84)
-		(uuid "9b5bfd2d-4c1e-4532-9c13-33b87c401e55")
+		(uuid "c40acb71-a93b-46aa-a31d-c6069b7d76ac")
 	)
 	(segment
 		(start 147.4 93)
@@ -25180,16 +30301,16 @@
 		(uuid "babdf10d-1e7e-4d58-9448-1a84d7ce0af2")
 	)
 	(segment
-		(start 145 75.1)
-		(end 145 73.41)
+		(start 144.9 76.29)
+		(end 144.9 74.6)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 92)
 		(uuid "a4234aa0-683e-407b-a636-735be4af7c6a")
 	)
 	(segment
-		(start 145 73.41)
-		(end 144.95 73.36)
+		(start 144.9 74.6)
+		(end 144.85 74.55)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 92)

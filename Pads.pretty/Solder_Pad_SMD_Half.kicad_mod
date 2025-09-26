@@ -1,4 +1,4 @@
-(footprint "Solder_Pad_SMD"
+(footprint "Solder_Pad_SMD_Half"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -8,6 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0.05 -1.75 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "73738b27-fadb-457c-9d2f-dd2d7e19fee8")
 		(effects
 			(font
@@ -17,7 +18,7 @@
 			)
 		)
 	)
-	(property "Value" "Solder_Pad_SMD"
+	(property "Value" "Solder_Pad_SMD_Half"
 		(at -0.25 -5.15 0)
 		(layer "F.Fab")
 		(uuid "d8269bcc-416c-468c-935f-249b272fa2f1")
@@ -56,7 +57,7 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start -0.85 -1.35)
+		(start -0.85 -0.85)
 		(end 0.85 1.35)
 		(stroke
 			(width 0.1)
@@ -78,8 +79,8 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at 0 0)
-		(size 1 2)
+		(at 0 0.25)
+		(size 1 1.5)
 		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0.125)
 		(uuid "3c98ed59-f764-4ba2-9cf6-334888b66ee7")

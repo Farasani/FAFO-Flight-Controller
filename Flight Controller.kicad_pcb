@@ -3,14 +3,16 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(general
-		(thickness 1.6)
+		(thickness 1.566)
 		(legacy_teardrops no)
 	)
 	(paper "A4")
 	(layers
 		(0 "F.Cu" signal)
 		(4 "In1.Cu" power)
-		(6 "In2.Cu" power)
+		(6 "In2.Cu" signal)
+		(8 "In3.Cu" power)
+		(10 "In4.Cu" power)
 		(2 "B.Cu" signal)
 		(9 "F.Adhes" user "F.Adhesive")
 		(11 "B.Adhes" user "B.Adhesive")
@@ -58,29 +60,51 @@
 			)
 			(layer "dielectric 1"
 				(type "prepreg")
-				(thickness 0.1)
+				(thickness 0.0994)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
 			)
 			(layer "In1.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.0152)
 			)
 			(layer "dielectric 2"
 				(type "core")
-				(thickness 1.24)
+				(thickness 0.55)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
 			)
 			(layer "In2.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.0152)
 			)
 			(layer "dielectric 3"
 				(type "prepreg")
-				(thickness 0.1)
+				(thickness 0.1164)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In3.Cu"
+				(type "copper")
+				(thickness 0.0152)
+			)
+			(layer "dielectric 4"
+				(type "core")
+				(thickness 0.55)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In4.Cu"
+				(type "copper")
+				(thickness 0.0152)
+			)
+			(layer "dielectric 5"
+				(type "prepreg")
+				(thickness 0.0994)
 				(material "FR4")
 				(epsilon_r 4.5)
 				(loss_tangent 0.02)
@@ -1388,7 +1412,7 @@
 		(at 136.75 103.5)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_LED4"
+		(property "Reference" "LED"
 			(at -0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "a5967715-61b6-494b-b7f5-19b6e101dc85")
@@ -1799,7 +1823,7 @@
 		(at 146.5 100)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_TX5"
+		(property "Reference" "TX5"
 			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "dd54e4d8-74f9-4d54-98ee-bd7fc4fabe13")
@@ -1904,7 +1928,7 @@
 		(at 144.75 100)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_5V12"
+		(property "Reference" "5V"
 			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "e3fee612-f8e6-489d-a352-7b21496b5efe")
@@ -2534,7 +2558,7 @@
 		(at 140.5 103.5)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_TX2"
+		(property "Reference" "TX2"
 			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "4d83dd69-8057-4b31-9292-5a1bc6a57f81")
@@ -2639,8 +2663,8 @@
 		(at 129 76.15 180)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
-		(property "Reference" "D_LED6"
-			(at -3.0625 0 0)
+		(property "Reference" "FC 2"
+			(at -3.37 0 0)
 			(layer "F.SilkS")
 			(uuid "5ab405d2-5f89-4ba8-b174-7aaa2bbfe79b")
 			(effects
@@ -2860,7 +2884,7 @@
 		(at 144 103.5)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_TX3"
+		(property "Reference" "TX3"
 			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "720ee018-ff7e-4de3-ab00-2fa55c08e46d")
@@ -3069,8 +3093,8 @@
 		(at 129 81.4 180)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
-		(property "Reference" "D_LED3"
-			(at -3.3625 0 0)
+		(property "Reference" "3.3V"
+			(at -3.36 -0.05 0)
 			(layer "F.SilkS")
 			(uuid "0ea6ab0e-0303-45f8-b440-f5a6f41cb8e8")
 			(effects
@@ -3542,7 +3566,7 @@
 		(at 129 79.65 180)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
-		(property "Reference" "D_LED2"
+		(property "Reference" "10V"
 			(at -3.0625 0 0)
 			(layer "F.SilkS")
 			(uuid "a03c45fd-fbb3-40ca-b676-76563071c371")
@@ -4694,7 +4718,7 @@
 		(at 150 100)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_CC1"
+		(property "Reference" "CC"
 			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "18463e92-60b0-4a5d-87a8-c92c1a29971c")
@@ -4799,7 +4823,7 @@
 		(at 143 100)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_GND14"
+		(property "Reference" "GND"
 			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "c019b99e-d99b-4271-ac81-18de804dfb28")
@@ -5821,7 +5845,7 @@
 		(at 135 103.5)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_GND3"
+		(property "Reference" "GND"
 			(at -0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "323d0486-4ace-434b-8ed5-689f692e682c")
@@ -7442,7 +7466,7 @@
 		(at 151.75 100)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_GND6"
+		(property "Reference" "GND"
 			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "d35ea9ad-7ffd-4946-b6c2-a7bb990b804e")
@@ -9317,7 +9341,7 @@
 		(at 155 103.5)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_GND2"
+		(property "Reference" "GND"
 			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "7bbb91e4-a4d7-4b42-8d3a-7f425304f8c5")
@@ -9781,7 +9805,7 @@
 		(at 137.75 100)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_5V6"
+		(property "Reference" "5V"
 			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "8d3e9c3c-c6c1-436c-9837-bde4e38527c7")
@@ -9992,7 +10016,7 @@
 		(at 141.25 100)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_VTX1"
+		(property "Reference" "VTX"
 			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "f919cd85-a3b3-43a3-888f-3752cd208fb6")
@@ -10509,7 +10533,7 @@
 		(at 133.25 103.5)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_5V3"
+		(property "Reference" "5V"
 			(at -0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "308d6fde-2752-4cf4-9d3d-f5418ccac383")
@@ -10614,7 +10638,7 @@
 		(at 151 103.5)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_SDA1"
+		(property "Reference" "SDA"
 			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "718f7976-4c83-48cf-8f19-69c02262f696")
@@ -11171,8 +11195,8 @@
 		(at 129 83.15 180)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
-		(property "Reference" "D_LED4"
-			(at -5.0625 -0.15 0)
+		(property "Reference" "3.3VG"
+			(at -3.82 -0.02 0)
 			(layer "F.SilkS")
 			(uuid "2f776e17-af80-48ba-8ae9-08a9617fae07")
 			(effects
@@ -11986,7 +12010,7 @@
 		(at 142.25 103.5)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_RX2"
+		(property "Reference" "RX2"
 			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "562d7ba3-8348-4c29-a087-bb3d6625e2d4")
@@ -12197,7 +12221,7 @@
 		(at 129 77.9 180)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
-		(property "Reference" "D_LED1"
+		(property "Reference" "5V"
 			(at -2.5625 0 0)
 			(layer "F.SilkS")
 			(uuid "610fd8ed-7a4d-4133-bcc8-5347173be3c8")
@@ -12431,7 +12455,7 @@
 		(at 156.75 103.5)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_LED3"
+		(property "Reference" "LED"
 			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "88247255-9623-4425-925f-14211a2ab513")
@@ -12736,7 +12760,7 @@
 		(at 148.25 100)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_RX5"
+		(property "Reference" "RX5"
 			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "353d0985-0fc2-4b50-b61b-43610490a833")
@@ -13041,7 +13065,7 @@
 		(at 153.25 103.5)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_5V2"
+		(property "Reference" "5V"
 			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "4c13d6ad-5507-4b66-a4cd-e63e15b09e56")
@@ -13765,7 +13789,7 @@
 		(at 139.5 100)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_GND7"
+		(property "Reference" "GND"
 			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "38fb146a-a84d-4383-8a1e-98ae24d0bf3b")
@@ -14482,7 +14506,7 @@
 		(at 145.75 103.5)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_RX3"
+		(property "Reference" "RX3"
 			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "680970a3-aa2e-4230-887f-bdba6f4c5898")
@@ -14587,8 +14611,8 @@
 		(at 129 74.4 180)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
-		(property "Reference" "D_LED5"
-			(at -3.0625 0 0)
+		(property "Reference" "FC 1"
+			(at -3.39 0.01 0)
 			(layer "F.SilkS")
 			(uuid "1de8b89d-2278-4e3b-845b-2d595e458ad6")
 			(effects
@@ -15114,7 +15138,7 @@
 		(at 138.75 103.5)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_10V2"
+		(property "Reference" "10V"
 			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "9390b14e-93e4-4513-ac84-a9ad3f50a9e1")
@@ -16335,7 +16359,7 @@
 		(at 153.5 100)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_5V5"
+		(property "Reference" "5V"
 			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "87eb5f40-6b54-4a5a-a25f-4f694f9488e0")
@@ -16753,7 +16777,7 @@
 		(at 149.25 103.5)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_SCL1"
+		(property "Reference" "SCL"
 			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "ce0f74fc-dc4a-4ade-a9a3-1e491cca50f5")
@@ -16858,7 +16882,7 @@
 		(at 147.5 103.5)
 		(descr "solder Pin_ diameter 1.0mm, hole diameter 1.0mm (press fit), length 10.0mm")
 		(tags "solder Pin_ press fit")
-		(property "Reference" "TP_CAM1"
+		(property "Reference" "CAM"
 			(at 0.05 -1.4 0)
 			(layer "F.SilkS")
 			(uuid "f18b490c-105c-4a4a-90a7-57f4896ce7a9")

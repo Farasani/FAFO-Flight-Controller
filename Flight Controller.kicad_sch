@@ -16048,6 +16048,16 @@
 		)
 		(uuid "ee840c9d-39cc-41f8-b5e5-951526160a64")
 	)
+	(label "SW"
+		(at 172.72 257.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4d27f0c-9536-4862-b93d-840d0f673b5f")
+	)
 	(label "UART5_TX"
 		(at 209.55 139.7 180)
 		(effects

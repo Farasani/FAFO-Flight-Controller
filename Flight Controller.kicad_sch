@@ -15688,6 +15688,16 @@
 		)
 		(uuid "a6702227-22ec-4606-a913-ec69cda14628")
 	)
+	(label "SW5"
+		(at 62.23 257.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a82b1b5a-7efa-48de-bebd-661776bb1c31")
+	)
 	(label "5V_OUT"
 		(at 251.46 273.05 0)
 		(effects

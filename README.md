@@ -6,7 +6,7 @@
   <img alt="Shows a black logo in light color mode and a white one in dark color mode." src="https://github.com/user-attachments/assets/f2668aae-5746-43aa-aec3-286b064c4626">
 </picture>
 
-F4 Flight Controller for quadcopter, hecxacopter and fixed wings drones..
+F4 Flight Controller for quadcopter, hecxacopter and fixed wings drones.
 
 ## Specs
 

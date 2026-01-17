@@ -20,6 +20,3 @@ F4 Flight Controller for quadcopter, hecxacopter and fixed wings drones.
 - 6 PWM/DSHOT outputs
 
 
-
-![7272431757533774033](https://github.com/user-attachments/assets/9ac4dcd6-efd1-4812-8eba-661fe0a1daf5)
-
